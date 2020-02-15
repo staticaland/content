@@ -52,7 +52,7 @@ jobs:
           when: always
           command: |
             mkdir ./test-results
-            demisto-sdk lint -g -kt ./test-results
+            demisto-sdk lint -p 2 -g -kt ./test-results
       - store_test_results:
           path: ./test-results
       - store_artifacts:
