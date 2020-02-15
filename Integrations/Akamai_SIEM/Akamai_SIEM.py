@@ -84,6 +84,7 @@ class Client(BaseClient):
         offset_new = json.loads(raw_response.split('\n')[-2]).get('offset')
         return events, offset_new
 
+print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
 
 '''HELPER FUNCIONS'''
 

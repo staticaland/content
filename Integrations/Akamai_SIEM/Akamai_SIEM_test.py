@@ -14,6 +14,14 @@ from CommonServerPython import urljoin
 BASE_URL = urljoin('https://akab-hnanog6ge5or6biz-ukavvo4zvqliqhlw.cloudsecurity.akamaiapis.net', '/siem/v1/configs')
 
 
+def test_failing_001():
+    assert 1 == 2, "Created error"
+
+
+def test_failing_002():
+    assert 1 == 3
+
+
 def load_params_from_json(json_path, type=''):
     with open(json_path) as f:
         file = json.load(f)
