@@ -52,13 +52,13 @@ jobs:
           when: always
           command: |
             mkdir ./test-results
-            demisto-sdk lint -p 10 -a --keep-test-xml ./test-results
+            demisto-sdk lint -p 14 -a --keep-test-xml ./test-results
             tar -zcvf ./artifacts/unit-tests.tar.gz /test-results/
           no_output_timeout: 4h
       - store_test_results:
           path: ./test-results
       - store_artifacts:
-          path: ./test-results
+          path: ./artifacts/unit-tests.tar.gz
           destination: artifacts
 
 workflows:
