@@ -52,7 +52,7 @@ jobs:
           when: always
           command: |
             mkdir ./test-results
-            demisto-sdk lint -p 10 -a -kt ./test-results
+            demisto-sdk lint -p 10 -a --keep-test-xml ./test-results
           no_output_timeout: 4h
       - store_test_results:
           path: ./test-results
