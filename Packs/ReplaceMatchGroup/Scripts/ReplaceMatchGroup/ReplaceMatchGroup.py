@@ -5,7 +5,7 @@ import re
 def main():
     value = demisto.args()['value']
     regex = demisto.args()['regex']
-    replace_with = demisto.args()['replaceWith']
+    replace_with = demisto.args()['replace_with']
 
     to_replace_list: list = re.findall(regex, value)
     for item in to_replace_list:

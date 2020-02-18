@@ -16,7 +16,7 @@ def test_main(mocker, value, regex, replace, result):
     mocker.patch.object(demisto, 'args', return_value={
         'value': value,
         'regex': regex,
-        'replaceWith': replace
+        'replace_with': replace
     })
     mocker.patch.object(demisto, 'results')
     main()
