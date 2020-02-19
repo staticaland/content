@@ -58,8 +58,7 @@ jobs:
       - store_test_results:
           path: ./test-results
       - store_artifacts:
-          path: ./artifacts/unit-tests.tar.gz
-          destination: artifacts
+          path: ./artifacts/
 
 workflows:
   version: 2
