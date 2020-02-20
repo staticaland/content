@@ -115,6 +115,8 @@ class Client(BaseClient):
             return FeedIndicatorType.IPv6
         if re.match(urlRegex, indicator):
             return FeedIndicatorType.URL
+        if re.match(domainGlobRegEx, indicator):
+            return FeedIndicatorType.DomainGlob
         return FeedIndicatorType.Domain
 
 
