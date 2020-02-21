@@ -391,7 +391,7 @@ def convert_to_str(obj):
         return obj
 
 
-''' FUNCTIONS '''
+''' FUNCTIONS  '''
 
 
 def get_template(name):
