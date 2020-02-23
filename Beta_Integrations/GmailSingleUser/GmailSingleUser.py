@@ -429,7 +429,8 @@ class Client:
                 'Bcc': bcc,
                 'Subject': subject,
                 'Body': body,
-                'Mailbox': to
+                'Mailbox': to,
+                'BodyHTML': bodyHtml
             })
 
         headers = ['Type', 'ID', 'To', 'From', 'Cc', 'Bcc', 'Subject', 'Body', 'Labels',
@@ -881,7 +882,7 @@ def fetch_incidents(client):
 
 
 def auth_link_command(client: Client):
-    link, challange = client.generate_auth_link()
+    link, _ = client.generate_auth_link()
     markdown = f"""
 ## Gmail Auth Link
 Please follow the following **[link]({link})**.

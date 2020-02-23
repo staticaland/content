@@ -1,6 +1,4 @@
 category: Messaging
-beta: true
-fromversion: 4.5.0
 commonfields:
   id: Gmail Single User
   version: -1
@@ -9,11 +7,12 @@ configuration:
   name: email
   required: true
   type: 0
-- display: Auth Code (run the !gmail-auth-link command to start the auth flow - see Detailed Instructions (?) section)
+- display: Auth Code (run the !gmail-auth-link command to start the auth flow - see
+    Detailed Instructions (?) section)
   name: code
   required: false
   type: 4
-- display: "Client ID (Optional: use your own app - see Detailed Instructions (?)"
+- display: 'Client ID (Optional: use your own app - see Detailed Instructions (?)'
   name: client_id
   required: false
   type: 0
@@ -42,7 +41,6 @@ configuration:
   name: proxy
   required: false
   type: 8
-
 description: Gmail API using OAuth 2.0.
 display: Gmail Single User (Beta)
 name: Gmail Single User
@@ -108,7 +106,8 @@ script:
       required: false
       secret: false
     - default: false
-      description: A comma-separated list of CID images to embed attachments to the email.
+      description: A comma-separated list of CID images to embed attachments to the
+        email.
       isArray: true
       name: attachCIDs
       required: false
@@ -192,13 +191,18 @@ script:
     - contextPath: Gmail.SentMail.MailBox
       description: The mailbox from which the mail was sent.
       type: String
-  - name: gmail-auth-link
-    arguments: []
+    - contextPath: Gmail.SentMail.BodyHTML
+      description: The HTML version of the email.
+      type: Unknown
+  - deprecated: false
     description: Starts the OAuth2 process. Get a link to use to authenticate to Gmail.
-  - name: gmail-auth-test
-    arguments: []
-    description: Tests that Gmail auth is properly configured. Use this command after completing
-      the OAuth2 authentication process.
+    execution: false
+    name: gmail-auth-link
+  - deprecated: false
+    description: Tests that Gmail auth is properly configured. Use this command after
+      completing the OAuth2 authentication process.
+    execution: false
+    name: gmail-auth-test
   dockerimage: demisto/google-api-py3:1.0.0.4554
   isfetch: true
   longRunning: false
@@ -206,6 +210,7 @@ script:
   runonce: false
   script: '-'
   type: python
-  subtype: python3
 tests:
-  - Gmail Single User - Test
+- Gmail Single User - Test
+fromversion: 4.5.0
+beta: true

@@ -1,0 +1,8 @@
+handle_starttag  # unused function (Beta_Integrations/GmailSingleUser/GmailSingleUser.py:56)
+attrs  # unused variable (Beta_Integrations/GmailSingleUser/GmailSingleUser.py:56)
+handle_startendtag  # unused function (Beta_Integrations/GmailSingleUser/GmailSingleUser.py:62)
+attrs  # unused variable (Beta_Integrations/GmailSingleUser/GmailSingleUser.py:62)
+handle_endtag  # unused function (Beta_Integrations/GmailSingleUser/GmailSingleUser.py:66)
+handle_data  # unused function (Beta_Integrations/GmailSingleUser/GmailSingleUser.py:72)
+handle_entityref  # unused function (Beta_Integrations/GmailSingleUser/GmailSingleUser.py:78)
+handle_charref  # unused function (Beta_Integrations/GmailSingleUser/GmailSingleUser.py:82)
