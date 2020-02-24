@@ -1,6 +1,6 @@
 elasticcommonfields: {}
-id: 54567982-16d5-4fee-851c-8b69a43ce2ec
-version: 18
+id: DBot Create Phishing Classifier V2 From File Job
+version: -1
 name: DBot Create Phishing Classifier V2 From File Job
 description: 'Train the phishing machine learning model. This playbook should be used
   as job, to run repeatedly, for example every week. '

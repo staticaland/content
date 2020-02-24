@@ -1,6 +1,6 @@
 elasticcommonfields: {}
-id: 524685e0-d880-4673-8bab-f073d0c533ec
-version: 10
+id: DBot Create Phishing Classifier V2 From File
+version: -1
 name: DBot Create Phishing Classifier V2 From File
 description: Create a phishing classifier using machine learning technique, based
   on email content.
