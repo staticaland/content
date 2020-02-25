@@ -116,3 +116,4 @@ type: python
 dockerimage: demisto/dl:1.3
 tests:
 - Create Phishing Classifier V2 ML Test
+- DBot Create Phishing Classifier V2 From File - Test
