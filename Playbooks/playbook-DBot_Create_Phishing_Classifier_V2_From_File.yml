@@ -2,24 +2,24 @@ elasticcommonfields: {}
 id: DBot Create Phishing Classifier V2 From File
 version: -1
 name: DBot Create Phishing Classifier V2 From File
-description: Create a phishing classifier using machine learning technique, based
-  on email content.
+description: Create a phishing classifier using machine learning technique from extracted
+  incidents files, based on email content.
 starttaskid: "0"
 tasks:
   "0":
     id: "0"
-    taskid: f96785c7-7d04-4f99-8da3-929501848239
+    taskid: ccf52cdb-4b5b-4ca4-8ff5-b998eaa374eb
     type: start
     task:
       elasticcommonfields: {}
-      id: f96785c7-7d04-4f99-8da3-929501848239
+      id: ccf52cdb-4b5b-4ca4-8ff5-b998eaa374eb
       version: -1
       name: ""
       iscommand: false
       brand: ""
     nexttasks:
       '#none#':
-      - "9"
+      - "1"
     separatecontext: false
     view: |-
       {
@@ -33,38 +33,13 @@ tasks:
     ignoreworker: false
     skipunavailable: false
     quietmode: 0
-  "8":
-    id: "8"
-    taskid: a9333d16-a1b0-4f04-8ce6-f13e0da7ebea
-    type: title
-    task:
-      elasticcommonfields: {}
-      id: a9333d16-a1b0-4f04-8ce6-f13e0da7ebea
-      version: -1
-      name: Done
-      type: title
-      iscommand: false
-      brand: ""
-    separatecontext: false
-    view: |-
-      {
-        "position": {
-          "x": 50,
-          "y": 720
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
-  "9":
-    id: "9"
-    taskid: b02f7e95-9077-4167-8de5-48e251e8acc6
+  "1":
+    id: "1"
+    taskid: ef3b9920-67f6-413e-8468-287de8fbf5a9
     type: regular
     task:
       elasticcommonfields: {}
-      id: b02f7e95-9077-4167-8de5-48e251e8acc6
+      id: ef3b9920-67f6-413e-8468-287de8fbf5a9
       version: -1
       name: Get Incidents From File
       description: Gets a list of incident objects from a file.
@@ -74,7 +49,7 @@ tasks:
       brand: ""
     nexttasks:
       '#none#':
-      - "14"
+      - "2"
     scriptarguments:
       FileID:
         simple: ${inputs.fileID}
@@ -83,7 +58,7 @@ tasks:
       limit:
         simple: ${inputs.maxIncidentsToFetchOnTraining}
       outputFormat:
-        simple: ${inputs.outputFormat}
+        simple: pickle
     separatecontext: false
     view: |-
       {
@@ -97,13 +72,64 @@ tasks:
     ignoreworker: false
     skipunavailable: false
     quietmode: 0
-  "11":
-    id: "11"
-    taskid: c31a66b6-7496-4c7f-8517-49e587d2e570
+  "2":
+    id: "2"
+    taskid: 42dde49c-c198-40ed-84d0-ea21aaf8d9f6
     type: regular
     task:
       elasticcommonfields: {}
-      id: c31a66b6-7496-4c7f-8517-49e587d2e570
+      id: 42dde49c-c198-40ed-84d0-ea21aaf8d9f6
+      version: -1
+      name: Pre-process file
+      description: Pre-process text data for the machine learning text classifier.
+      scriptName: DBotPreProcessTextData
+      type: regular
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "3"
+    scriptarguments:
+      cleanHTML:
+        simple: "true"
+      dedupThreshold:
+        simple: ${inputs.dedupThreshold}
+      hashSeed:
+        simple: ${inputs.hashSeed}
+      input:
+        simple: ${lastCompletedTaskEntries}
+      inputType:
+        simple: ${GetIncidentsFromFile.FileFormat}
+      outputFormat:
+        simple: ${inputs.outputFormat}
+      preProcessType:
+        simple: nlp
+      removeShortTextThreshold:
+        simple: ${inputs.removeShortTextThreshold}
+      textFields:
+        simple: ${inputs.emailTextKey},${inputs.emailSubjectKey}
+      whitelistFields:
+        simple: ${inputs.emailTagKey}
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 370
+        }
+      }
+    note: false
+    timertriggers: []
+    ignoreworker: false
+    skipunavailable: false
+    quietmode: 0
+  "3":
+    id: "3"
+    taskid: cdc8b0f5-e3d0-45a9-8bab-297a8598e8a3
+    type: regular
+    task:
+      elasticcommonfields: {}
+      id: cdc8b0f5-e3d0-45a9-8bab-297a8598e8a3
       version: -1
       name: Train Model
       description: Train a machine learning text classifier.
@@ -113,11 +139,12 @@ tasks:
       brand: ""
     nexttasks:
       '#none#':
-      - "8"
+      - "4"
     scriptarguments:
-      findKeywords: {}
+      findKeywords:
+        simple: "true"
       input:
-        simple: ${DBotPreProcessTextData.Filename},${inputs.historicalDataFileListName}
+        simple: ${DBotPreProcessTextData.Filename}
       inputType:
         complex:
           root: DBotPreProcessTextData
@@ -160,56 +187,24 @@ tasks:
     ignoreworker: false
     skipunavailable: false
     quietmode: 0
-  "14":
-    id: "14"
-    taskid: 9bd52e2d-a71c-467c-8b69-40059360f9be
-    type: regular
+  "4":
+    id: "4"
+    taskid: dc249213-599e-46f0-829b-f9b633074503
+    type: title
     task:
       elasticcommonfields: {}
-      id: 9bd52e2d-a71c-467c-8b69-40059360f9be
+      id: dc249213-599e-46f0-829b-f9b633074503
       version: -1
-      name: Pre-process file
-      description: |-
-        Pre-process text data for the machine learning text classifier.
-        The pre-process normalize the text:
-        - Remove HTML tags
-        - Convert every word to it's root (goes -> go)
-        - Remove sample text of which the total number words are less than or equal to a threshold
-        - Remove emails with similarity greater then some threshold.
-      scriptName: DBotPreProcessTextData
-      type: regular
+      name: Done
+      type: title
       iscommand: false
       brand: ""
-    nexttasks:
-      '#none#':
-      - "11"
-    scriptarguments:
-      cleanHTML:
-        simple: "true"
-      dedupThreshold:
-        simple: ${inputs.dedupThreshold}
-      hashSeed:
-        simple: ${inputs.hashData}
-      input:
-        simple: ${lastCompletedTaskEntries}
-      inputType:
-        simple: ${GetIncidentsFromFile.FileFormat}
-      outputFormat:
-        simple: ${inputs.outputFormat}
-      preProcessType:
-        simple: nlp
-      removeShortTextThreshold:
-        simple: ${inputs.removeShortTextThreshold}
-      textFields:
-        simple: ${inputs.emailSubjectKey},${inputs.emailTextKey}
-      whitelistFields:
-        simple: ${inputs.emailTagKey}
     separatecontext: false
     view: |-
       {
         "position": {
           "x": 50,
-          "y": 370
+          "y": 720
         }
       }
     note: false
@@ -238,15 +233,15 @@ inputs:
   playbookInputQuery: null
 - key: emailTextKey
   value:
-    simple: emailbody|emailbodyhtml|details
+    simple: Email Body|Email Body HTML|details
   required: false
   description: A comma-separated list of incident fields names with the email body
-    or html body. You can also use "|" if you want to choose the first non-empty value
+    or html body. You can also use "|" if you want to choose the first non empty value
     from a list of fields.
   playbookInputQuery: null
 - key: emailSubjectKey
   value:
-    simple: emailsubject|name
+    simple: Email Subject|name
   required: false
   description: A comma-separated list of incident fields names with the email subject.
     You can also use "|" if you want to choose the first non-empty value from a list
@@ -254,7 +249,7 @@ inputs:
   playbookInputQuery: null
 - key: emailTagKey
   value:
-    simple: emailclassification
+    simple: closeReason
   required: false
   description: The field name with the email tag. Supports a comma-separated list,
     the first non-empty value will be taken.
@@ -268,10 +263,10 @@ inputs:
     value by using this format: LABEL:MAPPED_LABEL. For example, for 4 values in email
     tag: malicious, credentials harvesting, inner communitcation, external legit email,
     unclassified. While training, we want to ignore "unclassified" tag, and refer
-    to "credentials harvesting" as "malicious" too. Also, we want to     merge "inner
-    communitcation" and "external legit email" to one tag called "non-malicious".
-    The input will be: malicious, credentials harvesting:malicious, inner communitcation:non-malicious,
-    external legit email:non-malicious'
+    to "credentials harvesting" as "malicious" too. Also, we want to merge "inner
+    communication" and "external legit email" to one tag called "non-malicious". The
+    input will be: malicious, credentials harvesting:malicious, inner communitcation:non-malicious,  external
+    legit email:non-malicious'
   playbookInputQuery: null
 - key: incidentsQuery
   value: {}
@@ -280,24 +275,18 @@ inputs:
   playbookInputQuery: null
 - key: maxIncidentsToFetchOnTraining
   value:
-    simple: "3000"
+    simple: "6000"
   required: false
-  description: The maximum number of incidents to fetch.
+  description: The maximum number of incidents to fetch
   playbookInputQuery: null
 - key: hashSeed
   value: {}
   required: false
   description: If non-empty, hash every word with this seed.
   playbookInputQuery: null
-- key: historicalDataFileListName
-  value: {}
-  required: false
-  description: The name of demisto list contains historical data training samples
-    for the model.
-  playbookInputQuery: null
 - key: overrideModel
   value:
-    simple: "true"
+    simple: "false"
   required: false
   description: Whether to override the existing model if a model with the same name
     exists. Default is "false".
@@ -306,27 +295,27 @@ inputs:
   value:
     simple: Phishing
   required: false
-  description: A common-separatetd list of incident types by which to filter.
+  description: ' A comma-separated list of incident types by which to filter.'
   playbookInputQuery: null
 - key: dedupThreshold
   value:
     simple: "0.99"
   required: false
   description: Remove emails with similarity greater then this threshold, range 0-1,
-    where 1 is completly identical.
+    where 1 is completely identical.
   playbookInputQuery: null
 - key: removeShortTextThreshold
   value:
     simple: "15"
   required: false
-  description: Sample text of which the total number words are less than or equal
-    to this number will be ignored.
+  description: ' Sample text of which the total number words are less than or equal
+    to this number will be ignored.'
   playbookInputQuery: null
 - key: modelTargetAccuracy
   value:
-    simple: "0.8"
+    simple: "0.7"
   required: false
-  description: The model target accuracy, between 0 and 1.
+  description: The model target accuracy at each label, between 0 and 1.
   playbookInputQuery: null
 - key: outputFormat
   value:
@@ -347,9 +336,9 @@ outputs:
   description: Precision score (0-1)
   type: number
 - contextPath: DBotPhishingClassifier.EvaluationScores.micro_avg.recall
-  description: Rrecision score (0-1)
+  description: Recall score (0-1)
   type: number
 - contextPath: DBotPhishingClassifier.ModelName
   description: Model name in Demisto
-  type: string
-sourceplaybookid: DBot Create Phishing Classifier V2
+  type: String
+fromversion: 4.5.0

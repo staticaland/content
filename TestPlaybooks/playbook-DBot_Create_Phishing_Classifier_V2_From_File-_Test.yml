@@ -1,6 +1,6 @@
 elasticcommonfields: {}
 id: DBot Create Phishing Classifier V2 From File - Test
-version: 5
+version: -1
 name: DBot Create Phishing Classifier V2 From File - Test
 starttaskid: "0"
 tasks:
@@ -46,7 +46,7 @@ tasks:
       brand: ""
     nexttasks:
       '#none#':
-      - "2"
+      - "7"
     scriptarguments:
       fileID: {}
     separatecontext: false
@@ -62,80 +62,13 @@ tasks:
     ignoreworker: false
     skipunavailable: false
     quietmode: 0
-  "2":
-    id: "2"
-    taskid: 36701ac5-36c2-4cf1-84e0-2846ac6631fa
-    type: playbook
-    task:
-      elasticcommonfields: {}
-      id: 36701ac5-36c2-4cf1-84e0-2846ac6631fa
-      version: -1
-      name: DBot Create Phishing Classifier V2 From File
-      description: Create a phishing classifier using machine learning technique,
-        based on email content.
-      playbookName: DBot Create Phishing Classifier V2 From File
-      type: playbook
-      iscommand: false
-      brand: ""
-    nexttasks:
-      '#none#':
-      - "3"
-    scriptarguments:
-      dedupThreshold:
-        simple: "0"
-      emailSubjectKey:
-        simple: Email Subject
-      emailTagKey:
-        simple: closeReason
-      emailTextKey:
-        simple: Email Body|Email Body HTML
-      fileID:
-        simple: '${.=(val.File instanceof Array ? val.File[val.File.length-1].EntryID
-          : val.File.EntryID)}'
-      hashSeed: {}
-      historicalDataFileListName: {}
-      incidentTypes:
-        simple: Phishing
-      incidentsQuery: {}
-      maxIncidentsToFetchOnTraining:
-        simple: "3000"
-      modelName:
-        simple: model_from_file
-      modelTargetAccuracy:
-        simple: "0.8"
-      outputFormat:
-        simple: pickle
-      overrideModel:
-        simple: "true"
-      phishingLabels:
-        simple: '*'
-      removeShortTextThreshold:
-        simple: "10"
-    separatecontext: true
-    loop:
-      iscommand: false
-      exitCondition: ""
-      wait: 1
-      max: 100
-    view: |-
-      {
-        "position": {
-          "x": 50,
-          "y": 545
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
   "3":
     id: "3"
-    taskid: 9421be55-17f7-415a-84bb-92d64c912a6b
+    taskid: bc86e9f0-c9c1-43d0-8d6a-2992634d4460
     type: regular
     task:
       elasticcommonfields: {}
-      id: 9421be55-17f7-415a-84bb-92d64c912a6b
+      id: bc86e9f0-c9c1-43d0-8d6a-2992634d4460
       version: -1
       name: Predict Sentence
       description: Predict text label using a pre-trained machine learning phishing
@@ -158,7 +91,7 @@ tasks:
       minTextLength:
         simple: "0"
       modelName:
-        simple: model_from_file
+        simple: ${DBotPhishingClassifier.ModelName}
       modelStoreType: {}
       returnError: {}
       topWordsLimit: {}
@@ -278,6 +211,72 @@ tasks:
         "position": {
           "x": 50,
           "y": 195
+        }
+      }
+    note: false
+    timertriggers: []
+    ignoreworker: false
+    skipunavailable: false
+    quietmode: 0
+  "7":
+    id: "7"
+    taskid: ffe31f7c-0d19-405e-8119-3cd935911e35
+    type: playbook
+    task:
+      elasticcommonfields: {}
+      id: ffe31f7c-0d19-405e-8119-3cd935911e35
+      version: -1
+      name: DBot Create Phishing Classifier V2 From File
+      description: Create a phishing classifier using machine learning technique from
+        extracted incidents files, based on email content.
+      playbookName: DBot Create Phishing Classifier V2 From File
+      type: playbook
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "3"
+    scriptarguments:
+      dedupThreshold:
+        simple: "0"
+      emailSubjectKey:
+        simple: Email Subject|name
+      emailTagKey:
+        simple: closeReason
+      emailTextKey:
+        simple: Email Body|Email Body HTML|details
+      fileID:
+        simple: '${.=(val.File instanceof Array ? val.File[val.File.length-1].EntryID
+          : val.File.EntryID)}'
+      hashSeed: {}
+      incidentTypes:
+        simple: Phishing
+      incidentsQuery: {}
+      maxIncidentsToFetchOnTraining:
+        simple: "6000"
+      modelName:
+        simple: phishing_model_from_file
+      modelTargetAccuracy:
+        simple: "0.7"
+      outputFormat:
+        simple: pickle
+      overrideModel:
+        simple: "false"
+      phishingLabels:
+        simple: '*'
+      removeShortTextThreshold:
+        simple: "15"
+    separatecontext: true
+    loop:
+      iscommand: false
+      exitCondition: ""
+      wait: 1
+      max: 100
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 550
         }
       }
     note: false
