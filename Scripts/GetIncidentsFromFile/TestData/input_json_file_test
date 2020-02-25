@@ -1,84 +1,1611 @@
 id,name,type,severity,status,owner,roles,playbookId,occurred,dueDate,PhishingCustomField,closeReason,Email Body,Email Body HTML,Email Subject
-30783,"
-
- What
- 
- The
- 
- An
- Lock-in
- 
+40612,this message should definetly be marked as ham 111...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:35 IST","Thu, 05 Mar 2020 19:45:35 IST",,ham,"this message should definetly be marked as ham 111.
+this message should definetly be marked as ham 111.
+this message should definetly be marked as ham 111.
 ",,
-28405,"
- URL
+40613,this message should definetly be marked as ham 49....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:35 IST","Thu, 05 Mar 2020 19:45:35 IST",,ham,"this message should definetly be marked as ham 49.
+this message should definetly be marked as ham 49.
+this message should definetly be marked as ham 49.
 ",,
-29882,"
- wow
- 
+40614,this message should definetly be marked as ham 82....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:35 IST","Thu, 05 Mar 2020 19:45:35 IST",,ham,"this message should definetly be marked as ham 82.
+this message should definetly be marked as ham 82.
+this message should definetly be marked as ham 82.
 ",,
-29185,"
-
-  friends
- 
- and more
- 
- Two
- 
- As
- 
- The
- 
- Because mesh
- 
- 
- 
- 
+40615,this message should definetly be marked as spam 11...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:36 IST","Thu, 05 Mar 2020 19:45:35 IST",,spam,"this message should definetly be marked as spam 114.
+this message should definetly be marked as spam 114.
+this message should definetly be marked as spam 114.
 ",,
-30867,"
- I
- 
- Sep
- The only certainty
- 
+40606,this message should definetly be marked as ham 61....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:34 IST","Thu, 05 Mar 2020 19:45:34 IST",,ham,"this message should definetly be marked as ham 61.
+this message should definetly be marked as ham 61.
+this message should definetly be marked as ham 61.
 ",,
-27374,"
-  Briefly I
-
-   I'm.
- 
- If you want
- 
- -----Original Message-----
- From:
-
- 
- 
- Im
- 
- Is
- 
- 
-
- 
- 
+40607,this message should definetly be marked as ham 63....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:34 IST","Thu, 05 Mar 2020 19:45:34 IST",,ham,"this message should definetly be marked as ham 63.
+this message should definetly be marked as ham 63.
+this message should definetly be marked as ham 63.
 ",,
-26304,"
- Long time no chat!
- 
- How have you been?
- How
- 
- You
- 
- I
- 
- If
- 
- You're
- 
- 
+40608,this message should definetly be marked as ham 87....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:34 IST","Thu, 05 Mar 2020 19:45:34 IST",,ham,"this message should definetly be marked as ham 87.
+this message should definetly be marked as ham 87.
+this message should definetly be marked as ham 87.
 ",,
-30076,"
- I thought I'd
- 
+40609,this message should definetly be marked as spam 14...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:34 IST","Thu, 05 Mar 2020 19:45:34 IST",,spam,"this message should definetly be marked as spam 140.
+this message should definetly be marked as spam 140.
+this message should definetly be marked as spam 140.
+",,
+40610,this message should definetly be marked as spam 15...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:34 IST","Thu, 05 Mar 2020 19:45:34 IST",,spam,"this message should definetly be marked as spam 150.
+this message should definetly be marked as spam 150.
+this message should definetly be marked as spam 150.
+",,
+40611,this message should definetly be marked as spam 6....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:35 IST","Thu, 05 Mar 2020 19:45:34 IST",,spam,"this message should definetly be marked as spam 6.
+this message should definetly be marked as spam 6.
+this message should definetly be marked as spam 6.
+",,
+40602,this message should definetly be marked as spam 11...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:33 IST","Thu, 05 Mar 2020 19:45:33 IST",,spam,"this message should definetly be marked as spam 111.
+this message should definetly be marked as spam 111.
+this message should definetly be marked as spam 111.
+",,
+40603,this message should definetly be marked as spam 14...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:33 IST","Thu, 05 Mar 2020 19:45:33 IST",,spam,"this message should definetly be marked as spam 148.
+this message should definetly be marked as spam 148.
+this message should definetly be marked as spam 148.
+",,
+40604,this message should definetly be marked as ham 21....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:33 IST","Thu, 05 Mar 2020 19:45:33 IST",,ham,"this message should definetly be marked as ham 21.
+this message should definetly be marked as ham 21.
+this message should definetly be marked as ham 21.
+",,
+40605,this message should definetly be marked as spam 41...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:34 IST","Thu, 05 Mar 2020 19:45:33 IST",,spam,"this message should definetly be marked as spam 41.
+this message should definetly be marked as spam 41.
+this message should definetly be marked as spam 41.
+",,
+40596,this message should definetly be marked as spam 62...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:32 IST","Thu, 05 Mar 2020 19:45:32 IST",,spam,"this message should definetly be marked as spam 62.
+this message should definetly be marked as spam 62.
+this message should definetly be marked as spam 62.
+",,
+40601,this message should definetly be marked as ham 192...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:33 IST","Thu, 05 Mar 2020 19:45:32 IST",,ham,"this message should definetly be marked as ham 192.
+this message should definetly be marked as ham 192.
+this message should definetly be marked as ham 192.
+",,
+40597,this message should definetly be marked as spam 13...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:32 IST","Thu, 05 Mar 2020 19:45:32 IST",,spam,"this message should definetly be marked as spam 13.
+this message should definetly be marked as spam 13.
+this message should definetly be marked as spam 13.
+",,
+40598,this message should definetly be marked as spam 48...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:32 IST","Thu, 05 Mar 2020 19:45:32 IST",,spam,"this message should definetly be marked as spam 48.
+this message should definetly be marked as spam 48.
+this message should definetly be marked as spam 48.
+",,
+40599,this message should definetly be marked as ham 39....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:32 IST","Thu, 05 Mar 2020 19:45:32 IST",,ham,"this message should definetly be marked as ham 39.
+this message should definetly be marked as ham 39.
+this message should definetly be marked as ham 39.
+",,
+40600,this message should definetly be marked as ham 59....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:32 IST","Thu, 05 Mar 2020 19:45:32 IST",,ham,"this message should definetly be marked as ham 59.
+this message should definetly be marked as ham 59.
+this message should definetly be marked as ham 59.
+",,
+40592,this message should definetly be marked as spam 81...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:31 IST","Thu, 05 Mar 2020 19:45:31 IST",,spam,"this message should definetly be marked as spam 81.
+this message should definetly be marked as spam 81.
+this message should definetly be marked as spam 81.
+",,
+40593,this message should definetly be marked as ham 157...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:31 IST","Thu, 05 Mar 2020 19:45:31 IST",,ham,"this message should definetly be marked as ham 157.
+this message should definetly be marked as ham 157.
+this message should definetly be marked as ham 157.
+",,
+40594,this message should definetly be marked as ham 162...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:31 IST","Thu, 05 Mar 2020 19:45:31 IST",,ham,"this message should definetly be marked as ham 162.
+this message should definetly be marked as ham 162.
+this message should definetly be marked as ham 162.
+",,
+40595,this message should definetly be marked as spam 18...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:31 IST","Thu, 05 Mar 2020 19:45:31 IST",,spam,"this message should definetly be marked as spam 181.
+this message should definetly be marked as spam 181.
+this message should definetly be marked as spam 181.
+",,
+40587,this message should definetly be marked as ham 107...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:30 IST","Thu, 05 Mar 2020 19:45:30 IST",,ham,"this message should definetly be marked as ham 107.
+this message should definetly be marked as ham 107.
+this message should definetly be marked as ham 107.
+",,
+40588,this message should definetly be marked as ham 151...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:30 IST","Thu, 05 Mar 2020 19:45:30 IST",,ham,"this message should definetly be marked as ham 151.
+this message should definetly be marked as ham 151.
+this message should definetly be marked as ham 151.
+",,
+40589,this message should definetly be marked as ham 150...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:30 IST","Thu, 05 Mar 2020 19:45:30 IST",,ham,"this message should definetly be marked as ham 150.
+this message should definetly be marked as ham 150.
+this message should definetly be marked as ham 150.
+",,
+40590,this message should definetly be marked as ham 154...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:30 IST","Thu, 05 Mar 2020 19:45:30 IST",,ham,"this message should definetly be marked as ham 154.
+this message should definetly be marked as ham 154.
+this message should definetly be marked as ham 154.
+",,
+40591,this message should definetly be marked as spam 18...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:31 IST","Thu, 05 Mar 2020 19:45:30 IST",,spam,"this message should definetly be marked as spam 184.
+this message should definetly be marked as spam 184.
+this message should definetly be marked as spam 184.
+",,
+40581,this message should definetly be marked as ham 136...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:29 IST","Thu, 05 Mar 2020 19:45:29 IST",,ham,"this message should definetly be marked as ham 136.
+this message should definetly be marked as ham 136.
+this message should definetly be marked as ham 136.
+",,
+40582,this message should definetly be marked as ham 18....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:29 IST","Thu, 05 Mar 2020 19:45:29 IST",,ham,"this message should definetly be marked as ham 18.
+this message should definetly be marked as ham 18.
+this message should definetly be marked as ham 18.
+",,
+40583,this message should definetly be marked as ham 113...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:29 IST","Thu, 05 Mar 2020 19:45:29 IST",,ham,"this message should definetly be marked as ham 113.
+this message should definetly be marked as ham 113.
+this message should definetly be marked as ham 113.
+",,
+40584,"this message should definetly be marked as ham 5.
+...",Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:29 IST","Thu, 05 Mar 2020 19:45:29 IST",,ham,"this message should definetly be marked as ham 5.
+this message should definetly be marked as ham 5.
+this message should definetly be marked as ham 5.
+",,
+40585,this message should definetly be marked as spam 2....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:29 IST","Thu, 05 Mar 2020 19:45:29 IST",,spam,"this message should definetly be marked as spam 2.
+this message should definetly be marked as spam 2.
+this message should definetly be marked as spam 2.
+",,
+40586,this message should definetly be marked as ham 55....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:30 IST","Thu, 05 Mar 2020 19:45:29 IST",,ham,"this message should definetly be marked as ham 55.
+this message should definetly be marked as ham 55.
+this message should definetly be marked as ham 55.
+",,
+40576,this message should definetly be marked as ham 76....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:28 IST","Thu, 05 Mar 2020 19:45:28 IST",,ham,"this message should definetly be marked as ham 76.
+this message should definetly be marked as ham 76.
+this message should definetly be marked as ham 76.
+",,
+40577,this message should definetly be marked as spam 15...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:28 IST","Thu, 05 Mar 2020 19:45:28 IST",,spam,"this message should definetly be marked as spam 153.
+this message should definetly be marked as spam 153.
+this message should definetly be marked as spam 153.
+",,
+40578,this message should definetly be marked as spam 32...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:28 IST","Thu, 05 Mar 2020 19:45:28 IST",,spam,"this message should definetly be marked as spam 32.
+this message should definetly be marked as spam 32.
+this message should definetly be marked as spam 32.
+",,
+40579,this message should definetly be marked as spam 10...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:28 IST","Thu, 05 Mar 2020 19:45:28 IST",,spam,"this message should definetly be marked as spam 107.
+this message should definetly be marked as spam 107.
+this message should definetly be marked as spam 107.
+",,
+40580,this message should definetly be marked as spam 57...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:29 IST","Thu, 05 Mar 2020 19:45:28 IST",,spam,"this message should definetly be marked as spam 57.
+this message should definetly be marked as spam 57.
+this message should definetly be marked as spam 57.
+",,
+40570,this message should definetly be marked as ham 105...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:27 IST","Thu, 05 Mar 2020 19:45:27 IST",,ham,"this message should definetly be marked as ham 105.
+this message should definetly be marked as ham 105.
+this message should definetly be marked as ham 105.
+",,
+40571,this message should definetly be marked as spam 28...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:27 IST","Thu, 05 Mar 2020 19:45:27 IST",,spam,"this message should definetly be marked as spam 28.
+this message should definetly be marked as spam 28.
+this message should definetly be marked as spam 28.
+",,
+40572,this message should definetly be marked as ham 88....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:27 IST","Thu, 05 Mar 2020 19:45:27 IST",,ham,"this message should definetly be marked as ham 88.
+this message should definetly be marked as ham 88.
+this message should definetly be marked as ham 88.
+",,
+40573,this message should definetly be marked as spam 4....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:27 IST","Thu, 05 Mar 2020 19:45:27 IST",,spam,"this message should definetly be marked as spam 4.
+this message should definetly be marked as spam 4.
+this message should definetly be marked as spam 4.
+",,
+40574,this message should definetly be marked as ham 86....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:27 IST","Thu, 05 Mar 2020 19:45:27 IST",,ham,"this message should definetly be marked as ham 86.
+this message should definetly be marked as ham 86.
+this message should definetly be marked as ham 86.
+",,
+40575,this message should definetly be marked as spam 14...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:28 IST","Thu, 05 Mar 2020 19:45:27 IST",,spam,"this message should definetly be marked as spam 143.
+this message should definetly be marked as spam 143.
+this message should definetly be marked as spam 143.
+",,
+40565,this message should definetly be marked as spam 14...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:26 IST","Thu, 05 Mar 2020 19:45:26 IST",,spam,"this message should definetly be marked as spam 144.
+this message should definetly be marked as spam 144.
+this message should definetly be marked as spam 144.
+",,
+40566,this message should definetly be marked as spam 14...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:26 IST","Thu, 05 Mar 2020 19:45:26 IST",,spam,"this message should definetly be marked as spam 146.
+this message should definetly be marked as spam 146.
+this message should definetly be marked as spam 146.
+",,
+40567,this message should definetly be marked as spam 24...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:26 IST","Thu, 05 Mar 2020 19:45:26 IST",,spam,"this message should definetly be marked as spam 24.
+this message should definetly be marked as spam 24.
+this message should definetly be marked as spam 24.
+",,
+40568,this message should definetly be marked as spam 17...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:26 IST","Thu, 05 Mar 2020 19:45:26 IST",,spam,"this message should definetly be marked as spam 179.
+this message should definetly be marked as spam 179.
+this message should definetly be marked as spam 179.
+",,
+40569,this message should definetly be marked as ham 187...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:26 IST","Thu, 05 Mar 2020 19:45:26 IST",,ham,"this message should definetly be marked as ham 187.
+this message should definetly be marked as ham 187.
+this message should definetly be marked as ham 187.
+",,
+40560,this message should definetly be marked as spam 16...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:25 IST","Thu, 05 Mar 2020 19:45:25 IST",,spam,"this message should definetly be marked as spam 164.
+this message should definetly be marked as spam 164.
+this message should definetly be marked as spam 164.
+",,
+40561,this message should definetly be marked as ham 94....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:25 IST","Thu, 05 Mar 2020 19:45:25 IST",,ham,"this message should definetly be marked as ham 94.
+this message should definetly be marked as ham 94.
+this message should definetly be marked as ham 94.
+",,
+40562,this message should definetly be marked as spam 13...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:25 IST","Thu, 05 Mar 2020 19:45:25 IST",,spam,"this message should definetly be marked as spam 139.
+this message should definetly be marked as spam 139.
+this message should definetly be marked as spam 139.
+",,
+40563,this message should definetly be marked as spam 19...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:25 IST","Thu, 05 Mar 2020 19:45:25 IST",,spam,"this message should definetly be marked as spam 191.
+this message should definetly be marked as spam 191.
+this message should definetly be marked as spam 191.
+",,
+40564,this message should definetly be marked as ham 163...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:26 IST","Thu, 05 Mar 2020 19:45:25 IST",,ham,"this message should definetly be marked as ham 163.
+this message should definetly be marked as ham 163.
+this message should definetly be marked as ham 163.
+",,
+40559,this message should definetly be marked as ham 188...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:25 IST","Thu, 05 Mar 2020 19:45:25 IST",,ham,"this message should definetly be marked as ham 188.
+this message should definetly be marked as ham 188.
+this message should definetly be marked as ham 188.
+",,
+40554,this message should definetly be marked as ham 68....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:24 IST","Thu, 05 Mar 2020 19:45:24 IST",,ham,"this message should definetly be marked as ham 68.
+this message should definetly be marked as ham 68.
+this message should definetly be marked as ham 68.
+",,
+40555,this message should definetly be marked as spam 17...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:24 IST","Thu, 05 Mar 2020 19:45:24 IST",,spam,"this message should definetly be marked as spam 177.
+this message should definetly be marked as spam 177.
+this message should definetly be marked as spam 177.
+",,
+40556,this message should definetly be marked as ham 74....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:24 IST","Thu, 05 Mar 2020 19:45:24 IST",,ham,"this message should definetly be marked as ham 74.
+this message should definetly be marked as ham 74.
+this message should definetly be marked as ham 74.
+",,
+40557,this message should definetly be marked as ham 124...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:24 IST","Thu, 05 Mar 2020 19:45:24 IST",,ham,"this message should definetly be marked as ham 124.
+this message should definetly be marked as ham 124.
+this message should definetly be marked as ham 124.
+",,
+40558,this message should definetly be marked as ham 158...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:24 IST","Thu, 05 Mar 2020 19:45:24 IST",,ham,"this message should definetly be marked as ham 158.
+this message should definetly be marked as ham 158.
+this message should definetly be marked as ham 158.
+",,
+40550,this message should definetly be marked as ham 109...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:23 IST","Thu, 05 Mar 2020 19:45:23 IST",,ham,"this message should definetly be marked as ham 109.
+this message should definetly be marked as ham 109.
+this message should definetly be marked as ham 109.
+",,
+40551,this message should definetly be marked as ham 131...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:23 IST","Thu, 05 Mar 2020 19:45:23 IST",,ham,"this message should definetly be marked as ham 131.
+this message should definetly be marked as ham 131.
+this message should definetly be marked as ham 131.
+",,
+40552,this message should definetly be marked as spam 16...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:23 IST","Thu, 05 Mar 2020 19:45:23 IST",,spam,"this message should definetly be marked as spam 166.
+this message should definetly be marked as spam 166.
+this message should definetly be marked as spam 166.
+",,
+40553,this message should definetly be marked as ham 139...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:23 IST","Thu, 05 Mar 2020 19:45:23 IST",,ham,"this message should definetly be marked as ham 139.
+this message should definetly be marked as ham 139.
+this message should definetly be marked as ham 139.
+",,
+40545,this message should definetly be marked as spam 21...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:22 IST","Thu, 05 Mar 2020 19:45:22 IST",,spam,"this message should definetly be marked as spam 21.
+this message should definetly be marked as spam 21.
+this message should definetly be marked as spam 21.
+",,
+40546,this message should definetly be marked as spam 16...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:22 IST","Thu, 05 Mar 2020 19:45:22 IST",,spam,"this message should definetly be marked as spam 167.
+this message should definetly be marked as spam 167.
+this message should definetly be marked as spam 167.
+",,
+40547,this message should definetly be marked as ham 147...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:22 IST","Thu, 05 Mar 2020 19:45:22 IST",,ham,"this message should definetly be marked as ham 147.
+this message should definetly be marked as ham 147.
+this message should definetly be marked as ham 147.
+",,
+40548,this message should definetly be marked as spam 36...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:22 IST","Thu, 05 Mar 2020 19:45:22 IST",,spam,"this message should definetly be marked as spam 36.
+this message should definetly be marked as spam 36.
+this message should definetly be marked as spam 36.
+",,
+40549,this message should definetly be marked as spam 19...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:23 IST","Thu, 05 Mar 2020 19:45:22 IST",,spam,"this message should definetly be marked as spam 193.
+this message should definetly be marked as spam 193.
+this message should definetly be marked as spam 193.
+",,
+40540,this message should definetly be marked as spam 20...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:21 IST","Thu, 05 Mar 2020 19:45:21 IST",,spam,"this message should definetly be marked as spam 20.
+this message should definetly be marked as spam 20.
+this message should definetly be marked as spam 20.
+",,
+40541,this message should definetly be marked as spam 58...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:21 IST","Thu, 05 Mar 2020 19:45:21 IST",,spam,"this message should definetly be marked as spam 58.
+this message should definetly be marked as spam 58.
+this message should definetly be marked as spam 58.
+",,
+40542,this message should definetly be marked as spam 10...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:21 IST","Thu, 05 Mar 2020 19:45:21 IST",,spam,"this message should definetly be marked as spam 109.
+this message should definetly be marked as spam 109.
+this message should definetly be marked as spam 109.
+",,
+40543,this message should definetly be marked as spam 29...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:21 IST","Thu, 05 Mar 2020 19:45:21 IST",,spam,"this message should definetly be marked as spam 29.
+this message should definetly be marked as spam 29.
+this message should definetly be marked as spam 29.
+",,
+40544,this message should definetly be marked as ham 83....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:22 IST","Thu, 05 Mar 2020 19:45:21 IST",,ham,"this message should definetly be marked as ham 83.
+this message should definetly be marked as ham 83.
+this message should definetly be marked as ham 83.
+",,
+40536,this message should definetly be marked as spam 76...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:20 IST","Thu, 05 Mar 2020 19:45:20 IST",,spam,"this message should definetly be marked as spam 76.
+this message should definetly be marked as spam 76.
+this message should definetly be marked as spam 76.
+",,
+40537,this message should definetly be marked as spam 10...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:20 IST","Thu, 05 Mar 2020 19:45:20 IST",,spam,"this message should definetly be marked as spam 106.
+this message should definetly be marked as spam 106.
+this message should definetly be marked as spam 106.
+",,
+40538,this message should definetly be marked as spam 23...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:20 IST","Thu, 05 Mar 2020 19:45:20 IST",,spam,"this message should definetly be marked as spam 23.
+this message should definetly be marked as spam 23.
+this message should definetly be marked as spam 23.
+",,
+40539,this message should definetly be marked as spam 11...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:21 IST","Thu, 05 Mar 2020 19:45:20 IST",,spam,"this message should definetly be marked as spam 119.
+this message should definetly be marked as spam 119.
+this message should definetly be marked as spam 119.
+",,
+40535,this message should definetly be marked as spam 80...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:20 IST","Thu, 05 Mar 2020 19:45:20 IST",,spam,"this message should definetly be marked as spam 80.
+this message should definetly be marked as spam 80.
+this message should definetly be marked as spam 80.
+",,
+40530,this message should definetly be marked as spam 15...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:19 IST","Thu, 05 Mar 2020 19:45:19 IST",,spam,"this message should definetly be marked as spam 157.
+this message should definetly be marked as spam 157.
+this message should definetly be marked as spam 157.
+",,
+40531,this message should definetly be marked as ham 64....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:19 IST","Thu, 05 Mar 2020 19:45:19 IST",,ham,"this message should definetly be marked as ham 64.
+this message should definetly be marked as ham 64.
+this message should definetly be marked as ham 64.
+",,
+40532,this message should definetly be marked as ham 84....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:19 IST","Thu, 05 Mar 2020 19:45:19 IST",,ham,"this message should definetly be marked as ham 84.
+this message should definetly be marked as ham 84.
+this message should definetly be marked as ham 84.
+",,
+40533,this message should definetly be marked as ham 81....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:19 IST","Thu, 05 Mar 2020 19:45:19 IST",,ham,"this message should definetly be marked as ham 81.
+this message should definetly be marked as ham 81.
+this message should definetly be marked as ham 81.
+",,
+40534,this message should definetly be marked as ham 146...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:20 IST","Thu, 05 Mar 2020 19:45:19 IST",,ham,"this message should definetly be marked as ham 146.
+this message should definetly be marked as ham 146.
+this message should definetly be marked as ham 146.
+",,
+40526,this message should definetly be marked as spam 71...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:18 IST","Thu, 05 Mar 2020 19:45:18 IST",,spam,"this message should definetly be marked as spam 71.
+this message should definetly be marked as spam 71.
+this message should definetly be marked as spam 71.
+",,
+40527,this message should definetly be marked as ham 14....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:18 IST","Thu, 05 Mar 2020 19:45:18 IST",,ham,"this message should definetly be marked as ham 14.
+this message should definetly be marked as ham 14.
+this message should definetly be marked as ham 14.
+",,
+40528,this message should definetly be marked as spam 51...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:18 IST","Thu, 05 Mar 2020 19:45:18 IST",,spam,"this message should definetly be marked as spam 51.
+this message should definetly be marked as spam 51.
+this message should definetly be marked as spam 51.
+",,
+40529,this message should definetly be marked as spam 84...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:18 IST","Thu, 05 Mar 2020 19:45:18 IST",,spam,"this message should definetly be marked as spam 84.
+this message should definetly be marked as spam 84.
+this message should definetly be marked as spam 84.
+",,
+40520,this message should definetly be marked as spam 14...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:17 IST","Thu, 05 Mar 2020 19:45:17 IST",,spam,"this message should definetly be marked as spam 147.
+this message should definetly be marked as spam 147.
+this message should definetly be marked as spam 147.
+",,
+40521,this message should definetly be marked as ham 145...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:17 IST","Thu, 05 Mar 2020 19:45:17 IST",,ham,"this message should definetly be marked as ham 145.
+this message should definetly be marked as ham 145.
+this message should definetly be marked as ham 145.
+",,
+40522,this message should definetly be marked as spam 39...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:17 IST","Thu, 05 Mar 2020 19:45:17 IST",,spam,"this message should definetly be marked as spam 39.
+this message should definetly be marked as spam 39.
+this message should definetly be marked as spam 39.
+",,
+40523,this message should definetly be marked as spam 60...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:17 IST","Thu, 05 Mar 2020 19:45:17 IST",,spam,"this message should definetly be marked as spam 60.
+this message should definetly be marked as spam 60.
+this message should definetly be marked as spam 60.
+",,
+40524,this message should definetly be marked as spam 31...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:17 IST","Thu, 05 Mar 2020 19:45:17 IST",,spam,"this message should definetly be marked as spam 31.
+this message should definetly be marked as spam 31.
+this message should definetly be marked as spam 31.
+",,
+40525,this message should definetly be marked as spam 18...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:18 IST","Thu, 05 Mar 2020 19:45:17 IST",,spam,"this message should definetly be marked as spam 185.
+this message should definetly be marked as spam 185.
+this message should definetly be marked as spam 185.
+",,
+40515,this message should definetly be marked as spam 12...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:16 IST","Thu, 05 Mar 2020 19:45:16 IST",,spam,"this message should definetly be marked as spam 128.
+this message should definetly be marked as spam 128.
+this message should definetly be marked as spam 128.
+",,
+40516,this message should definetly be marked as spam 16...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:16 IST","Thu, 05 Mar 2020 19:45:16 IST",,spam,"this message should definetly be marked as spam 16.
+this message should definetly be marked as spam 16.
+this message should definetly be marked as spam 16.
+",,
+40517,this message should definetly be marked as spam 11...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:16 IST","Thu, 05 Mar 2020 19:45:16 IST",,spam,"this message should definetly be marked as spam 110.
+this message should definetly be marked as spam 110.
+this message should definetly be marked as spam 110.
+",,
+40518,this message should definetly be marked as spam 1....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:16 IST","Thu, 05 Mar 2020 19:45:16 IST",,spam,"this message should definetly be marked as spam 1.
+this message should definetly be marked as spam 1.
+this message should definetly be marked as spam 1.
+",,
+40519,this message should definetly be marked as spam 13...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:16 IST","Thu, 05 Mar 2020 19:45:16 IST",,spam,"this message should definetly be marked as spam 134.
+this message should definetly be marked as spam 134.
+this message should definetly be marked as spam 134.
+",,
+40512,this message should definetly be marked as ham 149...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:15 IST","Thu, 05 Mar 2020 19:45:15 IST",,ham,"this message should definetly be marked as ham 149.
+this message should definetly be marked as ham 149.
+this message should definetly be marked as ham 149.
+",,
+40513,this message should definetly be marked as ham 185...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:15 IST","Thu, 05 Mar 2020 19:45:15 IST",,ham,"this message should definetly be marked as ham 185.
+this message should definetly be marked as ham 185.
+this message should definetly be marked as ham 185.
+",,
+40514,this message should definetly be marked as ham 30....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:15 IST","Thu, 05 Mar 2020 19:45:15 IST",,ham,"this message should definetly be marked as ham 30.
+this message should definetly be marked as ham 30.
+this message should definetly be marked as ham 30.
+",,
+40511,this message should definetly be marked as spam 75...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:15 IST","Thu, 05 Mar 2020 19:45:15 IST",,spam,"this message should definetly be marked as spam 75.
+this message should definetly be marked as spam 75.
+this message should definetly be marked as spam 75.
+",,
+40507,this message should definetly be marked as spam 17...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:14 IST","Thu, 05 Mar 2020 19:45:14 IST",,spam,"this message should definetly be marked as spam 173.
+this message should definetly be marked as spam 173.
+this message should definetly be marked as spam 173.
+",,
+40508,this message should definetly be marked as ham 29....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:14 IST","Thu, 05 Mar 2020 19:45:14 IST",,ham,"this message should definetly be marked as ham 29.
+this message should definetly be marked as ham 29.
+this message should definetly be marked as ham 29.
+",,
+40509,this message should definetly be marked as spam 94...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:14 IST","Thu, 05 Mar 2020 19:45:14 IST",,spam,"this message should definetly be marked as spam 94.
+this message should definetly be marked as spam 94.
+this message should definetly be marked as spam 94.
+",,
+40510,this message should definetly be marked as spam 15...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:15 IST","Thu, 05 Mar 2020 19:45:14 IST",,spam,"this message should definetly be marked as spam 152.
+this message should definetly be marked as spam 152.
+this message should definetly be marked as spam 152.
+",,
+40502,this message should definetly be marked as ham 31....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:13 IST","Thu, 05 Mar 2020 19:45:13 IST",,ham,"this message should definetly be marked as ham 31.
+this message should definetly be marked as ham 31.
+this message should definetly be marked as ham 31.
+",,
+40503,this message should definetly be marked as ham 12....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:13 IST","Thu, 05 Mar 2020 19:45:13 IST",,ham,"this message should definetly be marked as ham 12.
+this message should definetly be marked as ham 12.
+this message should definetly be marked as ham 12.
+",,
+40504,this message should definetly be marked as spam 67...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:13 IST","Thu, 05 Mar 2020 19:45:13 IST",,spam,"this message should definetly be marked as spam 67.
+this message should definetly be marked as spam 67.
+this message should definetly be marked as spam 67.
+",,
+40505,this message should definetly be marked as spam 7....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:13 IST","Thu, 05 Mar 2020 19:45:13 IST",,spam,"this message should definetly be marked as spam 7.
+this message should definetly be marked as spam 7.
+this message should definetly be marked as spam 7.
+",,
+40506,this message should definetly be marked as spam 18...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:13 IST","Thu, 05 Mar 2020 19:45:13 IST",,spam,"this message should definetly be marked as spam 183.
+this message should definetly be marked as spam 183.
+this message should definetly be marked as spam 183.
+",,
+40498,this message should definetly be marked as spam 12...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:12 IST","Thu, 05 Mar 2020 19:45:12 IST",,spam,"this message should definetly be marked as spam 125.
+this message should definetly be marked as spam 125.
+this message should definetly be marked as spam 125.
+",,
+40499,this message should definetly be marked as ham 104...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:12 IST","Thu, 05 Mar 2020 19:45:12 IST",,ham,"this message should definetly be marked as ham 104.
+this message should definetly be marked as ham 104.
+this message should definetly be marked as ham 104.
+",,
+40500,this message should definetly be marked as ham 98....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:12 IST","Thu, 05 Mar 2020 19:45:12 IST",,ham,"this message should definetly be marked as ham 98.
+this message should definetly be marked as ham 98.
+this message should definetly be marked as ham 98.
+",,
+40501,this message should definetly be marked as spam 86...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:12 IST","Thu, 05 Mar 2020 19:45:12 IST",,spam,"this message should definetly be marked as spam 86.
+this message should definetly be marked as spam 86.
+this message should definetly be marked as spam 86.
+",,
+40493,this message should definetly be marked as ham 51....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:11 IST","Thu, 05 Mar 2020 19:45:11 IST",,ham,"this message should definetly be marked as ham 51.
+this message should definetly be marked as ham 51.
+this message should definetly be marked as ham 51.
+",,
+40494,this message should definetly be marked as spam 38...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:11 IST","Thu, 05 Mar 2020 19:45:11 IST",,spam,"this message should definetly be marked as spam 38.
+this message should definetly be marked as spam 38.
+this message should definetly be marked as spam 38.
+",,
+40495,this message should definetly be marked as ham 53....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:11 IST","Thu, 05 Mar 2020 19:45:11 IST",,ham,"this message should definetly be marked as ham 53.
+this message should definetly be marked as ham 53.
+this message should definetly be marked as ham 53.
+",,
+40496,this message should definetly be marked as ham 170...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:11 IST","Thu, 05 Mar 2020 19:45:11 IST",,ham,"this message should definetly be marked as ham 170.
+this message should definetly be marked as ham 170.
+this message should definetly be marked as ham 170.
+",,
+40497,this message should definetly be marked as ham 100...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:12 IST","Thu, 05 Mar 2020 19:45:11 IST",,ham,"this message should definetly be marked as ham 100.
+this message should definetly be marked as ham 100.
+this message should definetly be marked as ham 100.
+",,
+40488,this message should definetly be marked as spam 52...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:10 IST","Thu, 05 Mar 2020 19:45:10 IST",,spam,"this message should definetly be marked as spam 52.
+this message should definetly be marked as spam 52.
+this message should definetly be marked as spam 52.
+",,
+40489,this message should definetly be marked as spam 56...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:10 IST","Thu, 05 Mar 2020 19:45:10 IST",,spam,"this message should definetly be marked as spam 56.
+this message should definetly be marked as spam 56.
+this message should definetly be marked as spam 56.
+",,
+40490,this message should definetly be marked as ham 24....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:10 IST","Thu, 05 Mar 2020 19:45:10 IST",,ham,"this message should definetly be marked as ham 24.
+this message should definetly be marked as ham 24.
+this message should definetly be marked as ham 24.
+",,
+40491,this message should definetly be marked as spam 16...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:10 IST","Thu, 05 Mar 2020 19:45:10 IST",,spam,"this message should definetly be marked as spam 169.
+this message should definetly be marked as spam 169.
+this message should definetly be marked as spam 169.
+",,
+40492,this message should definetly be marked as spam 17...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:11 IST","Thu, 05 Mar 2020 19:45:10 IST",,spam,"this message should definetly be marked as spam 17.
+this message should definetly be marked as spam 17.
+this message should definetly be marked as spam 17.
+",,
+40485,"this message should definetly be marked as ham 3.
+...",Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:09 IST","Thu, 05 Mar 2020 19:45:09 IST",,ham,"this message should definetly be marked as ham 3.
+this message should definetly be marked as ham 3.
+this message should definetly be marked as ham 3.
+",,
+40486,this message should definetly be marked as spam 61...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:09 IST","Thu, 05 Mar 2020 19:45:09 IST",,spam,"this message should definetly be marked as spam 61.
+this message should definetly be marked as spam 61.
+this message should definetly be marked as spam 61.
+",,
+40487,this message should definetly be marked as spam 15...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:09 IST","Thu, 05 Mar 2020 19:45:09 IST",,spam,"this message should definetly be marked as spam 15.
+this message should definetly be marked as spam 15.
+this message should definetly be marked as spam 15.
+",,
+40483,this message should definetly be marked as ham 45....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:09 IST","Thu, 05 Mar 2020 19:45:09 IST",,ham,"this message should definetly be marked as ham 45.
+this message should definetly be marked as ham 45.
+this message should definetly be marked as ham 45.
+",,
+40484,this message should definetly be marked as spam 19...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:09 IST","Thu, 05 Mar 2020 19:45:09 IST",,spam,"this message should definetly be marked as spam 190.
+this message should definetly be marked as spam 190.
+this message should definetly be marked as spam 190.
+",,
+40478,this message should definetly be marked as ham 129...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:08 IST","Thu, 05 Mar 2020 19:45:08 IST",,ham,"this message should definetly be marked as ham 129.
+this message should definetly be marked as ham 129.
+this message should definetly be marked as ham 129.
+",,
+40479,this message should definetly be marked as spam 44...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:08 IST","Thu, 05 Mar 2020 19:45:08 IST",,spam,"this message should definetly be marked as spam 44.
+this message should definetly be marked as spam 44.
+this message should definetly be marked as spam 44.
+",,
+40480,this message should definetly be marked as spam 13...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:08 IST","Thu, 05 Mar 2020 19:45:08 IST",,spam,"this message should definetly be marked as spam 132.
+this message should definetly be marked as spam 132.
+this message should definetly be marked as spam 132.
+",,
+40481,this message should definetly be marked as ham 174...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:08 IST","Thu, 05 Mar 2020 19:45:08 IST",,ham,"this message should definetly be marked as ham 174.
+this message should definetly be marked as ham 174.
+this message should definetly be marked as ham 174.
+",,
+40482,this message should definetly be marked as spam 16...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:08 IST","Thu, 05 Mar 2020 19:45:08 IST",,spam,"this message should definetly be marked as spam 163.
+this message should definetly be marked as spam 163.
+this message should definetly be marked as spam 163.
+",,
+40474,this message should definetly be marked as ham 178...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:07 IST","Thu, 05 Mar 2020 19:45:07 IST",,ham,"this message should definetly be marked as ham 178.
+this message should definetly be marked as ham 178.
+this message should definetly be marked as ham 178.
+",,
+40475,this message should definetly be marked as spam 15...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:07 IST","Thu, 05 Mar 2020 19:45:07 IST",,spam,"this message should definetly be marked as spam 156.
+this message should definetly be marked as spam 156.
+this message should definetly be marked as spam 156.
+",,
+40476,this message should definetly be marked as ham 106...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:07 IST","Thu, 05 Mar 2020 19:45:07 IST",,ham,"this message should definetly be marked as ham 106.
+this message should definetly be marked as ham 106.
+this message should definetly be marked as ham 106.
+",,
+40477,this message should definetly be marked as spam 64...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:07 IST","Thu, 05 Mar 2020 19:45:07 IST",,spam,"this message should definetly be marked as spam 64.
+this message should definetly be marked as spam 64.
+this message should definetly be marked as spam 64.
+",,
+40472,this message should definetly be marked as ham 40....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:06 IST","Thu, 05 Mar 2020 19:45:06 IST",,ham,"this message should definetly be marked as ham 40.
+this message should definetly be marked as ham 40.
+this message should definetly be marked as ham 40.
+",,
+40473,this message should definetly be marked as ham 184...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:07 IST","Thu, 05 Mar 2020 19:45:06 IST",,ham,"this message should definetly be marked as ham 184.
+this message should definetly be marked as ham 184.
+this message should definetly be marked as ham 184.
+",,
+40469,this message should definetly be marked as ham 155...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:06 IST","Thu, 05 Mar 2020 19:45:06 IST",,ham,"this message should definetly be marked as ham 155.
+this message should definetly be marked as ham 155.
+this message should definetly be marked as ham 155.
+",,
+40470,this message should definetly be marked as spam 99...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:06 IST","Thu, 05 Mar 2020 19:45:06 IST",,spam,"this message should definetly be marked as spam 99.
+this message should definetly be marked as spam 99.
+this message should definetly be marked as spam 99.
+",,
+40471,this message should definetly be marked as spam 12...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:06 IST","Thu, 05 Mar 2020 19:45:06 IST",,spam,"this message should definetly be marked as spam 129.
+this message should definetly be marked as spam 129.
+this message should definetly be marked as spam 129.
+",,
+40466,this message should definetly be marked as spam 9....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:05 IST","Thu, 05 Mar 2020 19:45:05 IST",,spam,"this message should definetly be marked as spam 9.
+this message should definetly be marked as spam 9.
+this message should definetly be marked as spam 9.
+",,
+40467,this message should definetly be marked as spam 49...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:05 IST","Thu, 05 Mar 2020 19:45:05 IST",,spam,"this message should definetly be marked as spam 49.
+this message should definetly be marked as spam 49.
+this message should definetly be marked as spam 49.
+",,
+40468,this message should definetly be marked as ham 13....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:05 IST","Thu, 05 Mar 2020 19:45:05 IST",,ham,"this message should definetly be marked as ham 13.
+this message should definetly be marked as ham 13.
+this message should definetly be marked as ham 13.
+",,
+40461,this message should definetly be marked as ham 92....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:04 IST","Thu, 05 Mar 2020 19:45:04 IST",,ham,"this message should definetly be marked as ham 92.
+this message should definetly be marked as ham 92.
+this message should definetly be marked as ham 92.
+",,
+40462,this message should definetly be marked as ham 16....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:04 IST","Thu, 05 Mar 2020 19:45:04 IST",,ham,"this message should definetly be marked as ham 16.
+this message should definetly be marked as ham 16.
+this message should definetly be marked as ham 16.
+",,
+40463,this message should definetly be marked as spam 15...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:04 IST","Thu, 05 Mar 2020 19:45:04 IST",,spam,"this message should definetly be marked as spam 155.
+this message should definetly be marked as spam 155.
+this message should definetly be marked as spam 155.
+",,
+40464,this message should definetly be marked as spam 11...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:04 IST","Thu, 05 Mar 2020 19:45:04 IST",,spam,"this message should definetly be marked as spam 117.
+this message should definetly be marked as spam 117.
+this message should definetly be marked as spam 117.
+",,
+40465,this message should definetly be marked as spam 12...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:04 IST","Thu, 05 Mar 2020 19:45:04 IST",,spam,"this message should definetly be marked as spam 120.
+this message should definetly be marked as spam 120.
+this message should definetly be marked as spam 120.
+",,
+40457,this message should definetly be marked as spam 10...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:03 IST","Thu, 05 Mar 2020 19:45:03 IST",,spam,"this message should definetly be marked as spam 100.
+this message should definetly be marked as spam 100.
+this message should definetly be marked as spam 100.
+",,
+40458,this message should definetly be marked as spam 3....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:03 IST","Thu, 05 Mar 2020 19:45:03 IST",,spam,"this message should definetly be marked as spam 3.
+this message should definetly be marked as spam 3.
+this message should definetly be marked as spam 3.
+",,
+40459,this message should definetly be marked as spam 90...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:03 IST","Thu, 05 Mar 2020 19:45:03 IST",,spam,"this message should definetly be marked as spam 90.
+this message should definetly be marked as spam 90.
+this message should definetly be marked as spam 90.
+",,
+40460,this message should definetly be marked as ham 33....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:03 IST","Thu, 05 Mar 2020 19:45:03 IST",,ham,"this message should definetly be marked as ham 33.
+this message should definetly be marked as ham 33.
+this message should definetly be marked as ham 33.
+",,
+40452,this message should definetly be marked as spam 17...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:02 IST","Thu, 05 Mar 2020 19:45:02 IST",,spam,"this message should definetly be marked as spam 171.
+this message should definetly be marked as spam 171.
+this message should definetly be marked as spam 171.
+",,
+40453,this message should definetly be marked as ham 159...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:02 IST","Thu, 05 Mar 2020 19:45:02 IST",,ham,"this message should definetly be marked as ham 159.
+this message should definetly be marked as ham 159.
+this message should definetly be marked as ham 159.
+",,
+40454,this message should definetly be marked as ham 52....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:02 IST","Thu, 05 Mar 2020 19:45:02 IST",,ham,"this message should definetly be marked as ham 52.
+this message should definetly be marked as ham 52.
+this message should definetly be marked as ham 52.
+",,
+40455,this message should definetly be marked as ham 116...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:02 IST","Thu, 05 Mar 2020 19:45:02 IST",,ham,"this message should definetly be marked as ham 116.
+this message should definetly be marked as ham 116.
+this message should definetly be marked as ham 116.
+",,
+40456,this message should definetly be marked as spam 19...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:03 IST","Thu, 05 Mar 2020 19:45:02 IST",,spam,"this message should definetly be marked as spam 194.
+this message should definetly be marked as spam 194.
+this message should definetly be marked as spam 194.
+",,
+40451,this message should definetly be marked as spam 10...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:02 IST","Thu, 05 Mar 2020 19:45:01 IST",,spam,"this message should definetly be marked as spam 108.
+this message should definetly be marked as spam 108.
+this message should definetly be marked as spam 108.
+",,
+40448,this message should definetly be marked as spam 50...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:01 IST","Thu, 05 Mar 2020 19:45:01 IST",,spam,"this message should definetly be marked as spam 50.
+this message should definetly be marked as spam 50.
+this message should definetly be marked as spam 50.
+",,
+40449,this message should definetly be marked as spam 14...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:01 IST","Thu, 05 Mar 2020 19:45:01 IST",,spam,"this message should definetly be marked as spam 14.
+this message should definetly be marked as spam 14.
+this message should definetly be marked as spam 14.
+",,
+40450,this message should definetly be marked as spam 70...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:01 IST","Thu, 05 Mar 2020 19:45:01 IST",,spam,"this message should definetly be marked as spam 70.
+this message should definetly be marked as spam 70.
+this message should definetly be marked as spam 70.
+",,
+40443,this message should definetly be marked as spam 97...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:00 IST","Thu, 05 Mar 2020 19:45:00 IST",,spam,"this message should definetly be marked as spam 97.
+this message should definetly be marked as spam 97.
+this message should definetly be marked as spam 97.
+",,
+40444,this message should definetly be marked as ham 115...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:00 IST","Thu, 05 Mar 2020 19:45:00 IST",,ham,"this message should definetly be marked as ham 115.
+this message should definetly be marked as ham 115.
+this message should definetly be marked as ham 115.
+",,
+40445,this message should definetly be marked as ham 34....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:00 IST","Thu, 05 Mar 2020 19:45:00 IST",,ham,"this message should definetly be marked as ham 34.
+this message should definetly be marked as ham 34.
+this message should definetly be marked as ham 34.
+",,
+40446,this message should definetly be marked as spam 11...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:00 IST","Thu, 05 Mar 2020 19:45:00 IST",,spam,"this message should definetly be marked as spam 118.
+this message should definetly be marked as spam 118.
+this message should definetly be marked as spam 118.
+",,
+40447,this message should definetly be marked as ham 72....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:45:01 IST","Thu, 05 Mar 2020 19:45:00 IST",,ham,"this message should definetly be marked as ham 72.
+this message should definetly be marked as ham 72.
+this message should definetly be marked as ham 72.
+",,
+40439,this message should definetly be marked as ham 25....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:59 IST","Thu, 05 Mar 2020 19:44:59 IST",,ham,"this message should definetly be marked as ham 25.
+this message should definetly be marked as ham 25.
+this message should definetly be marked as ham 25.
+",,
+40440,this message should definetly be marked as ham 152...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:59 IST","Thu, 05 Mar 2020 19:44:59 IST",,ham,"this message should definetly be marked as ham 152.
+this message should definetly be marked as ham 152.
+this message should definetly be marked as ham 152.
+",,
+40441,this message should definetly be marked as ham 10....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:59 IST","Thu, 05 Mar 2020 19:44:59 IST",,ham,"this message should definetly be marked as ham 10.
+this message should definetly be marked as ham 10.
+this message should definetly be marked as ham 10.
+",,
+40442,this message should definetly be marked as ham 102...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:59 IST","Thu, 05 Mar 2020 19:44:59 IST",,ham,"this message should definetly be marked as ham 102.
+this message should definetly be marked as ham 102.
+this message should definetly be marked as ham 102.
+",,
+40435,this message should definetly be marked as ham 182...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:58 IST","Thu, 05 Mar 2020 19:44:58 IST",,ham,"this message should definetly be marked as ham 182.
+this message should definetly be marked as ham 182.
+this message should definetly be marked as ham 182.
+",,
+40436,this message should definetly be marked as spam 13...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:58 IST","Thu, 05 Mar 2020 19:44:58 IST",,spam,"this message should definetly be marked as spam 133.
+this message should definetly be marked as spam 133.
+this message should definetly be marked as spam 133.
+",,
+40437,this message should definetly be marked as ham 177...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:58 IST","Thu, 05 Mar 2020 19:44:58 IST",,ham,"this message should definetly be marked as ham 177.
+this message should definetly be marked as ham 177.
+this message should definetly be marked as ham 177.
+",,
+40438,this message should definetly be marked as ham 11....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:58 IST","Thu, 05 Mar 2020 19:44:58 IST",,ham,"this message should definetly be marked as ham 11.
+this message should definetly be marked as ham 11.
+this message should definetly be marked as ham 11.
+",,
+40430,this message should definetly be marked as ham 114...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:57 IST","Thu, 05 Mar 2020 19:44:57 IST",,ham,"this message should definetly be marked as ham 114.
+this message should definetly be marked as ham 114.
+this message should definetly be marked as ham 114.
+",,
+40431,this message should definetly be marked as spam 73...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:57 IST","Thu, 05 Mar 2020 19:44:57 IST",,spam,"this message should definetly be marked as spam 73.
+this message should definetly be marked as spam 73.
+this message should definetly be marked as spam 73.
+",,
+40432,this message should definetly be marked as ham 41....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:57 IST","Thu, 05 Mar 2020 19:44:57 IST",,ham,"this message should definetly be marked as ham 41.
+this message should definetly be marked as ham 41.
+this message should definetly be marked as ham 41.
+",,
+40433,this message should definetly be marked as ham 90....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:57 IST","Thu, 05 Mar 2020 19:44:57 IST",,ham,"this message should definetly be marked as ham 90.
+this message should definetly be marked as ham 90.
+this message should definetly be marked as ham 90.
+",,
+40434,this message should definetly be marked as spam 27...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:58 IST","Thu, 05 Mar 2020 19:44:57 IST",,spam,"this message should definetly be marked as spam 27.
+this message should definetly be marked as spam 27.
+this message should definetly be marked as spam 27.
+",,
+40425,this message should definetly be marked as ham 128...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:56 IST","Thu, 05 Mar 2020 19:44:56 IST",,ham,"this message should definetly be marked as ham 128.
+this message should definetly be marked as ham 128.
+this message should definetly be marked as ham 128.
+",,
+40426,this message should definetly be marked as spam 19...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:56 IST","Thu, 05 Mar 2020 19:44:56 IST",,spam,"this message should definetly be marked as spam 192.
+this message should definetly be marked as spam 192.
+this message should definetly be marked as spam 192.
+",,
+40427,this message should definetly be marked as ham 198...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:56 IST","Thu, 05 Mar 2020 19:44:56 IST",,ham,"this message should definetly be marked as ham 198.
+this message should definetly be marked as ham 198.
+this message should definetly be marked as ham 198.
+",,
+40428,this message should definetly be marked as ham 176...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:56 IST","Thu, 05 Mar 2020 19:44:56 IST",,ham,"this message should definetly be marked as ham 176.
+this message should definetly be marked as ham 176.
+this message should definetly be marked as ham 176.
+",,
+40429,this message should definetly be marked as spam 15...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:57 IST","Thu, 05 Mar 2020 19:44:56 IST",,spam,"this message should definetly be marked as spam 159.
+this message should definetly be marked as spam 159.
+this message should definetly be marked as spam 159.
+",,
+40421,this message should definetly be marked as ham 125...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:55 IST","Thu, 05 Mar 2020 19:44:55 IST",,ham,"this message should definetly be marked as ham 125.
+this message should definetly be marked as ham 125.
+this message should definetly be marked as ham 125.
+",,
+40422,this message should definetly be marked as spam 12...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:55 IST","Thu, 05 Mar 2020 19:44:55 IST",,spam,"this message should definetly be marked as spam 126.
+this message should definetly be marked as spam 126.
+this message should definetly be marked as spam 126.
+",,
+40423,this message should definetly be marked as ham 15....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:55 IST","Thu, 05 Mar 2020 19:44:55 IST",,ham,"this message should definetly be marked as ham 15.
+this message should definetly be marked as ham 15.
+this message should definetly be marked as ham 15.
+",,
+40424,this message should definetly be marked as spam 54...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:56 IST","Thu, 05 Mar 2020 19:44:55 IST",,spam,"this message should definetly be marked as spam 54.
+this message should definetly be marked as spam 54.
+this message should definetly be marked as spam 54.
+",,
+40418,this message should definetly be marked as spam 13...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:54 IST","Thu, 05 Mar 2020 19:44:54 IST",,spam,"this message should definetly be marked as spam 137.
+this message should definetly be marked as spam 137.
+this message should definetly be marked as spam 137.
+",,
+40419,this message should definetly be marked as ham 191...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:54 IST","Thu, 05 Mar 2020 19:44:54 IST",,ham,"this message should definetly be marked as ham 191.
+this message should definetly be marked as ham 191.
+this message should definetly be marked as ham 191.
+",,
+40420,this message should definetly be marked as ham 127...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:55 IST","Thu, 05 Mar 2020 19:44:54 IST",,ham,"this message should definetly be marked as ham 127.
+this message should definetly be marked as ham 127.
+this message should definetly be marked as ham 127.
+",,
+40416,this message should definetly be marked as ham 62....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:54 IST","Thu, 05 Mar 2020 19:44:54 IST",,ham,"this message should definetly be marked as ham 62.
+this message should definetly be marked as ham 62.
+this message should definetly be marked as ham 62.
+",,
+40417,this message should definetly be marked as spam 95...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:54 IST","Thu, 05 Mar 2020 19:44:54 IST",,spam,"this message should definetly be marked as spam 95.
+this message should definetly be marked as spam 95.
+this message should definetly be marked as spam 95.
+",,
+40411,this message should definetly be marked as spam 83...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:53 IST","Thu, 05 Mar 2020 19:44:53 IST",,spam,"this message should definetly be marked as spam 83.
+this message should definetly be marked as spam 83.
+this message should definetly be marked as spam 83.
+",,
+40412,this message should definetly be marked as ham 58....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:53 IST","Thu, 05 Mar 2020 19:44:53 IST",,ham,"this message should definetly be marked as ham 58.
+this message should definetly be marked as ham 58.
+this message should definetly be marked as ham 58.
+",,
+40413,this message should definetly be marked as ham 89....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:53 IST","Thu, 05 Mar 2020 19:44:53 IST",,ham,"this message should definetly be marked as ham 89.
+this message should definetly be marked as ham 89.
+this message should definetly be marked as ham 89.
+",,
+40414,"this message should definetly be marked as ham 7.
+...",Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:53 IST","Thu, 05 Mar 2020 19:44:53 IST",,ham,"this message should definetly be marked as ham 7.
+this message should definetly be marked as ham 7.
+this message should definetly be marked as ham 7.
+",,
+40415,this message should definetly be marked as ham 197...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:54 IST","Thu, 05 Mar 2020 19:44:53 IST",,ham,"this message should definetly be marked as ham 197.
+this message should definetly be marked as ham 197.
+this message should definetly be marked as ham 197.
+",,
+40406,this message should definetly be marked as spam 11...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:52 IST","Thu, 05 Mar 2020 19:44:52 IST",,spam,"this message should definetly be marked as spam 115.
+this message should definetly be marked as spam 115.
+this message should definetly be marked as spam 115.
+",,
+40407,this message should definetly be marked as spam 17...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:52 IST","Thu, 05 Mar 2020 19:44:52 IST",,spam,"this message should definetly be marked as spam 175.
+this message should definetly be marked as spam 175.
+this message should definetly be marked as spam 175.
+",,
+40408,this message should definetly be marked as ham 56....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:52 IST","Thu, 05 Mar 2020 19:44:52 IST",,ham,"this message should definetly be marked as ham 56.
+this message should definetly be marked as ham 56.
+this message should definetly be marked as ham 56.
+",,
+40409,this message should definetly be marked as ham 85....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:52 IST","Thu, 05 Mar 2020 19:44:52 IST",,ham,"this message should definetly be marked as ham 85.
+this message should definetly be marked as ham 85.
+this message should definetly be marked as ham 85.
+",,
+40410,this message should definetly be marked as spam 69...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:52 IST","Thu, 05 Mar 2020 19:44:52 IST",,spam,"this message should definetly be marked as spam 69.
+this message should definetly be marked as spam 69.
+this message should definetly be marked as spam 69.
+",,
+40402,this message should definetly be marked as spam 19...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:51 IST","Thu, 05 Mar 2020 19:44:51 IST",,spam,"this message should definetly be marked as spam 198.
+this message should definetly be marked as spam 198.
+this message should definetly be marked as spam 198.
+",,
+40403,this message should definetly be marked as spam 0....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:51 IST","Thu, 05 Mar 2020 19:44:51 IST",,spam,"this message should definetly be marked as spam 0.
+this message should definetly be marked as spam 0.
+this message should definetly be marked as spam 0.
+",,
+40404,this message should definetly be marked as ham 54....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:51 IST","Thu, 05 Mar 2020 19:44:51 IST",,ham,"this message should definetly be marked as ham 54.
+this message should definetly be marked as ham 54.
+this message should definetly be marked as ham 54.
+",,
+40405,this message should definetly be marked as ham 66....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:51 IST","Thu, 05 Mar 2020 19:44:51 IST",,ham,"this message should definetly be marked as ham 66.
+this message should definetly be marked as ham 66.
+this message should definetly be marked as ham 66.
+",,
+40397,this message should definetly be marked as ham 120...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:50 IST","Thu, 05 Mar 2020 19:44:50 IST",,ham,"this message should definetly be marked as ham 120.
+this message should definetly be marked as ham 120.
+this message should definetly be marked as ham 120.
+",,
+40398,this message should definetly be marked as spam 25...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:50 IST","Thu, 05 Mar 2020 19:44:50 IST",,spam,"this message should definetly be marked as spam 25.
+this message should definetly be marked as spam 25.
+this message should definetly be marked as spam 25.
+",,
+40399,this message should definetly be marked as ham 134...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:50 IST","Thu, 05 Mar 2020 19:44:50 IST",,ham,"this message should definetly be marked as ham 134.
+this message should definetly be marked as ham 134.
+this message should definetly be marked as ham 134.
+",,
+40400,this message should definetly be marked as spam 66...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:50 IST","Thu, 05 Mar 2020 19:44:50 IST",,spam,"this message should definetly be marked as spam 66.
+this message should definetly be marked as spam 66.
+this message should definetly be marked as spam 66.
+",,
+40401,this message should definetly be marked as spam 15...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:51 IST","Thu, 05 Mar 2020 19:44:50 IST",,spam,"this message should definetly be marked as spam 158.
+this message should definetly be marked as spam 158.
+this message should definetly be marked as spam 158.
+",,
+40393,this message should definetly be marked as spam 26...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:49 IST","Thu, 05 Mar 2020 19:44:49 IST",,spam,"this message should definetly be marked as spam 26.
+this message should definetly be marked as spam 26.
+this message should definetly be marked as spam 26.
+",,
+40392,this message should definetly be marked as ham 69....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:49 IST","Thu, 05 Mar 2020 19:44:49 IST",,ham,"this message should definetly be marked as ham 69.
+this message should definetly be marked as ham 69.
+this message should definetly be marked as ham 69.
+",,
+40394,this message should definetly be marked as ham 130...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:49 IST","Thu, 05 Mar 2020 19:44:49 IST",,ham,"this message should definetly be marked as ham 130.
+this message should definetly be marked as ham 130.
+this message should definetly be marked as ham 130.
+",,
+40395,this message should definetly be marked as ham 142...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:49 IST","Thu, 05 Mar 2020 19:44:49 IST",,ham,"this message should definetly be marked as ham 142.
+this message should definetly be marked as ham 142.
+this message should definetly be marked as ham 142.
+",,
+40396,this message should definetly be marked as ham 156...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:50 IST","Thu, 05 Mar 2020 19:44:49 IST",,ham,"this message should definetly be marked as ham 156.
+this message should definetly be marked as ham 156.
+this message should definetly be marked as ham 156.
+",,
+40387,this message should definetly be marked as ham 101...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:48 IST","Thu, 05 Mar 2020 19:44:48 IST",,ham,"this message should definetly be marked as ham 101.
+this message should definetly be marked as ham 101.
+this message should definetly be marked as ham 101.
+",,
+40388,this message should definetly be marked as spam 17...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:48 IST","Thu, 05 Mar 2020 19:44:48 IST",,spam,"this message should definetly be marked as spam 174.
+this message should definetly be marked as spam 174.
+this message should definetly be marked as spam 174.
+",,
+40389,this message should definetly be marked as ham 126...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:48 IST","Thu, 05 Mar 2020 19:44:48 IST",,ham,"this message should definetly be marked as ham 126.
+this message should definetly be marked as ham 126.
+this message should definetly be marked as ham 126.
+",,
+40390,this message should definetly be marked as spam 12...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:48 IST","Thu, 05 Mar 2020 19:44:48 IST",,spam,"this message should definetly be marked as spam 124.
+this message should definetly be marked as spam 124.
+this message should definetly be marked as spam 124.
+",,
+40391,this message should definetly be marked as ham 175...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:49 IST","Thu, 05 Mar 2020 19:44:48 IST",,ham,"this message should definetly be marked as ham 175.
+this message should definetly be marked as ham 175.
+this message should definetly be marked as ham 175.
+",,
+40382,this message should definetly be marked as ham 60....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:47 IST","Thu, 05 Mar 2020 19:44:47 IST",,ham,"this message should definetly be marked as ham 60.
+this message should definetly be marked as ham 60.
+this message should definetly be marked as ham 60.
+",,
+40383,this message should definetly be marked as spam 11...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:47 IST","Thu, 05 Mar 2020 19:44:47 IST",,spam,"this message should definetly be marked as spam 113.
+this message should definetly be marked as spam 113.
+this message should definetly be marked as spam 113.
+",,
+40384,this message should definetly be marked as ham 35....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:47 IST","Thu, 05 Mar 2020 19:44:47 IST",,ham,"this message should definetly be marked as ham 35.
+this message should definetly be marked as ham 35.
+this message should definetly be marked as ham 35.
+",,
+40385,this message should definetly be marked as spam 15...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:47 IST","Thu, 05 Mar 2020 19:44:47 IST",,spam,"this message should definetly be marked as spam 154.
+this message should definetly be marked as spam 154.
+this message should definetly be marked as spam 154.
+",,
+40386,this message should definetly be marked as spam 59...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:48 IST","Thu, 05 Mar 2020 19:44:47 IST",,spam,"this message should definetly be marked as spam 59.
+this message should definetly be marked as spam 59.
+this message should definetly be marked as spam 59.
+",,
+40378,this message should definetly be marked as spam 87...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:46 IST","Thu, 05 Mar 2020 19:44:46 IST",,spam,"this message should definetly be marked as spam 87.
+this message should definetly be marked as spam 87.
+this message should definetly be marked as spam 87.
+",,
+40379,this message should definetly be marked as spam 12...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:46 IST","Thu, 05 Mar 2020 19:44:46 IST",,spam,"this message should definetly be marked as spam 127.
+this message should definetly be marked as spam 127.
+this message should definetly be marked as spam 127.
+",,
+40380,this message should definetly be marked as ham 65....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:46 IST","Thu, 05 Mar 2020 19:44:46 IST",,ham,"this message should definetly be marked as ham 65.
+this message should definetly be marked as ham 65.
+this message should definetly be marked as ham 65.
+",,
+40381,this message should definetly be marked as spam 13...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:46 IST","Thu, 05 Mar 2020 19:44:46 IST",,spam,"this message should definetly be marked as spam 135.
+this message should definetly be marked as spam 135.
+this message should definetly be marked as spam 135.
+",,
+40373,"this message should definetly be marked as ham 1.
+...",Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:45 IST","Thu, 05 Mar 2020 19:44:45 IST",,ham,"this message should definetly be marked as ham 1.
+this message should definetly be marked as ham 1.
+this message should definetly be marked as ham 1.
+",,
+40374,this message should definetly be marked as ham 135...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:45 IST","Thu, 05 Mar 2020 19:44:45 IST",,ham,"this message should definetly be marked as ham 135.
+this message should definetly be marked as ham 135.
+this message should definetly be marked as ham 135.
+",,
+40375,this message should definetly be marked as ham 26....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:45 IST","Thu, 05 Mar 2020 19:44:45 IST",,ham,"this message should definetly be marked as ham 26.
+this message should definetly be marked as ham 26.
+this message should definetly be marked as ham 26.
+",,
+40376,this message should definetly be marked as ham 97....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:45 IST","Thu, 05 Mar 2020 19:44:45 IST",,ham,"this message should definetly be marked as ham 97.
+this message should definetly be marked as ham 97.
+this message should definetly be marked as ham 97.
+",,
+40377,this message should definetly be marked as spam 14...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:46 IST","Thu, 05 Mar 2020 19:44:45 IST",,spam,"this message should definetly be marked as spam 149.
+this message should definetly be marked as spam 149.
+this message should definetly be marked as spam 149.
+",,
+40369,this message should definetly be marked as ham 75....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:44 IST","Thu, 05 Mar 2020 19:44:44 IST",,ham,"this message should definetly be marked as ham 75.
+this message should definetly be marked as ham 75.
+this message should definetly be marked as ham 75.
+",,
+40370,this message should definetly be marked as spam 5....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:44 IST","Thu, 05 Mar 2020 19:44:44 IST",,spam,"this message should definetly be marked as spam 5.
+this message should definetly be marked as spam 5.
+this message should definetly be marked as spam 5.
+",,
+40371,this message should definetly be marked as spam 14...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:44 IST","Thu, 05 Mar 2020 19:44:44 IST",,spam,"this message should definetly be marked as spam 142.
+this message should definetly be marked as spam 142.
+this message should definetly be marked as spam 142.
+",,
+40372,this message should definetly be marked as spam 37...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:45 IST","Thu, 05 Mar 2020 19:44:44 IST",,spam,"this message should definetly be marked as spam 37.
+this message should definetly be marked as spam 37.
+this message should definetly be marked as spam 37.
+",,
+40364,this message should definetly be marked as ham 36....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:43 IST","Thu, 05 Mar 2020 19:44:43 IST",,ham,"this message should definetly be marked as ham 36.
+this message should definetly be marked as ham 36.
+this message should definetly be marked as ham 36.
+",,
+40365,this message should definetly be marked as ham 196...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:43 IST","Thu, 05 Mar 2020 19:44:43 IST",,ham,"this message should definetly be marked as ham 196.
+this message should definetly be marked as ham 196.
+this message should definetly be marked as ham 196.
+",,
+40366,this message should definetly be marked as spam 18...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:43 IST","Thu, 05 Mar 2020 19:44:43 IST",,spam,"this message should definetly be marked as spam 18.
+this message should definetly be marked as spam 18.
+this message should definetly be marked as spam 18.
+",,
+40367,this message should definetly be marked as spam 11...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:43 IST","Thu, 05 Mar 2020 19:44:43 IST",,spam,"this message should definetly be marked as spam 112.
+this message should definetly be marked as spam 112.
+this message should definetly be marked as spam 112.
+",,
+40368,this message should definetly be marked as spam 78...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:44 IST","Thu, 05 Mar 2020 19:44:43 IST",,spam,"this message should definetly be marked as spam 78.
+this message should definetly be marked as spam 78.
+this message should definetly be marked as spam 78.
+",,
+40359,this message should definetly be marked as spam 30...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:42 IST","Thu, 05 Mar 2020 19:44:42 IST",,spam,"this message should definetly be marked as spam 30.
+this message should definetly be marked as spam 30.
+this message should definetly be marked as spam 30.
+",,
+40360,this message should definetly be marked as ham 160...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:42 IST","Thu, 05 Mar 2020 19:44:42 IST",,ham,"this message should definetly be marked as ham 160.
+this message should definetly be marked as ham 160.
+this message should definetly be marked as ham 160.
+",,
+40361,this message should definetly be marked as spam 17...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:42 IST","Thu, 05 Mar 2020 19:44:42 IST",,spam,"this message should definetly be marked as spam 178.
+this message should definetly be marked as spam 178.
+this message should definetly be marked as spam 178.
+",,
+40362,this message should definetly be marked as spam 55...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:42 IST","Thu, 05 Mar 2020 19:44:42 IST",,spam,"this message should definetly be marked as spam 55.
+this message should definetly be marked as spam 55.
+this message should definetly be marked as spam 55.
+",,
+40363,"this message should definetly be marked as ham 8.
+...",Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:43 IST","Thu, 05 Mar 2020 19:44:42 IST",,ham,"this message should definetly be marked as ham 8.
+this message should definetly be marked as ham 8.
+this message should definetly be marked as ham 8.
+",,
+40354,this message should definetly be marked as ham 186...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:41 IST","Thu, 05 Mar 2020 19:44:41 IST",,ham,"this message should definetly be marked as ham 186.
+this message should definetly be marked as ham 186.
+this message should definetly be marked as ham 186.
+",,
+40355,this message should definetly be marked as spam 98...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:41 IST","Thu, 05 Mar 2020 19:44:41 IST",,spam,"this message should definetly be marked as spam 98.
+this message should definetly be marked as spam 98.
+this message should definetly be marked as spam 98.
+",,
+40356,this message should definetly be marked as spam 16...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:41 IST","Thu, 05 Mar 2020 19:44:41 IST",,spam,"this message should definetly be marked as spam 160.
+this message should definetly be marked as spam 160.
+this message should definetly be marked as spam 160.
+",,
+40357,this message should definetly be marked as ham 17....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:41 IST","Thu, 05 Mar 2020 19:44:41 IST",,ham,"this message should definetly be marked as ham 17.
+this message should definetly be marked as ham 17.
+this message should definetly be marked as ham 17.
+",,
+40358,this message should definetly be marked as spam 89...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:41 IST","Thu, 05 Mar 2020 19:44:41 IST",,spam,"this message should definetly be marked as spam 89.
+this message should definetly be marked as spam 89.
+this message should definetly be marked as spam 89.
+",,
+40349,this message should definetly be marked as ham 123...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:40 IST","Thu, 05 Mar 2020 19:44:40 IST",,ham,"this message should definetly be marked as ham 123.
+this message should definetly be marked as ham 123.
+this message should definetly be marked as ham 123.
+",,
+40350,this message should definetly be marked as ham 73....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:40 IST","Thu, 05 Mar 2020 19:44:40 IST",,ham,"this message should definetly be marked as ham 73.
+this message should definetly be marked as ham 73.
+this message should definetly be marked as ham 73.
+",,
+40351,this message should definetly be marked as spam 18...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:40 IST","Thu, 05 Mar 2020 19:44:40 IST",,spam,"this message should definetly be marked as spam 180.
+this message should definetly be marked as spam 180.
+this message should definetly be marked as spam 180.
+",,
+40352,this message should definetly be marked as spam 82...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:40 IST","Thu, 05 Mar 2020 19:44:40 IST",,spam,"this message should definetly be marked as spam 82.
+this message should definetly be marked as spam 82.
+this message should definetly be marked as spam 82.
+",,
+40353,this message should definetly be marked as ham 67....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:41 IST","Thu, 05 Mar 2020 19:44:40 IST",,ham,"this message should definetly be marked as ham 67.
+this message should definetly be marked as ham 67.
+this message should definetly be marked as ham 67.
+",,
+40344,this message should definetly be marked as ham 79....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:39 IST","Thu, 05 Mar 2020 19:44:39 IST",,ham,"this message should definetly be marked as ham 79.
+this message should definetly be marked as ham 79.
+this message should definetly be marked as ham 79.
+",,
+40345,this message should definetly be marked as ham 168...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:39 IST","Thu, 05 Mar 2020 19:44:39 IST",,ham,"this message should definetly be marked as ham 168.
+this message should definetly be marked as ham 168.
+this message should definetly be marked as ham 168.
+",,
+40346,this message should definetly be marked as ham 172...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:39 IST","Thu, 05 Mar 2020 19:44:39 IST",,ham,"this message should definetly be marked as ham 172.
+this message should definetly be marked as ham 172.
+this message should definetly be marked as ham 172.
+",,
+40347,this message should definetly be marked as spam 13...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:39 IST","Thu, 05 Mar 2020 19:44:39 IST",,spam,"this message should definetly be marked as spam 131.
+this message should definetly be marked as spam 131.
+this message should definetly be marked as spam 131.
+",,
+40348,this message should definetly be marked as ham 71....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:40 IST","Thu, 05 Mar 2020 19:44:39 IST",,ham,"this message should definetly be marked as ham 71.
+this message should definetly be marked as ham 71.
+this message should definetly be marked as ham 71.
+",,
+40338,"this message should definetly be marked as ham 6.
+...",Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:38 IST","Thu, 05 Mar 2020 19:44:38 IST",,ham,"this message should definetly be marked as ham 6.
+this message should definetly be marked as ham 6.
+this message should definetly be marked as ham 6.
+",,
+40339,this message should definetly be marked as spam 18...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:38 IST","Thu, 05 Mar 2020 19:44:38 IST",,spam,"this message should definetly be marked as spam 187.
+this message should definetly be marked as spam 187.
+this message should definetly be marked as spam 187.
+",,
+40340,this message should definetly be marked as ham 93....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:38 IST","Thu, 05 Mar 2020 19:44:38 IST",,ham,"this message should definetly be marked as ham 93.
+this message should definetly be marked as ham 93.
+this message should definetly be marked as ham 93.
+",,
+40341,this message should definetly be marked as spam 18...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:38 IST","Thu, 05 Mar 2020 19:44:38 IST",,spam,"this message should definetly be marked as spam 186.
+this message should definetly be marked as spam 186.
+this message should definetly be marked as spam 186.
+",,
+40342,this message should definetly be marked as spam 18...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:38 IST","Thu, 05 Mar 2020 19:44:38 IST",,spam,"this message should definetly be marked as spam 189.
+this message should definetly be marked as spam 189.
+this message should definetly be marked as spam 189.
+",,
+40343,this message should definetly be marked as ham 153...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:39 IST","Thu, 05 Mar 2020 19:44:38 IST",,ham,"this message should definetly be marked as ham 153.
+this message should definetly be marked as ham 153.
+this message should definetly be marked as ham 153.
+",,
+40333,this message should definetly be marked as ham 28....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:37 IST","Thu, 05 Mar 2020 19:44:37 IST",,ham,"this message should definetly be marked as ham 28.
+this message should definetly be marked as ham 28.
+this message should definetly be marked as ham 28.
+",,
+40334,this message should definetly be marked as spam 19...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:37 IST","Thu, 05 Mar 2020 19:44:37 IST",,spam,"this message should definetly be marked as spam 19.
+this message should definetly be marked as spam 19.
+this message should definetly be marked as spam 19.
+",,
+40335,this message should definetly be marked as ham 47....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:37 IST","Thu, 05 Mar 2020 19:44:37 IST",,ham,"this message should definetly be marked as ham 47.
+this message should definetly be marked as ham 47.
+this message should definetly be marked as ham 47.
+",,
+40336,this message should definetly be marked as ham 199...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:37 IST","Thu, 05 Mar 2020 19:44:37 IST",,ham,"this message should definetly be marked as ham 199.
+this message should definetly be marked as ham 199.
+this message should definetly be marked as ham 199.
+",,
+40337,this message should definetly be marked as spam 14...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:37 IST","Thu, 05 Mar 2020 19:44:37 IST",,spam,"this message should definetly be marked as spam 145.
+this message should definetly be marked as spam 145.
+this message should definetly be marked as spam 145.
+",,
+40328,this message should definetly be marked as spam 10...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:36 IST","Thu, 05 Mar 2020 19:44:36 IST",,spam,"this message should definetly be marked as spam 102.
+this message should definetly be marked as spam 102.
+this message should definetly be marked as spam 102.
+",,
+40329,this message should definetly be marked as spam 47...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:36 IST","Thu, 05 Mar 2020 19:44:36 IST",,spam,"this message should definetly be marked as spam 47.
+this message should definetly be marked as spam 47.
+this message should definetly be marked as spam 47.
+",,
+40330,this message should definetly be marked as spam 63...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:36 IST","Thu, 05 Mar 2020 19:44:36 IST",,spam,"this message should definetly be marked as spam 63.
+this message should definetly be marked as spam 63.
+this message should definetly be marked as spam 63.
+",,
+40331,this message should definetly be marked as ham 132...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:36 IST","Thu, 05 Mar 2020 19:44:36 IST",,ham,"this message should definetly be marked as ham 132.
+this message should definetly be marked as ham 132.
+this message should definetly be marked as ham 132.
+",,
+40332,this message should definetly be marked as spam 14...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:37 IST","Thu, 05 Mar 2020 19:44:36 IST",,spam,"this message should definetly be marked as spam 141.
+this message should definetly be marked as spam 141.
+this message should definetly be marked as spam 141.
+",,
+40322,this message should definetly be marked as spam 40...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:35 IST","Thu, 05 Mar 2020 19:44:35 IST",,spam,"this message should definetly be marked as spam 40.
+this message should definetly be marked as spam 40.
+this message should definetly be marked as spam 40.
+",,
+40323,this message should definetly be marked as ham 103...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:35 IST","Thu, 05 Mar 2020 19:44:35 IST",,ham,"this message should definetly be marked as ham 103.
+this message should definetly be marked as ham 103.
+this message should definetly be marked as ham 103.
+",,
+40324,this message should definetly be marked as spam 93...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:35 IST","Thu, 05 Mar 2020 19:44:35 IST",,spam,"this message should definetly be marked as spam 93.
+this message should definetly be marked as spam 93.
+this message should definetly be marked as spam 93.
+",,
+40325,this message should definetly be marked as ham 50....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:35 IST","Thu, 05 Mar 2020 19:44:35 IST",,ham,"this message should definetly be marked as ham 50.
+this message should definetly be marked as ham 50.
+this message should definetly be marked as ham 50.
+",,
+40326,this message should definetly be marked as spam 88...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:35 IST","Thu, 05 Mar 2020 19:44:35 IST",,spam,"this message should definetly be marked as spam 88.
+this message should definetly be marked as spam 88.
+this message should definetly be marked as spam 88.
+",,
+40327,this message should definetly be marked as ham 117...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:36 IST","Thu, 05 Mar 2020 19:44:35 IST",,ham,"this message should definetly be marked as ham 117.
+this message should definetly be marked as ham 117.
+this message should definetly be marked as ham 117.
+",,
+40317,this message should definetly be marked as ham 57....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:34 IST","Thu, 05 Mar 2020 19:44:34 IST",,ham,"this message should definetly be marked as ham 57.
+this message should definetly be marked as ham 57.
+this message should definetly be marked as ham 57.
+",,
+40318,this message should definetly be marked as spam 43...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:34 IST","Thu, 05 Mar 2020 19:44:34 IST",,spam,"this message should definetly be marked as spam 43.
+this message should definetly be marked as spam 43.
+this message should definetly be marked as spam 43.
+",,
+40319,this message should definetly be marked as ham 121...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:34 IST","Thu, 05 Mar 2020 19:44:34 IST",,ham,"this message should definetly be marked as ham 121.
+this message should definetly be marked as ham 121.
+this message should definetly be marked as ham 121.
+",,
+40320,this message should definetly be marked as ham 179...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:34 IST","Thu, 05 Mar 2020 19:44:34 IST",,ham,"this message should definetly be marked as ham 179.
+this message should definetly be marked as ham 179.
+this message should definetly be marked as ham 179.
+",,
+40321,this message should definetly be marked as spam 12...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:35 IST","Thu, 05 Mar 2020 19:44:34 IST",,spam,"this message should definetly be marked as spam 123.
+this message should definetly be marked as spam 123.
+this message should definetly be marked as spam 123.
+",,
+40312,this message should definetly be marked as spam 77...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:33 IST","Thu, 05 Mar 2020 19:44:33 IST",,spam,"this message should definetly be marked as spam 77.
+this message should definetly be marked as spam 77.
+this message should definetly be marked as spam 77.
+",,
+40313,this message should definetly be marked as ham 46....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:33 IST","Thu, 05 Mar 2020 19:44:33 IST",,ham,"this message should definetly be marked as ham 46.
+this message should definetly be marked as ham 46.
+this message should definetly be marked as ham 46.
+",,
+40314,this message should definetly be marked as spam 53...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:33 IST","Thu, 05 Mar 2020 19:44:33 IST",,spam,"this message should definetly be marked as spam 53.
+this message should definetly be marked as spam 53.
+this message should definetly be marked as spam 53.
+",,
+40315,this message should definetly be marked as spam 96...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:33 IST","Thu, 05 Mar 2020 19:44:33 IST",,spam,"this message should definetly be marked as spam 96.
+this message should definetly be marked as spam 96.
+this message should definetly be marked as spam 96.
+",,
+40316,this message should definetly be marked as spam 11...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:34 IST","Thu, 05 Mar 2020 19:44:33 IST",,spam,"this message should definetly be marked as spam 11.
+this message should definetly be marked as spam 11.
+this message should definetly be marked as spam 11.
+",,
+40307,this message should definetly be marked as spam 79...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:32 IST","Thu, 05 Mar 2020 19:44:32 IST",,spam,"this message should definetly be marked as spam 79.
+this message should definetly be marked as spam 79.
+this message should definetly be marked as spam 79.
+",,
+40308,this message should definetly be marked as ham 118...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:32 IST","Thu, 05 Mar 2020 19:44:32 IST",,ham,"this message should definetly be marked as ham 118.
+this message should definetly be marked as ham 118.
+this message should definetly be marked as ham 118.
+",,
+40309,this message should definetly be marked as ham 95....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:32 IST","Thu, 05 Mar 2020 19:44:32 IST",,ham,"this message should definetly be marked as ham 95.
+this message should definetly be marked as ham 95.
+this message should definetly be marked as ham 95.
+",,
+40310,this message should definetly be marked as ham 37....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:32 IST","Thu, 05 Mar 2020 19:44:32 IST",,ham,"this message should definetly be marked as ham 37.
+this message should definetly be marked as ham 37.
+this message should definetly be marked as ham 37.
+",,
+40311,this message should definetly be marked as spam 19...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:33 IST","Thu, 05 Mar 2020 19:44:32 IST",,spam,"this message should definetly be marked as spam 196.
+this message should definetly be marked as spam 196.
+this message should definetly be marked as spam 196.
+",,
+40301,this message should definetly be marked as ham 183...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:31 IST","Thu, 05 Mar 2020 19:44:31 IST",,ham,"this message should definetly be marked as ham 183.
+this message should definetly be marked as ham 183.
+this message should definetly be marked as ham 183.
+",,
+40302,this message should definetly be marked as ham 173...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:31 IST","Thu, 05 Mar 2020 19:44:31 IST",,ham,"this message should definetly be marked as ham 173.
+this message should definetly be marked as ham 173.
+this message should definetly be marked as ham 173.
+",,
+40303,this message should definetly be marked as ham 96....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:31 IST","Thu, 05 Mar 2020 19:44:31 IST",,ham,"this message should definetly be marked as ham 96.
+this message should definetly be marked as ham 96.
+this message should definetly be marked as ham 96.
+",,
+40304,this message should definetly be marked as spam 8....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:31 IST","Thu, 05 Mar 2020 19:44:31 IST",,spam,"this message should definetly be marked as spam 8.
+this message should definetly be marked as spam 8.
+this message should definetly be marked as spam 8.
+",,
+40305,this message should definetly be marked as ham 119...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:31 IST","Thu, 05 Mar 2020 19:44:31 IST",,ham,"this message should definetly be marked as ham 119.
+this message should definetly be marked as ham 119.
+this message should definetly be marked as ham 119.
+",,
+40306,this message should definetly be marked as ham 193...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:32 IST","Thu, 05 Mar 2020 19:44:31 IST",,ham,"this message should definetly be marked as ham 193.
+this message should definetly be marked as ham 193.
+this message should definetly be marked as ham 193.
+",,
+40296,this message should definetly be marked as spam 16...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:30 IST","Thu, 05 Mar 2020 19:44:30 IST",,spam,"this message should definetly be marked as spam 162.
+this message should definetly be marked as spam 162.
+this message should definetly be marked as spam 162.
+",,
+40297,this message should definetly be marked as spam 13...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:30 IST","Thu, 05 Mar 2020 19:44:30 IST",,spam,"this message should definetly be marked as spam 130.
+this message should definetly be marked as spam 130.
+this message should definetly be marked as spam 130.
+",,
+40298,this message should definetly be marked as spam 13...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:30 IST","Thu, 05 Mar 2020 19:44:30 IST",,spam,"this message should definetly be marked as spam 136.
+this message should definetly be marked as spam 136.
+this message should definetly be marked as spam 136.
+",,
+40299,this message should definetly be marked as ham 169...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:30 IST","Thu, 05 Mar 2020 19:44:30 IST",,ham,"this message should definetly be marked as ham 169.
+this message should definetly be marked as ham 169.
+this message should definetly be marked as ham 169.
+",,
+40300,this message should definetly be marked as spam 65...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:31 IST","Thu, 05 Mar 2020 19:44:30 IST",,spam,"this message should definetly be marked as spam 65.
+this message should definetly be marked as spam 65.
+this message should definetly be marked as spam 65.
+",,
+40290,this message should definetly be marked as ham 42....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:29 IST","Thu, 05 Mar 2020 19:44:29 IST",,ham,"this message should definetly be marked as ham 42.
+this message should definetly be marked as ham 42.
+this message should definetly be marked as ham 42.
+",,
+40291,this message should definetly be marked as spam 19...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:29 IST","Thu, 05 Mar 2020 19:44:29 IST",,spam,"this message should definetly be marked as spam 197.
+this message should definetly be marked as spam 197.
+this message should definetly be marked as spam 197.
+",,
+40292,this message should definetly be marked as spam 45...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:29 IST","Thu, 05 Mar 2020 19:44:29 IST",,spam,"this message should definetly be marked as spam 45.
+this message should definetly be marked as spam 45.
+this message should definetly be marked as spam 45.
+",,
+40293,this message should definetly be marked as ham 78....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:29 IST","Thu, 05 Mar 2020 19:44:29 IST",,ham,"this message should definetly be marked as ham 78.
+this message should definetly be marked as ham 78.
+this message should definetly be marked as ham 78.
+",,
+40294,this message should definetly be marked as ham 148...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:29 IST","Thu, 05 Mar 2020 19:44:29 IST",,ham,"this message should definetly be marked as ham 148.
+this message should definetly be marked as ham 148.
+this message should definetly be marked as ham 148.
+",,
+40295,this message should definetly be marked as ham 189...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:30 IST","Thu, 05 Mar 2020 19:44:29 IST",,ham,"this message should definetly be marked as ham 189.
+this message should definetly be marked as ham 189.
+this message should definetly be marked as ham 189.
+",,
+40285,this message should definetly be marked as spam 46...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:28 IST","Thu, 05 Mar 2020 19:44:28 IST",,spam,"this message should definetly be marked as spam 46.
+this message should definetly be marked as spam 46.
+this message should definetly be marked as spam 46.
+",,
+40286,this message should definetly be marked as spam 72...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:28 IST","Thu, 05 Mar 2020 19:44:28 IST",,spam,"this message should definetly be marked as spam 72.
+this message should definetly be marked as spam 72.
+this message should definetly be marked as spam 72.
+",,
+40287,"this message should definetly be marked as ham 0.
+...",Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:28 IST","Thu, 05 Mar 2020 19:44:28 IST",,ham,"this message should definetly be marked as ham 0.
+this message should definetly be marked as ham 0.
+this message should definetly be marked as ham 0.
+",,
+40288,this message should definetly be marked as ham 27....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:28 IST","Thu, 05 Mar 2020 19:44:28 IST",,ham,"this message should definetly be marked as ham 27.
+this message should definetly be marked as ham 27.
+this message should definetly be marked as ham 27.
+",,
+40289,this message should definetly be marked as ham 122...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:29 IST","Thu, 05 Mar 2020 19:44:28 IST",,ham,"this message should definetly be marked as ham 122.
+this message should definetly be marked as ham 122.
+this message should definetly be marked as ham 122.
+",,
+40280,this message should definetly be marked as ham 171...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:27 IST","Thu, 05 Mar 2020 19:44:27 IST",,ham,"this message should definetly be marked as ham 171.
+this message should definetly be marked as ham 171.
+this message should definetly be marked as ham 171.
+",,
+40281,this message should definetly be marked as ham 180...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:27 IST","Thu, 05 Mar 2020 19:44:27 IST",,ham,"this message should definetly be marked as ham 180.
+this message should definetly be marked as ham 180.
+this message should definetly be marked as ham 180.
+",,
+40282,this message should definetly be marked as ham 164...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:27 IST","Thu, 05 Mar 2020 19:44:27 IST",,ham,"this message should definetly be marked as ham 164.
+this message should definetly be marked as ham 164.
+this message should definetly be marked as ham 164.
+",,
+40283,this message should definetly be marked as ham 144...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:27 IST","Thu, 05 Mar 2020 19:44:27 IST",,ham,"this message should definetly be marked as ham 144.
+this message should definetly be marked as ham 144.
+this message should definetly be marked as ham 144.
+",,
+40284,"this message should definetly be marked as ham 9.
+...",Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:28 IST","Thu, 05 Mar 2020 19:44:27 IST",,ham,"this message should definetly be marked as ham 9.
+this message should definetly be marked as ham 9.
+this message should definetly be marked as ham 9.
+",,
+40274,this message should definetly be marked as ham 110...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:26 IST","Thu, 05 Mar 2020 19:44:26 IST",,ham,"this message should definetly be marked as ham 110.
+this message should definetly be marked as ham 110.
+this message should definetly be marked as ham 110.
+",,
+40275,this message should definetly be marked as spam 17...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:26 IST","Thu, 05 Mar 2020 19:44:26 IST",,spam,"this message should definetly be marked as spam 176.
+this message should definetly be marked as spam 176.
+this message should definetly be marked as spam 176.
+",,
+40276,this message should definetly be marked as spam 19...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:26 IST","Thu, 05 Mar 2020 19:44:26 IST",,spam,"this message should definetly be marked as spam 195.
+this message should definetly be marked as spam 195.
+this message should definetly be marked as spam 195.
+",,
+40277,this message should definetly be marked as spam 74...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:26 IST","Thu, 05 Mar 2020 19:44:26 IST",,spam,"this message should definetly be marked as spam 74.
+this message should definetly be marked as spam 74.
+this message should definetly be marked as spam 74.
+",,
+40278,this message should definetly be marked as ham 143...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:26 IST","Thu, 05 Mar 2020 19:44:26 IST",,ham,"this message should definetly be marked as ham 143.
+this message should definetly be marked as ham 143.
+this message should definetly be marked as ham 143.
+",,
+40279,this message should definetly be marked as spam 12...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:27 IST","Thu, 05 Mar 2020 19:44:26 IST",,spam,"this message should definetly be marked as spam 121.
+this message should definetly be marked as spam 121.
+this message should definetly be marked as spam 121.
+",,
+40269,this message should definetly be marked as spam 12...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:25 IST","Thu, 05 Mar 2020 19:44:25 IST",,spam,"this message should definetly be marked as spam 12.
+this message should definetly be marked as spam 12.
+this message should definetly be marked as spam 12.
+",,
+40270,this message should definetly be marked as spam 33...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:25 IST","Thu, 05 Mar 2020 19:44:25 IST",,spam,"this message should definetly be marked as spam 33.
+this message should definetly be marked as spam 33.
+this message should definetly be marked as spam 33.
+",,
+40271,this message should definetly be marked as spam 17...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:25 IST","Thu, 05 Mar 2020 19:44:25 IST",,spam,"this message should definetly be marked as spam 170.
+this message should definetly be marked as spam 170.
+this message should definetly be marked as spam 170.
+",,
+40272,this message should definetly be marked as spam 91...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:25 IST","Thu, 05 Mar 2020 19:44:25 IST",,spam,"this message should definetly be marked as spam 91.
+this message should definetly be marked as spam 91.
+this message should definetly be marked as spam 91.
+",,
+40273,this message should definetly be marked as spam 85...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:26 IST","Thu, 05 Mar 2020 19:44:25 IST",,spam,"this message should definetly be marked as spam 85.
+this message should definetly be marked as spam 85.
+this message should definetly be marked as spam 85.
+",,
+40264,this message should definetly be marked as ham 181...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:24 IST","Thu, 05 Mar 2020 19:44:24 IST",,ham,"this message should definetly be marked as ham 181.
+this message should definetly be marked as ham 181.
+this message should definetly be marked as ham 181.
+",,
+40265,this message should definetly be marked as ham 141...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:24 IST","Thu, 05 Mar 2020 19:44:24 IST",,ham,"this message should definetly be marked as ham 141.
+this message should definetly be marked as ham 141.
+this message should definetly be marked as ham 141.
+",,
+40266,this message should definetly be marked as spam 10...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:24 IST","Thu, 05 Mar 2020 19:44:24 IST",,spam,"this message should definetly be marked as spam 101.
+this message should definetly be marked as spam 101.
+this message should definetly be marked as spam 101.
+",,
+40267,this message should definetly be marked as spam 92...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:24 IST","Thu, 05 Mar 2020 19:44:24 IST",,spam,"this message should definetly be marked as spam 92.
+this message should definetly be marked as spam 92.
+this message should definetly be marked as spam 92.
+",,
+40268,this message should definetly be marked as ham 138...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:24 IST","Thu, 05 Mar 2020 19:44:24 IST",,ham,"this message should definetly be marked as ham 138.
+this message should definetly be marked as ham 138.
+this message should definetly be marked as ham 138.
+",,
+40259,this message should definetly be marked as spam 18...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:23 IST","Thu, 05 Mar 2020 19:44:23 IST",,spam,"this message should definetly be marked as spam 182.
+this message should definetly be marked as spam 182.
+this message should definetly be marked as spam 182.
+",,
+40260,this message should definetly be marked as spam 17...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:23 IST","Thu, 05 Mar 2020 19:44:23 IST",,spam,"this message should definetly be marked as spam 172.
+this message should definetly be marked as spam 172.
+this message should definetly be marked as spam 172.
+",,
+40261,this message should definetly be marked as ham 80....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:23 IST","Thu, 05 Mar 2020 19:44:23 IST",,ham,"this message should definetly be marked as ham 80.
+this message should definetly be marked as ham 80.
+this message should definetly be marked as ham 80.
+",,
+40262,this message should definetly be marked as ham 133...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:23 IST","Thu, 05 Mar 2020 19:44:23 IST",,ham,"this message should definetly be marked as ham 133.
+this message should definetly be marked as ham 133.
+this message should definetly be marked as ham 133.
+",,
+40263,this message should definetly be marked as spam 10...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:24 IST","Thu, 05 Mar 2020 19:44:23 IST",,spam,"this message should definetly be marked as spam 104.
+this message should definetly be marked as spam 104.
+this message should definetly be marked as spam 104.
+",,
+40253,this message should definetly be marked as ham 22....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:22 IST","Thu, 05 Mar 2020 19:44:22 IST",,ham,"this message should definetly be marked as ham 22.
+this message should definetly be marked as ham 22.
+this message should definetly be marked as ham 22.
+",,
+40254,this message should definetly be marked as spam 10...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:22 IST","Thu, 05 Mar 2020 19:44:22 IST",,spam,"this message should definetly be marked as spam 105.
+this message should definetly be marked as spam 105.
+this message should definetly be marked as spam 105.
+",,
+40255,this message should definetly be marked as spam 11...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:22 IST","Thu, 05 Mar 2020 19:44:22 IST",,spam,"this message should definetly be marked as spam 116.
+this message should definetly be marked as spam 116.
+this message should definetly be marked as spam 116.
+",,
+40256,"this message should definetly be marked as ham 4.
+...",Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:22 IST","Thu, 05 Mar 2020 19:44:22 IST",,ham,"this message should definetly be marked as ham 4.
+this message should definetly be marked as ham 4.
+this message should definetly be marked as ham 4.
+",,
+40257,this message should definetly be marked as spam 42...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:22 IST","Thu, 05 Mar 2020 19:44:22 IST",,spam,"this message should definetly be marked as spam 42.
+this message should definetly be marked as spam 42.
+this message should definetly be marked as spam 42.
+",,
+40258,this message should definetly be marked as spam 16...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:23 IST","Thu, 05 Mar 2020 19:44:22 IST",,spam,"this message should definetly be marked as spam 165.
+this message should definetly be marked as spam 165.
+this message should definetly be marked as spam 165.
+",,
+40249,"this message should definetly be marked as ham 2.
+...",Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:21 IST","Thu, 05 Mar 2020 19:44:21 IST",,ham,"this message should definetly be marked as ham 2.
+this message should definetly be marked as ham 2.
+this message should definetly be marked as ham 2.
+",,
+40250,this message should definetly be marked as ham 167...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:21 IST","Thu, 05 Mar 2020 19:44:21 IST",,ham,"this message should definetly be marked as ham 167.
+this message should definetly be marked as ham 167.
+this message should definetly be marked as ham 167.
+",,
+40251,this message should definetly be marked as spam 19...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:21 IST","Thu, 05 Mar 2020 19:44:21 IST",,spam,"this message should definetly be marked as spam 199.
+this message should definetly be marked as spam 199.
+this message should definetly be marked as spam 199.
+",,
+40252,this message should definetly be marked as ham 48....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:22 IST","Thu, 05 Mar 2020 19:44:21 IST",,ham,"this message should definetly be marked as ham 48.
+this message should definetly be marked as ham 48.
+this message should definetly be marked as ham 48.
+",,
+40244,this message should definetly be marked as ham 38....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:20 IST","Thu, 05 Mar 2020 19:44:20 IST",,ham,"this message should definetly be marked as ham 38.
+this message should definetly be marked as ham 38.
+this message should definetly be marked as ham 38.
+",,
+40245,this message should definetly be marked as ham 70....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:20 IST","Thu, 05 Mar 2020 19:44:20 IST",,ham,"this message should definetly be marked as ham 70.
+this message should definetly be marked as ham 70.
+this message should definetly be marked as ham 70.
+",,
+40246,this message should definetly be marked as ham 19....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:20 IST","Thu, 05 Mar 2020 19:44:20 IST",,ham,"this message should definetly be marked as ham 19.
+this message should definetly be marked as ham 19.
+this message should definetly be marked as ham 19.
+",,
+40247,this message should definetly be marked as ham 137...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:20 IST","Thu, 05 Mar 2020 19:44:20 IST",,ham,"this message should definetly be marked as ham 137.
+this message should definetly be marked as ham 137.
+this message should definetly be marked as ham 137.
+",,
+40248,this message should definetly be marked as ham 43....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:21 IST","Thu, 05 Mar 2020 19:44:20 IST",,ham,"this message should definetly be marked as ham 43.
+this message should definetly be marked as ham 43.
+this message should definetly be marked as ham 43.
+",,
+40239,this message should definetly be marked as ham 32....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:19 IST","Thu, 05 Mar 2020 19:44:19 IST",,ham,"this message should definetly be marked as ham 32.
+this message should definetly be marked as ham 32.
+this message should definetly be marked as ham 32.
+",,
+40240,this message should definetly be marked as ham 77....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:19 IST","Thu, 05 Mar 2020 19:44:19 IST",,ham,"this message should definetly be marked as ham 77.
+this message should definetly be marked as ham 77.
+this message should definetly be marked as ham 77.
+",,
+40241,this message should definetly be marked as ham 190...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:19 IST","Thu, 05 Mar 2020 19:44:19 IST",,ham,"this message should definetly be marked as ham 190.
+this message should definetly be marked as ham 190.
+this message should definetly be marked as ham 190.
+",,
+40242,this message should definetly be marked as ham 165...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:19 IST","Thu, 05 Mar 2020 19:44:19 IST",,ham,"this message should definetly be marked as ham 165.
+this message should definetly be marked as ham 165.
+this message should definetly be marked as ham 165.
+",,
+40243,this message should definetly be marked as spam 12...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:20 IST","Thu, 05 Mar 2020 19:44:19 IST",,spam,"this message should definetly be marked as spam 122.
+this message should definetly be marked as spam 122.
+this message should definetly be marked as spam 122.
+",,
+40233,this message should definetly be marked as ham 91....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:18 IST","Thu, 05 Mar 2020 19:44:18 IST",,ham,"this message should definetly be marked as ham 91.
+this message should definetly be marked as ham 91.
+this message should definetly be marked as ham 91.
+",,
+40234,this message should definetly be marked as spam 16...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:18 IST","Thu, 05 Mar 2020 19:44:18 IST",,spam,"this message should definetly be marked as spam 161.
+this message should definetly be marked as spam 161.
+this message should definetly be marked as spam 161.
+",,
+40235,this message should definetly be marked as ham 166...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:18 IST","Thu, 05 Mar 2020 19:44:18 IST",,ham,"this message should definetly be marked as ham 166.
+this message should definetly be marked as ham 166.
+this message should definetly be marked as ham 166.
+",,
+40236,this message should definetly be marked as spam 13...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:18 IST","Thu, 05 Mar 2020 19:44:18 IST",,spam,"this message should definetly be marked as spam 138.
+this message should definetly be marked as spam 138.
+this message should definetly be marked as spam 138.
+",,
+40237,this message should definetly be marked as ham 161...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:18 IST","Thu, 05 Mar 2020 19:44:18 IST",,ham,"this message should definetly be marked as ham 161.
+this message should definetly be marked as ham 161.
+this message should definetly be marked as ham 161.
+",,
+40238,this message should definetly be marked as ham 140...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:19 IST","Thu, 05 Mar 2020 19:44:18 IST",,ham,"this message should definetly be marked as ham 140.
+this message should definetly be marked as ham 140.
+this message should definetly be marked as ham 140.
+",,
+40229,this message should definetly be marked as ham 112...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:17 IST","Thu, 05 Mar 2020 19:44:17 IST",,ham,"this message should definetly be marked as ham 112.
+this message should definetly be marked as ham 112.
+this message should definetly be marked as ham 112.
+",,
+40230,this message should definetly be marked as spam 68...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:17 IST","Thu, 05 Mar 2020 19:44:17 IST",,spam,"this message should definetly be marked as spam 68.
+this message should definetly be marked as spam 68.
+this message should definetly be marked as spam 68.
+",,
+40231,this message should definetly be marked as spam 34...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:17 IST","Thu, 05 Mar 2020 19:44:17 IST",,spam,"this message should definetly be marked as spam 34.
+this message should definetly be marked as spam 34.
+this message should definetly be marked as spam 34.
+",,
+40232,this message should definetly be marked as ham 195...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:17 IST","Thu, 05 Mar 2020 19:44:17 IST",,ham,"this message should definetly be marked as ham 195.
+this message should definetly be marked as ham 195.
+this message should definetly be marked as ham 195.
+",,
+40223,this message should definetly be marked as spam 15...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:16 IST","Thu, 05 Mar 2020 19:44:16 IST",,spam,"this message should definetly be marked as spam 151.
+this message should definetly be marked as spam 151.
+this message should definetly be marked as spam 151.
+",,
+40224,this message should definetly be marked as spam 10...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:16 IST","Thu, 05 Mar 2020 19:44:16 IST",,spam,"this message should definetly be marked as spam 10.
+this message should definetly be marked as spam 10.
+this message should definetly be marked as spam 10.
+",,
+40225,this message should definetly be marked as ham 44....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:16 IST","Thu, 05 Mar 2020 19:44:16 IST",,ham,"this message should definetly be marked as ham 44.
+this message should definetly be marked as ham 44.
+this message should definetly be marked as ham 44.
+",,
+40226,this message should definetly be marked as ham 194...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:16 IST","Thu, 05 Mar 2020 19:44:16 IST",,ham,"this message should definetly be marked as ham 194.
+this message should definetly be marked as ham 194.
+this message should definetly be marked as ham 194.
+",,
+40227,this message should definetly be marked as spam 35...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:16 IST","Thu, 05 Mar 2020 19:44:16 IST",,spam,"this message should definetly be marked as spam 35.
+this message should definetly be marked as spam 35.
+this message should definetly be marked as spam 35.
+",,
+40228,this message should definetly be marked as ham 108...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:17 IST","Thu, 05 Mar 2020 19:44:16 IST",,ham,"this message should definetly be marked as ham 108.
+this message should definetly be marked as ham 108.
+this message should definetly be marked as ham 108.
+",,
+40218,this message should definetly be marked as ham 23....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:15 IST","Thu, 05 Mar 2020 19:44:15 IST",,ham,"this message should definetly be marked as ham 23.
+this message should definetly be marked as ham 23.
+this message should definetly be marked as ham 23.
+",,
+40219,this message should definetly be marked as ham 99....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:15 IST","Thu, 05 Mar 2020 19:44:15 IST",,ham,"this message should definetly be marked as ham 99.
+this message should definetly be marked as ham 99.
+this message should definetly be marked as ham 99.
+",,
+40220,this message should definetly be marked as spam 16...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:15 IST","Thu, 05 Mar 2020 19:44:15 IST",,spam,"this message should definetly be marked as spam 168.
+this message should definetly be marked as spam 168.
+this message should definetly be marked as spam 168.
+",,
+40221,this message should definetly be marked as spam 18...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:15 IST","Thu, 05 Mar 2020 19:44:15 IST",,spam,"this message should definetly be marked as spam 188.
+this message should definetly be marked as spam 188.
+this message should definetly be marked as spam 188.
+",,
+40222,this message should definetly be marked as spam 10...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:15 IST","Thu, 05 Mar 2020 19:44:15 IST",,spam,"this message should definetly be marked as spam 103.
+this message should definetly be marked as spam 103.
+this message should definetly be marked as spam 103.
+",,
+40216,this message should definetly be marked as spam 22...,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:14 IST","Thu, 05 Mar 2020 19:44:14 IST",,spam,"this message should definetly be marked as spam 22.
+this message should definetly be marked as spam 22.
+this message should definetly be marked as spam 22.
+",,
+40217,this message should definetly be marked as ham 20....,Phishing,Unknown,Pending,,,Phishing Playbook - Manual,"Mon, 24 Feb 2020 17:44:15 IST","Thu, 05 Mar 2020 19:44:14 IST",,ham,"this message should definetly be marked as ham 20.
+this message should definetly be marked as ham 20.
+this message should definetly be marked as ham 20.
 ",,
