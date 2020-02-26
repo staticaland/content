@@ -48,7 +48,8 @@ tasks:
       '#none#':
       - "7"
     scriptarguments:
-      fileID: {}
+      fileID:
+        simple: "testFile"
     separatecontext: false
     view: |-
       {
