@@ -770,7 +770,7 @@ def submit_report(submission_type, submission_value, submission_classification="
             return_error(F"Entry {submission_value} does not contain a file.")
 
         uploaded_file = open(file_info['path'], 'rb')
-        files = {'report_radio-file': (file_info['name'], uploaded_file)}
+        files = {'report_radio-file': (file_info['name'].encode('utf-8'), uploaded_file)}
     else:
         data['report_radio-url'] = submission_value
 
