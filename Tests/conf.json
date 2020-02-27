@@ -1265,7 +1265,8 @@
             "integrations": "Tanium",
             "playbookID": "Tanium Test Playbook",
             "nightly": true,
-            "timeout": 1200
+            "timeout": 1200,
+            "pid_threshold": 10
         },
         {
             "integrations": "Recorded Future",
@@ -2086,7 +2087,7 @@
         {
             "playbookID": "Send Investigation Summary Reports - Test",
             "integrations": "EWS Mail Sender",
-            "fromversion": "4.1.0"            
+            "fromversion": "4.1.0"
         },
         {
             "integrations": "Anomali ThreatStream v2",
@@ -2395,6 +2396,10 @@
             "playbookID": "DBot Create Phishing Classifier V2 From File - Test",
             "timeout" : 60000,
             "fromversion": "4.5.0"
+        },
+        {
+            "playbookID": "DbotPredictOufOfTheBoxTest",
+            "fromversion": "4.5.0"
         }
     ],
     "skipped_tests": {
@@ -2403,7 +2408,6 @@
         "Send Investigation Summary Reports": "Issue 22299",
         "Palo Alto Networks Cortex Test": "Issue 22298",
         "test-Expanse": "Expanse should provide domain that they have in their system",
-        "okta_test_playbook": "Issue 22235",
         "Test-VulnDB": "Issue 22232",
         "TestProofpointFeed": "Issue 22229",
         "Digital Defense FrontlineVM - Scan Asset Not Recently Scanned Test": "Issue 22227",
@@ -2511,7 +2515,6 @@
 
         "_comment": "~~~ UNSTABLE ~~~",
         "ServiceNow": "Instance goes to hibernate every few hours",
-        "Tanium": "issue 15497",
         "Tenable.sc": "unstable instance",
 
 
