@@ -275,9 +275,9 @@ def build_search_human_readable(args, parsed_search_results):
         else:
             search_for_table_args = re.search(' table (?P<table>.*)(\|)?', args.get('query', ''))
             if search_for_table_args:
-                table_args = search_for_table_args('table')
+                table_args = search_for_table_args.group('table')
                 table_args = table_args if '|' not in table_args else table_args.split(' |')[0]
-                headers = table_args.split()
+                headers = [field for field in re.split(' |,', table_args) if field]
 
     human_readable = tableToMarkdown("Splunk Search results for query: {}".format(args['query']),
                                      parsed_search_results, headers)
