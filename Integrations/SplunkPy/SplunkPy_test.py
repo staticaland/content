@@ -1,3 +1,6 @@
+import pytest
+
+
 DICT_RAW_RESPONSE = '"1528755951, search_name="NG_SIEM_UC25- High number of hits against ' \
                     'unknown website from same subnet", action="allowed", dest="bb.bbb.bb.bbb , cc.ccc.ccc.cc , ' \
                     'xx.xx.xxx.xx , yyy.yy.yyy.yy , zz.zzz.zz.zzz , aa.aa.aaa.aaa", distinct_hosts="5", ' \
@@ -118,3 +121,51 @@ def test_raw_to_dict():
     assert empty == {}
     assert URL_TESTING_OUT == url_test
     assert POSITIVE == character_check
+
+
+SEARCH_RESULT = [
+    {
+        "Something": "regular",
+        "But": {
+            "This": "is"
+        },
+        "Very": "Unique"
+    },
+    {
+        "Something": "natural",
+        "But": {
+            "This": "is a very very"
+        },
+        "Very": "Unique and awesome"
+    }
+]
+REGULAR_ALL_CHOSEN_FIELDS = [
+    "Something",
+    "But",
+    "Very"
+]
+REGULAR_CHOSEN_FIELDS_SUBSET = [
+    "Something",
+    "Very"
+]
+REGEX_CHOSEN_FIELDS_SUBSET = [
+    "Some*",
+    "Very"
+]
+NON_EXISTING_FIELDS = [
+    "SDFAFSD",
+    "ASBLFKDJK"
+]
+
+
+@pytest.mark.parametrize('search_result, chosen_fields, expected_result', [
+    (SEARCH_RESULT, REGULAR_ALL_CHOSEN_FIELDS, REGULAR_ALL_CHOSEN_FIELDS),
+    (SEARCH_RESULT, REGULAR_CHOSEN_FIELDS_SUBSET, REGULAR_CHOSEN_FIELDS_SUBSET),
+    (SEARCH_RESULT, REGEX_CHOSEN_FIELDS_SUBSET, REGULAR_CHOSEN_FIELDS_SUBSET),
+    (SEARCH_RESULT, NON_EXISTING_FIELDS, []),
+])
+def test_commands(search_result, chosen_fields, expected_result):
+    from SplunkPy import update_headers_from_field_names
+    headers = update_headers_from_field_names(search_result, chosen_fields)
+
+    assert expected_result == headers

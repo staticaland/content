@@ -277,11 +277,29 @@ def build_search_human_readable(args, parsed_search_results):
             if search_for_table_args:
                 table_args = search_for_table_args.group('table')
                 table_args = table_args if '|' not in table_args else table_args.split(' |')[0]
-                headers = [field for field in re.split(' |,', table_args) if field]
+                chosen_fields = [field for field in re.split(' |,', table_args) if field]
+
+                headers = update_headers_from_field_names(parsed_search_results, chosen_fields)
 
     human_readable = tableToMarkdown("Splunk Search results for query: {}".format(args['query']),
                                      parsed_search_results, headers)
     return human_readable
+
+
+def update_headers_from_field_names(search_result, chosen_fields):
+    headers = []
+    search_result_keys = search_result[0].keys()
+    for field in chosen_fields:
+        if field[-1] == '*':
+            temp_field = field.replace('*', '.*')
+            for key in search_result_keys:
+                if re.search(temp_field, key):
+                    headers.append(key)
+
+        elif field in search_result_keys:
+            headers.append(field)
+
+    return headers
 
 
 def get_current_results_batch(search_job, batch_size, results_offset):
