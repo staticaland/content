@@ -51,12 +51,11 @@ jobs:
           name: Run Unit Testing and Lint
           when: always
           command: |
-            mkdir -p ./demisto-sdk-lint/unit-tests
-            demisto-sdk lint -v -p 9 -a --keep-test-xml ./demisto-sdk-lint/unit-tests
-            tar -cvf ./artifacts/demisto-sdk-lint.tar ./demisto-sdk-lint
+            mkdir ./unit-tests
+            demisto-sdk lint -vvvvvv -p 12 -a --test-xml ./unit-tests --log-path ./artifacts --json-report ./artifacts
           no_output_timeout: 4h
       - store_test_results:
-          path: ./demisto-sdk-lint/unit-tests
+          path: ./unit-tests
       - store_artifacts:
           path: ./artifacts/
 
