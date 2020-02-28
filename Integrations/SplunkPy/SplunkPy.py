@@ -272,6 +272,12 @@ def build_search_human_readable(args, parsed_search_results):
     if parsed_search_results and len(parsed_search_results) > 0:
         if not isinstance(parsed_search_results[0], dict):
             headers = "results"
+        else:
+            search_for_table_args = re.search(' table (?P<table>.*)(\|)?', args.get('query', ''))
+            if search_for_table_args:
+                table_args = search_for_table_args('table')
+                table_args = table_args if '|' not in table_args else table_args.split(' |')[0]
+                headers = table_args.split()
 
     human_readable = tableToMarkdown("Splunk Search results for query: {}".format(args['query']),
                                      parsed_search_results, headers)
