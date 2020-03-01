@@ -32,15 +32,12 @@ tasks:
     note: false
     timertriggers: []
     ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
   "1":
     id: "1"
-    taskid: ef3b9920-67f6-413e-8468-287de8fbf5a9
+    taskid: b71687d1-3b9d-46bb-838b-32600881f4e0
     type: regular
     task:
-      elasticcommonfields: {}
-      id: ef3b9920-67f6-413e-8468-287de8fbf5a9
+      id: b71687d1-3b9d-46bb-838b-32600881f4e0
       version: -1
       name: Get Incidents From File
       description: Gets a list of incident objects from a file.
@@ -52,7 +49,7 @@ tasks:
       '#none#':
       - "2"
     scriptarguments:
-      FileID:
+      fileID:
         simple: ${inputs.fileID}
       inputType:
         simple: csv

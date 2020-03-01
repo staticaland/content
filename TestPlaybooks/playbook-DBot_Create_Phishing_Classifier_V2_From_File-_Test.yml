@@ -1,4 +1,3 @@
-elasticcommonfields: {}
 id: DBot Create Phishing Classifier V2 From File - Test
 version: -1
 name: DBot Create Phishing Classifier V2 From File - Test
@@ -49,7 +48,7 @@ tasks:
       - "7"
     scriptarguments:
       fileID:
-        simple: "testFile"
+        simple: testFile
     separatecontext: false
     view: |-
       {
@@ -221,11 +220,10 @@ tasks:
     quietmode: 0
   "7":
     id: "7"
-    taskid: ffe31f7c-0d19-405e-8119-3cd935911e35
+    taskid: 9e32746d-fd7f-4152-8845-c49203c650ca
     type: playbook
     task:
-      elasticcommonfields: {}
-      id: ffe31f7c-0d19-405e-8119-3cd935911e35
+      id: 9e32746d-fd7f-4152-8845-c49203c650ca
       version: -1
       name: DBot Create Phishing Classifier V2 From File
       description: Create a phishing classifier using machine learning technique from
