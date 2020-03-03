@@ -17,10 +17,9 @@ tasks:
       name: ""
       iscommand: false
       brand: ""
-      description: ""
     nexttasks:
       '#none#':
-      - "1"
+      - "2"
     separatecontext: false
     view: |-
       {
@@ -32,51 +31,15 @@ tasks:
     note: false
     timertriggers: []
     ignoreworker: false
-  "1":
-    id: "1"
-    taskid: b71687d1-3b9d-46bb-838b-32600881f4e0
-    type: regular
-    task:
-      id: b71687d1-3b9d-46bb-838b-32600881f4e0
-      version: -1
-      name: Get Incidents From File
-      description: Gets a list of incident objects from a file.
-      scriptName: GetIncidentsFromFile
-      type: regular
-      iscommand: false
-      brand: ""
-    nexttasks:
-      '#none#':
-      - "2"
-    scriptarguments:
-      fileID:
-        simple: ${inputs.fileID}
-      inputType:
-        simple: csv
-      limit:
-        simple: ${inputs.maxIncidentsToFetchOnTraining}
-      outputFormat:
-        simple: pickle
-    separatecontext: false
-    view: |-
-      {
-        "position": {
-          "x": 50,
-          "y": 195
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
     skipunavailable: false
     quietmode: 0
   "2":
     id: "2"
-    taskid: 42dde49c-c198-40ed-84d0-ea21aaf8d9f6
+    taskid: d16e3cbe-5503-42df-8388-40d5947f67cf
     type: regular
     task:
       elasticcommonfields: {}
-      id: 42dde49c-c198-40ed-84d0-ea21aaf8d9f6
+      id: d16e3cbe-5503-42df-8388-40d5947f67cf
       version: -1
       name: Pre-process file
       description: Pre-process text data for the machine learning text classifier.
@@ -95,9 +58,9 @@ tasks:
       hashSeed:
         simple: ${inputs.hashSeed}
       input:
-        simple: ${lastCompletedTaskEntries}
+        simple: ${inputs.fileID}
       inputType:
-        simple: ${GetIncidentsFromFile.FileFormat}
+        simple: ${inputs.inputFormat}
       outputFormat:
         simple: ${inputs.outputFormat}
       preProcessType:
@@ -113,7 +76,7 @@ tasks:
       {
         "position": {
           "x": 50,
-          "y": 370
+          "y": 195
         }
       }
     note: false
@@ -177,7 +140,7 @@ tasks:
       {
         "position": {
           "x": 50,
-          "y": 545
+          "y": 370
         }
       }
     note: false
@@ -197,13 +160,12 @@ tasks:
       type: title
       iscommand: false
       brand: ""
-      description: ""
     separatecontext: false
     view: |-
       {
         "position": {
           "x": 50,
-          "y": 720
+          "y": 545
         }
       }
     note: false
@@ -216,7 +178,7 @@ view: |-
     "linkLabelsPosition": {},
     "paper": {
       "dimensions": {
-        "height": 735,
+        "height": 560,
         "width": 380,
         "x": 50,
         "y": 50
@@ -224,6 +186,17 @@ view: |-
     }
   }
 inputs:
+- key: fileID
+  value: {}
+  required: true
+  description: The ID of the file containing phishing incidents.
+  playbookInputQuery: null
+- key: inputFormat
+  value:
+    simple: csv
+  required: true
+  description: The input file format, choose between json \ pickle \ csv.
+  playbookInputQuery: null
 - key: modelName
   value:
     simple: phishing_model
@@ -322,11 +295,6 @@ inputs:
   required: false
   description: The files output format, choose between json \ pickle.
   playbookInputQuery: null
-- key: fileID
-  value: {}
-  required: true
-  description: The ID of the file containing phishing incidents.
-  playbookInputQuery: null
 outputs:
 - contextPath: DBotPhishingClassifier.EvaluationScores.micro_avg.f1-score
   description: F1 score (0-1)
@@ -340,4 +308,3 @@ outputs:
 - contextPath: DBotPhishingClassifier.ModelName
   description: Model name in Demisto
   type: String
-fromversion: 4.5.0
