@@ -1,7 +1,7 @@
 ## [Unreleased]
 - Fixed an issue where ***fetch-incidents*** did not work as intended.
 - Fixed an issue where ***splunk-parse-raw*** cut the last character of parsed fields.
-- Fixed an issue where ***splunk-search*** presented the table header in alphabetical order instead of the query order.
+- Fixed an issue where ***splunk-search*** presented the table headers in alphabetical order instead of the query order.
 
 ## [20.2.4] - 2020-02-25
 Added support for comma-separated values in the ***splunk-parse-raw*** command.
