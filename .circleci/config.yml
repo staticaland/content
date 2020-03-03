@@ -52,7 +52,7 @@ jobs:
           when: always
           command: |
             mkdir ./unit-tests
-            demisto-sdk lint -v -p 12 -a --test-xml ./unit-tests --log-path ./artifacts --json-report ./artifacts
+            demisto-sdk lint -p 10 -a --test-xml ./unit-tests --log-path ./artifacts --json-report ./artifacts
           no_output_timeout: 4h
       - store_test_results:
           path: ./unit-tests
