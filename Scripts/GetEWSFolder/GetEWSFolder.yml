@@ -48,14 +48,14 @@ args:
   description: The incident field name with the email html.
   isArray: false
   name: emailHtmlKey
-  required: true
+  required: false
   secret: false
 - default: false
   defaultValue: emailSubject
   description: The incident field name with the email subject.
   isArray: false
   name: emailSubjectKey
-  required: true
+  required: false
   secret: false
 - default: false
   defaultValue: closeReason
@@ -63,7 +63,7 @@ args:
     the incident label is stored. '
   isArray: false
   name: emailTagKey
-  required: true
+  required: false
   secret: false
 - auto: PREDEFINED
   default: false
