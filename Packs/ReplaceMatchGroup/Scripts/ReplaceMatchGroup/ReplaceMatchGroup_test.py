@@ -1,4 +1,3 @@
-import demistomock as demisto
 import pytest
 
 
@@ -13,20 +12,18 @@ test_data = [
      '{"UrlValue:https://sslmanageamazones.ddns.net/info.ppl.service.access/paypal"}]', '.*?(:).*?:\\/\\/', '":"',
      '[{"UrlValue":"https://sslmanageamazones.ddns.net/info.ppl.service.access/paypal"}, '
      '{"UrlValue":"https://sslmanageamazones.ddns.net/info.ppl.service.access/paypal"}, '
-     '{"UrlValue":"https://sslmanageamazones.ddns.net/info.ppl.service.access/paypal"}]')
+     '{"UrlValue":"https://sslmanageamazones.ddns.net/info.ppl.service.access/paypal"}]'),
+    ('string', '', 'wow', 'string'),
+    ('a, b. c,.', '.*?(!|\^)', '!', 'a, b. c,.'),
 ]
 
 
-@pytest.mark.parametrize('value, regex, replace, result', test_data)
-def test_main(mocker, value, regex, replace, result):
+@pytest.mark.parametrize('value, regex, replace, expected_result', test_data)
+def test_main(value, regex, replace, expected_result):
     from ReplaceMatchGroup import main
-    mocker.patch.object(demisto, 'args', return_value={
+    result = main({
         'value': value,
         'regex': regex,
         'replace_with': replace
     })
-    mocker.patch.object(demisto, 'results')
-    main()
-    assert demisto.results.call_count == 1
-    results = demisto.results.call_args[0][0]
-    assert results == result
+    assert result == expected_result

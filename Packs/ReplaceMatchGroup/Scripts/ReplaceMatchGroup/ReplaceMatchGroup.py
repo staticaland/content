@@ -2,10 +2,10 @@ import demistomock as demisto
 import re
 
 
-def main():
-    value = demisto.args()['value']
-    regex = re.compile(demisto.args()['regex'])
-    replace_with = demisto.args()['replace_with']
+def main(args):
+    value = args['value']
+    regex = re.compile(args['regex'])
+    replace_with = args['replace_with']
     output = list()
     start = 0
 
@@ -17,8 +17,9 @@ def main():
             start = match.end(index + 1)
     output.append(value[start:])  # Handling the tail of the string
 
-    demisto.results(''.join(output))
+    return ''.join(output)
 
 
-if __name__ == "__builtin__" or __name__ == "builtins" or __name__ == "__main__":
-    main()
+if __name__ in ["__builtin__", "builtins", "__main__"]:
+    result = main(demisto.args())
+    demisto.results(result)
