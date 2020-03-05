@@ -4,19 +4,21 @@ import re
 
 def main():
     value = demisto.args()['value']
-    regex = demisto.args()['regex']
+    regex = re.compile(demisto.args()['regex'])
     replace_with = demisto.args()['replace_with']
+    output = list()
+    start = 0
 
-    to_replace_list: list = re.findall(regex, value)
-    for item in to_replace_list:
-        if isinstance(item, tuple):
-            item_list = list(item)
-            for sub_item in item_list:
-                value = value.replace(sub_item, replace_with)
-        elif isinstance(item, str):
-            value = value.replace(item, replace_with)
-    demisto.results(value)
+    for match in regex.finditer(value):
+        for index, _ in enumerate(match.groups()):
+            end = match.start(index + 1)
+            output.append(value[start:end])
+            output.append(replace_with)
+            start = match.end(index + 1)
+    output.append(value[start:])  # Handling the tail of the string
+
+    demisto.results(''.join(output))
 
 
-if __name__ == "__builtin__" or __name__ == "builtins":
+if __name__ == "__builtin__" or __name__ == "builtins" or __name__ == "__main__":
     main()
