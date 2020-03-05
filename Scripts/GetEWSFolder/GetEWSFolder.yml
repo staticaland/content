@@ -51,7 +51,7 @@ args:
   required: false
   secret: false
 - default: false
-  defaultValue: emailSubject
+  defaultValue: emailsubject
   description: The incident field name with the email subject.
   isArray: false
   name: emailSubjectKey
