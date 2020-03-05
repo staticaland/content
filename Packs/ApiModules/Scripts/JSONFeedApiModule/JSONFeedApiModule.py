@@ -154,7 +154,10 @@ def fetch_indicators_command(client: Client, indicator_type: str, **kwargs) -> U
     return indicators
 
 
-def feed_main(params, feed_name, prefix):
+def feed_main(feed_name, params=None, prefix=''):
+    if not params:
+        params = {k: v for k, v in demisto.params().items() if v is not None}
+
     # handle proxy settings
     handle_proxy()
 

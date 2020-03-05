@@ -1,5 +1,5 @@
 def main():
-    feed_main('JSON', prefix='csv')
+    feed_main('JSON', prefix='json')
 
 
 from JSONFeedApiModule import *  # noqa: E402
