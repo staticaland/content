@@ -41,7 +41,7 @@ args:
   description: The incident field name with the email body.
   isArray: false
   name: emailTextKey
-  required: true
+  required: false
   secret: false
 - default: false
   defaultValue: emailbodyhtml
