@@ -10,8 +10,8 @@ def main():
     params['feed_name_to_config'] = {
         params.get('indicator_type'): {
             'url': params.get('url'),
-            'extractor': "prefixes[]",
-            'indicator': 'ip_prefix',
+            'extractor': params.get('extractor'),
+            'indicator': params.get('indicator'),
             'indicator_type': params.get('indicator_type'),
         }
     }

@@ -82,6 +82,16 @@ configuration:
   name: credentials
   required: false
   type: 9
+- additionalinfo: JMESPath expression for extracting the indicators from.
+  display: JMESPath Extractor
+  name: extractor
+  required: false
+  type: 0
+- additionalinfo: JSON attribute to use as indicator. Default is 'indicator'.
+  display: JSON attribute indicator
+  name: indicator
+  required: false
+  type: 0
 description: Fetch indicators from a JSON feed.
 display: JSON Feed
 name: JSONFeed
