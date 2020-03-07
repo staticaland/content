@@ -1,4 +1,5 @@
 import pytest
+from CommonServerPython import DemistoException
 
 
 test_data = [
@@ -17,6 +18,8 @@ test_data = [
     ('a, b. c,.', '.*?(!|\^)', '!', 'a, b. c,.'),
 ]
 
+test_exception_data = [('string', 3, 'a'), ('string', 'hel(o', 'a')]
+
 
 @pytest.mark.parametrize('value, regex, replace, expected_result', test_data)
 def test_main(value, regex, replace, expected_result):
@@ -27,3 +30,14 @@ def test_main(value, regex, replace, expected_result):
         'replace_with': replace
     })
     assert result == expected_result
+
+
+@pytest.mark.parametrize('value, regex, replace', test_exception_data)
+def test_main_exception(value, regex, replace):
+    from ReplaceMatchGroup import main
+    with pytest.raises(DemistoException, match='Could not compile regex.'):
+        main({
+            'value': value,
+            'regex': regex,
+            'replace_with': replace
+        })
