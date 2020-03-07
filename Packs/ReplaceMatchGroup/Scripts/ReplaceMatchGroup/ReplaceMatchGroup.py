@@ -8,14 +8,11 @@ def main(args):
     replace_with = args['replace_with']
     output = list()
     start = 0
-    compile_err_msg: str = 'Could not compile regex.'
 
     try:
         regex = re.compile(args['regex'])
-    except re.error:
-        raise DemistoException(compile_err_msg)
-    except TypeError:
-        raise DemistoException(compile_err_msg)
+    except (re.error, TypeError):
+        raise DemistoException('Could not compile regex.')
 
     for match in regex.finditer(value):
         for index, _ in enumerate(match.groups(), start=1):
