@@ -116,3 +116,5 @@ script:
   subtype: python3
   dockerimage: demisto/jmespath:1.0.0.6232
 fromversion: 5.5.0
+tests:
+- JSON_Feed_Test
