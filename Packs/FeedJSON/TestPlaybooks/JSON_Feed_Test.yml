@@ -1,4 +1,4 @@
-id: CSV_Feed_Test
+id: JSON_Feed_Test
 version: -1
 name: JSON_Feed_Test
 starttaskid: "0"
