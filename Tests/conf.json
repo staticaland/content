@@ -1252,7 +1252,8 @@
             "instance_names": "virus_total_private_api_general",
             "playbookID": "virusTotalPrivateAPI-test-playbook",
             "timeout": 1400,
-            "nightly": true
+            "nightly": true,
+            "pid_threshold": 12
         },
         {
             "integrations": "VirusTotal - Private API",
@@ -2457,6 +2458,7 @@
     },
     "skipped_integrations": {
         "_comment": "~~~ NO INSTANCE ~~~",
+        "Palo Alto Networks Cortex": "Issue 22300",
         "Claroty": "Issue 22255",
         "AWS - IAM": "Issue 21401",
         "FortiGate": "License expired, and not going to get one (issue 14723)",
