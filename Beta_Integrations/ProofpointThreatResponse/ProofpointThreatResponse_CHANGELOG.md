@@ -1,4 +1,15 @@
 ## [Unreleased]
+- Improved the description of the *expiration* argument
+- The following were removed as integration parameters and are now command arguments.
+    - *blacklist_ip*
+    - *blacklist_url*
+    - *blacklist_domain*
+    - *blacklist_hash* 
+- Added 4 commands.
+    - ***proofpoint-tr-list-incidents***
+    - ***proofpoint-tr-get-incident***
+    - ***proofpoint-tr-add-comment-to-incident***
+    - ***proofpoint-tr-add-user-to-incident***
 
 
 ## [19.12.1] - 2019-12-25
