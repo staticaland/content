@@ -89,7 +89,7 @@ tasks:
       since_creation_time: {}
       since_modification_time: {}
       sort_by_creation_time:
-        simple: desc
+        simple: asc
       sort_by_modification_time: {}
     separatecontext: false
     view: |-
@@ -125,11 +125,6 @@ tasks:
           left:
             value:
               simple: PaloAltoNetworksXDR.Incident.incident_id
-            iscontext: true
-      - - operator: isExists
-          left:
-            value:
-              simple: PaloAltoNetworksXDR.Incident.manual_severity
             iscontext: true
       - - operator: isNotEmpty
           left:
