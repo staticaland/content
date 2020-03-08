@@ -2412,7 +2412,6 @@
     ],
     "skipped_tests": {
         "Office365_Feed_Test": "Issue 22517",
-        "Test XDR Playbook": "Issue 22512",
         "RasterizeTest": "Issue 20702",
         "Send Investigation Summary Reports": "Issue 22299",
         "test-Expanse": "Expanse should provide domain that they have in their system",
