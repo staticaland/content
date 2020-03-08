@@ -1765,6 +1765,3 @@ try:
         return_outputs(*add_remove_machine_tag_command())
 except Exception as e:
     return_error(str(e))
-
-
-

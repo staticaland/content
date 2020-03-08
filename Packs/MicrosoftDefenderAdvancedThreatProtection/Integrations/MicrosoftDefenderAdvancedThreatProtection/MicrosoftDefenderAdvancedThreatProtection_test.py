@@ -539,4 +539,3 @@ MACHINE_DATA = {
     'AADDeviceID': '12ab34cd',
     'ExposureLevel': "Medium"
 }
-

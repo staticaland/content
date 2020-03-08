@@ -1,7 +1,7 @@
 elasticcommonfields: {}
-id: Test - Windows Defender Advanced Threat Protection
-version: 70
-name: Test - Windows Defender Advanced Threat Protection
+id: Microsoft Defender Advanced Threat Protection - Test
+version: -1
+name: Microsoft Defender Advanced Threat Protection - Test
 starttaskid: "0"
 tasks:
   "0":

@@ -2197,5 +2197,3 @@ script:
   script: '-'
   subtype: python3
   type: python
-tests: Microsoft Defender Advanced Threat Protection - Test
-
