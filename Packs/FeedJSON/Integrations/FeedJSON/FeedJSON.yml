@@ -88,8 +88,13 @@ configuration:
   required: false
   type: 0
 - additionalinfo: JSON attribute to use as indicator. Default is 'indicator'.
-  display: JSON attribute indicator
+  display: JSON Attribute Indicator
   name: indicator
+  required: false
+  type: 0
+- additionalinfo: The names to apply the fields in the JSON feed.
+  display: Field Names
+  name: fields
   required: false
   type: 0
 description: Fetch indicators from a JSON feed.
