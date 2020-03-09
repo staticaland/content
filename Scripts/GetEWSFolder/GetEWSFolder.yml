@@ -1,7 +1,7 @@
 args:
 - default: false
   defaultValue: Inbox,Inbox\\FOLDER1,Inbox\\FOLDER2
-  description: A comma-separated list of the EWS folders paths.
+  description: A comma-separated list of the EWS folder paths.
   isArray: false
   name: foldersPaths
   required: true
@@ -15,7 +15,7 @@ args:
 - auto: PREDEFINED
   default: false
   defaultValue: 'false'
-  description: Is the folder public?
+  description: Whether the folder is public?
   isArray: false
   name: isPublic
   predefined:
@@ -25,13 +25,13 @@ args:
   secret: false
 - default: false
   defaultValue: '1000'
-  description: Maximum number of items per folder.
+  description: The maximum number of items per folder. The default is 1000.
   isArray: false
   name: limit
   required: false
   secret: false
 - default: false
-  description: Use this hash seed.
+  description: The hash seed to use.
   isArray: false
   name: hashSeed
   required: false
@@ -45,7 +45,7 @@ args:
   secret: false
 - default: false
   defaultValue: emailbodyhtml
-  description: The incident field name with the email html.
+  description: The incident field name with the email HTML.
   isArray: false
   name: emailHtmlKey
   required: false
@@ -59,7 +59,7 @@ args:
   secret: false
 - default: false
   defaultValue: closeReason
-  description: 'he field name with the email tag. Should be the same field name where
+  description: 'The field name with the email tag. Should be the same field name where
     the incident label is stored. '
   isArray: false
   name: emailTagKey
@@ -68,7 +68,7 @@ args:
 - auto: PREDEFINED
   default: false
   defaultValue: 'false'
-  description: If equals true, the attachment mail from each file will be taken
+  description: If true, the attachment mail from each file will be taken.
   isArray: false
   name: getInternalItem
   predefined:
@@ -76,7 +76,7 @@ args:
   - 'false'
   required: false
   secret: false
-comment: Get emails from multiple folders of an account all at once.
+comment: Gets emails from multiple folders of an account at a single time.
 commonfields:
   id: GetEWSFolder
   version: -1
