@@ -1252,7 +1252,8 @@
             "instance_names": "virus_total_private_api_general",
             "playbookID": "virusTotalPrivateAPI-test-playbook",
             "timeout": 1400,
-            "nightly": true
+            "nightly": true,
+            "pid_threshold": 12
         },
         {
             "integrations": "VirusTotal - Private API",
@@ -2410,6 +2411,7 @@
         }
     ],
     "skipped_tests": {
+        "Archer-Test-Playbook": "Issue 22536",
         "Office365_Feed_Test": "Issue 22517",
         "Test XDR Playbook": "Issue 22512",
         "RasterizeTest": "Issue 20702",
@@ -2457,6 +2459,7 @@
     },
     "skipped_integrations": {
         "_comment": "~~~ NO INSTANCE ~~~",
+        "Palo Alto Networks Cortex": "Issue 22300",
         "Claroty": "Issue 22255",
         "AWS - IAM": "Issue 21401",
         "FortiGate": "License expired, and not going to get one (issue 14723)",
@@ -2523,6 +2526,7 @@
         "_comment": "~~~ UNSTABLE ~~~",
         "ServiceNow": "Instance goes to hibernate every few hours",
         "Tenable.sc": "unstable instance",
+        "VirusTotal - Private API": "Issue 22638",
 
 
         "_comment": "~~~ OTHER ~~~",
