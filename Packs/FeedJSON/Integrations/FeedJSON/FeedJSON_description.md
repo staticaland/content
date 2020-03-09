@@ -6,7 +6,8 @@ Fetch indicators from a JSON feed. The integration allows a great amount of user
 * **Username + Password** - Credentials to access feeds that require basic authentication. 
 These fields also support the use of API key headers. To use API key headers, specify the header name and value in the following format:
 `_header:<header_name>` in the **Username** field and the header value in the **Password** field.
-* **JMESPath Extractor** - JMESPath expression for extracting the indicators from.
+* **JMESPath Extractor** - JMESPath expression for extracting the indicators from. You can check the expression in 
+the [JMESPath site](http://jmespath.org/) to verify this expression will return the following array of objects.
 * **JSON Attribute Indicator** - JSON attribute to use as indicator. Default is 'indicator'.
 * **Field Names** - The names to apply the fields in the JSON feed.
 
