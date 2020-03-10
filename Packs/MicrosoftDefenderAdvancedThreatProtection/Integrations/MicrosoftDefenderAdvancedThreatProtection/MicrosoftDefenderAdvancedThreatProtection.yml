@@ -1122,6 +1122,30 @@ script:
       name: id
       required: false
       secret: false
+    - default: false
+      description: Machine action status
+      isArray: false
+      name: status
+      required: false
+      secret: false
+    - default: false
+      description: The machine ID on which the action was executed.
+      isArray: false
+      name: machine_id
+      required: false
+      secret: false
+    - default: false
+      description: Machine action type
+      isArray: false
+      name: type
+      required: false
+      secret: false
+    - default: false
+      description: The ID of the user that executed the action
+      isArray: false
+      name: requestor
+      required: false
+      secret: false
     deprecated: false
     description: Return the machine's actions. If you set an action id it will return
       the info on the specific action
@@ -1136,7 +1160,7 @@ script:
       type: String
     - contextPath: MicrosoftATP.MachineAction.Scope
       description: Scope of the action
-      type: Unknown
+      type: String
     - contextPath: MicrosoftATP.MachineAction.Requestor
       description: The ID of the user that executed the action.
       type: String
@@ -1940,9 +1964,8 @@ script:
       type: Date
   - arguments:
     - default: false
-      description: |-
-        The user ID.  Note that the id is not the full UPN, but only the user name.
-         (e.g., to retrieve alerts for user1@test.com use user1)
+      description: "The user ID.  Note that the id is not the full UPN, but only the\
+        \ user name.\n (e.g., to retrieve alerts for\_user1@test.com\_use user1)"
       isArray: false
       name: username
       required: true
@@ -2033,9 +2056,8 @@ script:
       type: Date
   - arguments:
     - default: false
-      description: |-
-        The user ID.  Note that the id is not the full UPN, but only the user name.
-        (e.g., to retrieve machines for user1@test.com use user1)
+      description: "The user ID.  Note that the id is not the full UPN, but only the\
+        \ user name.\n(e.g., to retrieve machines for\_user1@test.com\_use user1)"
       isArray: false
       name: username
       required: true

@@ -1,0 +1,171 @@
+elasticcommonfields: {}
+id: Microsoft Defender Advanced Threat Protection Get Machine Action Status
+version: -1
+fromversion: 5.0.0
+name: Microsoft Defender Advanced Threat Protection Get Machine Action Status
+description: This playbook used generic polling to get machine action information.
+starttaskid: "0"
+tasks:
+  "0":
+    id: "0"
+    taskid: d5d8256c-233a-4797-8c5d-12c321dbe9c2
+    type: start
+    task:
+      elasticcommonfields: {}
+      id: d5d8256c-233a-4797-8c5d-12c321dbe9c2
+      version: -1
+      name: ""
+      description: ""
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "2"
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 50
+        }
+      }
+    note: false
+    timertriggers: []
+    ignoreworker: false
+    skipunavailable: false
+    quietmode: 0
+  "2":
+    id: "2"
+    taskid: fda8367d-4063-4d6f-8ab8-69991b056d03
+    type: playbook
+    task:
+      elasticcommonfields: {}
+      id: fda8367d-4063-4d6f-8ab8-69991b056d03
+      version: -1
+      name: GenericPolling
+      playbookName: GenericPolling
+      description: ""
+      type: playbook
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "3"
+    scriptarguments:
+      AdditionalPollingCommandArgNames: {}
+      AdditionalPollingCommandArgValues: {}
+      Ids:
+        simple: ${inputs.machine_action_id}
+      Interval:
+        simple: "1"
+      PollingCommandArgName:
+        simple: id
+      PollingCommandName:
+        simple: microsoft-atp-list-machine-actions
+      Timeout:
+        simple: "60"
+      dt:
+        simple: MicrosoftATP.MachineAction(val.Status == "Pending" || val.Status ==
+          "InProgress" ).ID
+    separatecontext: true
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 195
+        }
+      }
+    note: false
+    timertriggers: []
+    ignoreworker: false
+    skipunavailable: false
+    quietmode: 0
+  "3":
+    id: "3"
+    taskid: d73cbd72-b860-49fc-8243-f3da3dd2e97c
+    type: regular
+    task:
+      elasticcommonfields: {}
+      id: d73cbd72-b860-49fc-8243-f3da3dd2e97c
+      version: -1
+      name: Get machine action info
+      description: Return the machine's actions.
+      script: '|||microsoft-atp-list-machine-actions'
+      type: regular
+      iscommand: true
+      brand: ""
+    scriptarguments:
+      id:
+        simple: ${MicrosoftATP.MachineAction.ID}
+      machine_id: {}
+      requestor: {}
+      status: {}
+      type: {}
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 370
+        }
+      }
+    note: false
+    timertriggers: []
+    ignoreworker: false
+    skipunavailable: false
+    quietmode: 0
+view: |-
+  {
+    "linkLabelsPosition": {},
+    "paper": {
+      "dimensions": {
+        "height": 415,
+        "width": 380,
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+inputs:
+- key: machine_action_id
+  value: {}
+  required: false
+  description: ""
+  playbookInputQuery: null
+outputs:
+- contextPath: MicrosoftATP.MachineAction.ID
+  description: The machine action ID
+  type: string
+- contextPath: MicrosoftATP.MachineAction.Type
+  description: Type of the action
+  type: string
+- contextPath: MicrosoftATP.MachineAction.Scope
+  description: Scope of the action
+- contextPath: MicrosoftATP.MachineAction.Requestor
+  description: The ID of the user that executed the action.
+  type: string
+- contextPath: MicrosoftATP.MachineAction.RequestorComment
+  description: Comment that was written when issuing the action.
+  type: string
+- contextPath: MicrosoftATP.MachineAction.Status
+  description: The current status of the command
+  type: string
+- contextPath: MicrosoftATP.MachineAction.MachineID
+  description: The machine ID on which the action was executed.
+  type: string
+- contextPath: MicrosoftATP.MachineAction.ComputerDNSName
+  description: The machine DNS name on which the action was executed
+  type: string
+- contextPath: MicrosoftATP.MachineAction.CreationDateTimeUtc
+  description: The date and time when the action was created
+  type: date
+- contextPath: MicrosoftATP.MachineAction.LastUpdateTimeUtc
+  description: The last date and time when the action status was updated
+  type: date
+- contextPath: MicrosoftATP.MachineAction.RelatedFileInfo.FileIdentifier
+  description: The file identifier
+  type: string
+- contextPath: MicrosoftATP.MachineAction.RelatedFileInfo.FileIdentifierType
+  description: 'The type of the file identifier with the possible values: "Sha1" ,"Sha256"
+    and "Md5"'
+  type: string

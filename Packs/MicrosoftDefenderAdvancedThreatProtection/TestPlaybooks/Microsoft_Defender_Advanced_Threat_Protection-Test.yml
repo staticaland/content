@@ -56,8 +56,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 50,
-          "y": 2120
+          "x": 910,
+          "y": 895
         }
       }
     note: false
@@ -67,11 +67,11 @@ tasks:
     quietmode: 0
   "3":
     id: "3"
-    taskid: 953ab3bc-60eb-4b10-8c96-55fd9b40d62e
+    taskid: a21aeb47-0acc-42f8-8120-b445e572eb53
     type: condition
     task:
       elasticcommonfields: {}
-      id: 953ab3bc-60eb-4b10-8c96-55fd9b40d62e
+      id: a21aeb47-0acc-42f8-8120-b445e572eb53
       version: -1
       name: Assert an alert was fetched
       type: condition
@@ -100,8 +100,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 50,
-          "y": 2295
+          "x": 910,
+          "y": 1070
         }
       }
     note: false
@@ -111,11 +111,11 @@ tasks:
     quietmode: 0
   "5":
     id: "5"
-    taskid: 5604f0eb-270a-44cc-879b-e22f56eb89ca
+    taskid: 5fdfae57-2edf-456a-8682-ff9783c4afe2
     type: condition
     task:
       elasticcommonfields: {}
-      id: 5604f0eb-270a-44cc-879b-e22f56eb89ca
+      id: 5fdfae57-2edf-456a-8682-ff9783c4afe2
       version: -1
       name: Assert right machine was fetched
       type: condition
@@ -123,7 +123,7 @@ tasks:
       brand: ""
     nexttasks:
       "yes":
-      - "23"
+      - "15"
     separatecontext: false
     conditions:
     - label: "yes"
@@ -141,7 +141,7 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 50,
+          "x": 910,
           "y": 545
         }
       }
@@ -166,151 +166,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 3170
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
-  "11":
-    id: "11"
-    taskid: f9728b64-f03b-4467-83de-dcc9580b7d41
-    type: condition
-    task:
-      elasticcommonfields: {}
-      id: f9728b64-f03b-4467-83de-dcc9580b7d41
-      version: -1
-      name: Assert machine was fetched and isolated
-      type: condition
-      iscommand: false
-      brand: ""
-    nexttasks:
-      "yes":
-      - "22"
-    separatecontext: false
-    conditions:
-    - label: "yes"
-      condition:
-      - - operator: isEqualString
-          left:
-            value:
-              complex:
-                root: MicrosoftATP
-                accessor: MachineAction.MachineID
-                transformers:
-                - operator: atIndex
-                  args:
-                    index:
-                      value:
-                        simple: "0"
-            iscontext: true
-          right:
-            value:
-              simple: f70f9fe6b29cd9511652434919c6530618f06606
-      - - operator: isEqualString
-          left:
-            value:
-              complex:
-                root: MicrosoftATP
-                accessor: MachineAction.Status
-            iscontext: true
-          right:
-            value:
-              simple: Succeeded
-    view: |-
-      {
-        "position": {
-          "x": 50,
-          "y": 1070
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
-  "12":
-    id: "12"
-    taskid: 3edfe40c-018e-4a33-8597-5f1c83b9b8fb
-    type: regular
-    task:
-      elasticcommonfields: {}
-      id: 3edfe40c-018e-4a33-8597-5f1c83b9b8fb
-      version: -1
-      name: Isolate machine
-      script: '|||microsoft-atp-isolate-machine'
-      type: regular
-      iscommand: true
-      brand: ""
-    nexttasks:
-      '#none#':
-      - "11"
-    scriptarguments:
-      comment:
-        simple: test
-      isolation_type:
-        simple: Full
-      machine_id:
-        complex:
-          root: MicrosoftATP
-          accessor: FileMachine.Machines.ID
-          transformers:
-          - operator: atIndex
-            args:
-              index:
-                value:
-                  simple: "0"
-    separatecontext: false
-    view: |-
-      {
-        "position": {
-          "x": 50,
-          "y": 895
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
-  "13":
-    id: "13"
-    taskid: 9dcdd2f2-0a73-4f30-8929-25aef9224596
-    type: regular
-    task:
-      elasticcommonfields: {}
-      id: 9dcdd2f2-0a73-4f30-8929-25aef9224596
-      version: -1
-      name: Unisolate machine
-      script: '|||microsoft-atp-unisolate-machine'
-      type: regular
-      iscommand: true
-      brand: ""
-    nexttasks:
-      '#none#':
-      - "15"
-    scriptarguments:
-      comment:
-        simple: Test
-      machine_id:
-        complex:
-          root: MicrosoftATP
-          accessor: MachineAction.MachineID
-          transformers:
-          - operator: atIndex
-            args:
-              index:
-                value:
-                  simple: "0"
-    separatecontext: false
-    view: |-
-      {
-        "position": {
-          "x": 50,
-          "y": 1420
+          "x": 695,
+          "y": 2120
         }
       }
     note: false
@@ -335,7 +192,7 @@ tasks:
       brand: ""
     nexttasks:
       '#none#':
-      - "16"
+      - "2"
     scriptarguments:
       health_status:
         simple: Active
@@ -347,46 +204,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 50,
-          "y": 1770
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
-  "16":
-    id: "16"
-    taskid: 5da71b07-a930-4205-8b6d-4c005d16cdd4
-    type: condition
-    task:
-      elasticcommonfields: {}
-      id: 5da71b07-a930-4205-8b6d-4c005d16cdd4
-      version: -1
-      name: Assert isolation doesn't exist
-      type: condition
-      iscommand: false
-      brand: ""
-    nexttasks:
-      "yes":
-      - "2"
-    separatecontext: false
-    conditions:
-    - label: "yes"
-      condition:
-      - - operator: isNotExists
-          left:
-            value:
-              complex:
-                root: MicrosoftATP
-                accessor: Machine.Isolation
-            iscontext: true
-    view: |-
-      {
-        "position": {
-          "x": 50,
-          "y": 1945
+          "x": 910,
+          "y": 720
         }
       }
     note: false
@@ -449,8 +268,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 50,
-          "y": 2820
+          "x": 910,
+          "y": 1595
         }
       }
     note: false
@@ -487,8 +306,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": -10,
-          "y": 3140
+          "x": 910,
+          "y": 1945
         }
       }
     note: false
@@ -498,11 +317,11 @@ tasks:
     quietmode: 0
   "20":
     id: "20"
-    taskid: 4f893d24-006c-41a8-87d9-2b1017a358e6
+    taskid: acce8587-d9ab-4f19-89cd-1f9b8a4cbf1e
     type: regular
     task:
       elasticcommonfields: {}
-      id: 4f893d24-006c-41a8-87d9-2b1017a358e6
+      id: acce8587-d9ab-4f19-89cd-1f9b8a4cbf1e
       version: -1
       name: Advance query
       script: '|||microsoft-atp-advanced-hunting'
@@ -514,14 +333,13 @@ tasks:
       - "21"
     scriptarguments:
       query:
-        simple: RegistryEvents | take 1 | where MachineId =~ 'f70f9fe6b29cd9511652434919c6530618f06606'
-          | project MachineId, ReportId, tostring(EventTime)
+        simple: RegistryEvents | take 1 | project MachineId, ReportId, tostring(EventTime)
     separatecontext: false
     view: |-
       {
         "position": {
-          "x": 50,
-          "y": 2470
+          "x": 910,
+          "y": 1245
         }
       }
     note: false
@@ -531,11 +349,11 @@ tasks:
     quietmode: 0
   "21":
     id: "21"
-    taskid: 619036e0-411a-45c5-82d2-5af0d9af0371
+    taskid: d4ffaa59-060a-4eea-81a8-7e8ad106e981
     type: condition
     task:
       elasticcommonfields: {}
-      id: 619036e0-411a-45c5-82d2-5af0d9af0371
+      id: d4ffaa59-060a-4eea-81a8-7e8ad106e981
       version: -1
       name: Assert query results
       type: condition
@@ -548,87 +366,18 @@ tasks:
     conditions:
     - label: "yes"
       condition:
-      - - operator: isEqualString
+      - - operator: isExists
           left:
             value:
               complex:
                 root: MicrosoftATP
                 accessor: Hunt.Result.MachineId
             iscontext: true
-          right:
-            value:
-              simple: f70f9fe6b29cd9511652434919c6530618f06606
     view: |-
       {
         "position": {
-          "x": 50,
-          "y": 2645
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
-  "22":
-    id: "22"
-    taskid: 82e89000-0f90-40ba-84ab-47a6c36117b7
-    type: regular
-    task:
-      elasticcommonfields: {}
-      id: 82e89000-0f90-40ba-84ab-47a6c36117b7
-      version: -1
-      name: Wait for isolation to complete
-      description: Sleep for X seconds
-      scriptName: Sleep
-      type: regular
-      iscommand: false
-      brand: ""
-    nexttasks:
-      '#none#':
-      - "13"
-    scriptarguments:
-      seconds:
-        simple: "30"
-    separatecontext: false
-    view: |-
-      {
-        "position": {
-          "x": 50,
-          "y": 1245
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
-  "23":
-    id: "23"
-    taskid: 84848180-cf86-48de-84c1-4dfb82d4df1f
-    type: regular
-    task:
-      elasticcommonfields: {}
-      id: 84848180-cf86-48de-84c1-4dfb82d4df1f
-      version: -1
-      name: Wait before starting isolation
-      description: Sleep for X seconds
-      scriptName: Sleep
-      type: regular
-      iscommand: false
-      brand: ""
-    nexttasks:
-      '#none#':
-      - "12"
-    scriptarguments:
-      seconds:
-        simple: "10"
-    separatecontext: false
-    view: |-
-      {
-        "position": {
-          "x": 50,
-          "y": 720
+          "x": 910,
+          "y": 1420
         }
       }
     note: false
@@ -638,11 +387,11 @@ tasks:
     quietmode: 0
   "24":
     id: "24"
-    taskid: cbb8c73d-4cec-4dd6-8d10-1c27c3cb2d43
+    taskid: 1621bbe7-7316-49b4-8af8-9d2caa9a16da
     type: regular
     task:
       elasticcommonfields: {}
-      id: cbb8c73d-4cec-4dd6-8d10-1c27c3cb2d43
+      id: 1621bbe7-7316-49b4-8af8-9d2caa9a16da
       version: -1
       name: Get machine related to file
       description: Get a collection of machines related to a given file hash.
@@ -660,7 +409,7 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 50,
+          "x": 910,
           "y": 370
         }
       }
@@ -696,8 +445,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 1125,
-          "y": 2295
+          "x": 265,
+          "y": 1245
         }
       }
     note: false
@@ -737,8 +486,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 1340,
-          "y": 2470
+          "x": 50,
+          "y": 1420
         }
       }
     note: false
@@ -765,7 +514,6 @@ tasks:
       - "25"
       - "24"
       - "29"
-      - "31"
     scriptarguments:
       all:
         simple: "yes"
@@ -818,8 +566,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 920,
-          "y": 2510
+          "x": 480,
+          "y": 1420
         }
       }
     note: false
@@ -829,102 +577,36 @@ tasks:
     quietmode: 0
   "29":
     id: "29"
-    taskid: 7558199c-0382-474c-8ed2-bba62e5c0d03
+    taskid: fc674176-0999-4553-83c2-3a1c9d64eb21
     type: regular
     task:
       elasticcommonfields: {}
-      id: 7558199c-0382-474c-8ed2-bba62e5c0d03
+      id: fc674176-0999-4553-83c2-3a1c9d64eb21
       version: -1
       name: Get machine action data
       description: Return the machine's actions. If you set an action id it will return
         the info on the specific action
-      script: Windows Defender Advanced Threat Protection-test|||microsoft-atp-list-machine-actions
+      script: '|||microsoft-atp-list-machine-actions'
       type: regular
       iscommand: true
-      brand: Windows Defender Advanced Threat Protection-test
+      brand: ""
     nexttasks:
       '#none#':
       - "38"
     scriptarguments:
       id:
         simple: fb3405b2-ccfb-4884-912b-e2b242879c4d
+      machine_id: {}
+      requestor: {}
+      status: {}
+      type:
+        simple: Unisolate
     separatecontext: false
     view: |-
       {
         "position": {
-          "x": 1770,
-          "y": 2645
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
-  "31":
-    id: "31"
-    taskid: 29a717ad-39da-4d7e-82c1-057fb6651ba1
-    type: regular
-    task:
-      elasticcommonfields: {}
-      id: 29a717ad-39da-4d7e-82c1-057fb6651ba1
-      version: -1
-      name: Restrict app execution
-      description: Restrict execution of all applications on the machine except a
-        predefined set.
-      script: '|||microsoft-atp-restrict-app-execution'
-      type: regular
-      iscommand: true
-      brand: ""
-    nexttasks:
-      '#none#':
-      - "40"
-    scriptarguments:
-      comment:
-        simple: testing
-      machine_id:
-        simple: f70f9fe6b29cd9511652434919c6530618f06606
-    separatecontext: false
-    view: |-
-      {
-        "position": {
-          "x": 480,
-          "y": 2645
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
-  "32":
-    id: "32"
-    taskid: 7ef948ad-d561-49fa-80d1-d79796b26d0d
-    type: regular
-    task:
-      elasticcommonfields: {}
-      id: 7ef948ad-d561-49fa-80d1-d79796b26d0d
-      version: -1
-      name: Remove app restriction
-      description: Enable execution of any application on the machine.
-      script: '|||microsoft-atp-remove-app-restriction'
-      type: regular
-      iscommand: true
-      brand: ""
-    nexttasks:
-      '#none#':
-      - "8"
-    scriptarguments:
-      comment:
-        simple: testing
-      machine_id:
-        simple: f70f9fe6b29cd9511652434919c6530618f06606
-    separatecontext: false
-    view: |-
-      {
-        "position": {
-          "x": 480,
-          "y": 2995
+          "x": 1340,
+          "y": 1595
         }
       }
     note: false
@@ -934,11 +616,11 @@ tasks:
     quietmode: 0
   "34":
     id: "34"
-    taskid: 468c5402-429a-4f0b-8be2-0f95fc58dfcb
+    taskid: a0aadb2f-eb91-498e-879d-b056fd305977
     type: regular
     task:
       elasticcommonfields: {}
-      id: 468c5402-429a-4f0b-8be2-0f95fc58dfcb
+      id: a0aadb2f-eb91-498e-879d-b056fd305977
       version: -1
       name: Get domain statistics
       description: Retrieves the statistics on the given domain.
@@ -956,8 +638,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 2820
+          "x": 480,
+          "y": 1770
         }
       }
     note: false
@@ -967,11 +649,11 @@ tasks:
     quietmode: 0
   "35":
     id: "35"
-    taskid: 93e9942d-60a1-43fc-8f4c-ce40f654020c
+    taskid: 12fcaea8-e513-49bf-8557-9b8af344ba22
     type: regular
     task:
       elasticcommonfields: {}
-      id: 93e9942d-60a1-43fc-8f4c-ce40f654020c
+      id: 12fcaea8-e513-49bf-8557-9b8af344ba22
       version: -1
       name: Get ip statistics
       description: Retrieves the statistics for the given IP.
@@ -989,8 +671,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 2995
+          "x": 480,
+          "y": 1945
         }
       }
     note: false
@@ -1022,8 +704,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 1340,
-          "y": 2645
+          "x": 50,
+          "y": 1595
         }
       }
     note: false
@@ -1055,8 +737,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 1340,
-          "y": 2820
+          "x": 50,
+          "y": 1770
         }
       }
     note: false
@@ -1092,8 +774,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 1770,
-          "y": 2820
+          "x": 1340,
+          "y": 1770
         }
       }
     note: false
@@ -1129,41 +811,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 1770,
-          "y": 2995
-        }
-      }
-    note: false
-    timertriggers: []
-    ignoreworker: false
-    skipunavailable: false
-    quietmode: 0
-  "40":
-    id: "40"
-    taskid: 4424ec1c-e539-49ef-8fc7-a74fbcbe2c46
-    type: regular
-    task:
-      elasticcommonfields: {}
-      id: 4424ec1c-e539-49ef-8fc7-a74fbcbe2c46
-      version: -1
-      name: Wait for restrict app execution to end
-      description: Sleep for X seconds
-      scriptName: Sleep
-      type: regular
-      iscommand: false
-      brand: ""
-    nexttasks:
-      '#none#':
-      - "32"
-    scriptarguments:
-      seconds:
-        simple: "15"
-    separatecontext: false
-    view: |-
-      {
-        "position": {
-          "x": 480,
-          "y": 2820
+          "x": 1340,
+          "y": 1945
         }
       }
     note: false
@@ -1195,8 +844,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 1340,
-          "y": 2995
+          "x": 50,
+          "y": 1945
         }
       }
     note: false
@@ -1218,6 +867,9 @@ tasks:
       type: regular
       iscommand: true
       brand: ""
+    nexttasks:
+      '#none#':
+      - "34"
     scriptarguments:
       file:
         simple: ${MicrosoftATP.FileStatistics.Sha1}
@@ -1225,8 +877,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 900,
-          "y": 2690
+          "x": 480,
+          "y": 1595
         }
       }
     note: false
@@ -1273,8 +925,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 10,
-          "y": 2940
+          "x": 910,
+          "y": 1770
         }
       }
     note: false
@@ -1287,9 +939,9 @@ view: |-
     "linkLabelsPosition": {},
     "paper": {
       "dimensions": {
-        "height": 3185,
-        "width": 2160,
-        "x": -10,
+        "height": 2135,
+        "width": 1670,
+        "x": 50,
         "y": 50
       }
     }

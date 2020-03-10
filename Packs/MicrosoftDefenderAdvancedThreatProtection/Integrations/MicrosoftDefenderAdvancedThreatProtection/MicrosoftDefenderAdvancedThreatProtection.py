@@ -403,12 +403,14 @@ def get_machine_action_by_id_request(action_id):
     return response
 
 
-def get_machine_actions_request():
+def get_machine_actions_request(filter_req):
     """Retrieves all Machine Action
     Returns:
         dict. Machine Action entity
     """
     cmd_url = '/machineactions'
+    if filter_req:
+        cmd_url += f'?$filter={filter_req}'
     response = http_request('GET', cmd_url)
     return response
 
@@ -768,7 +770,6 @@ def get_machines_command():
     for field_key, field_value in filter_fields_dict.items():
         if field_value:
             filter_req += field_key + '+eq+\'' + field_value + '\'&'
-    demisto.results(filter_req)
     machines_response = get_machines_request(filter_req)
     machines_list = []
     for machine in machines_response['value']:
@@ -1073,13 +1074,23 @@ def get_machine_action_by_id_command():
     action_id = demisto.args().get('id', '')
     headers = ['ID', 'Type', 'Scope', 'Requestor', 'RequestorComment', 'Status', 'MachineID', 'ComputerDNSName',
                'CreationDateTimeUtc', 'LastUpdateTimeUtc', 'RelatedFileInfo', 'FileIdentifier', 'FileIdentifierType']
+    status = demisto.args().get('status', '')
+    machine_id = demisto.args().get('machine_id', '')
+    type = demisto.args().get('type', '')
+    requestor = demisto.args().get('requestor', '')
     if action_id:
         response = get_machine_action_by_id_request(action_id)
         action_data = get_machine_action_data(action_id)
         hr = tableToMarkdown(f'Action {action_id} Info:', action_data, headers=headers)
         context_output = action_data
     else:
-        response = get_machine_actions_request()
+        filter_fields_dict = {'status': status, 'machineId': machine_id, 'type': type,
+                              'requestor': requestor}
+        filter_req = ''
+        for field_key, field_value in filter_fields_dict.items():
+            if field_value:
+                filter_req += field_key + '+eq+\'' + field_value + '\'&'
+        response = get_machine_actions_request(filter_req)
         actions_list = []
         for action in response['value']:
             actions_list.append(get_machine_action_data(action['id']))
