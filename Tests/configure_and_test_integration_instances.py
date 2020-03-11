@@ -529,20 +529,26 @@ def download_server_logs(client, prints_manager, thread_index):
     prints_manager.add_print_job(installed_content_message, print_color, thread_index, LOG_COLORS.GREEN)
 
     # make request to installed content details
-    response_data, status_code, _ = demisto_client.generic_request_func(self=client, path='/log/bundle',
-                                                                        method='GET')
+    http_response, status_code, _ = demisto_client.generic_request_func(self=client, path='/log/bundle',
+                                                                        method='GET', _preload_content=False,
+                                                                        accept='application/zip')
+    response_data = http_response.read(decode_content=True)
 
     try:
-        server_log_tarfile = tarfile.TarFile(io.BytesIO(response_data))
+        with open('the_tar.gz', 'wb') as tgz:
+            tgz.write(response_data)
+        server_log_tarfile = tarfile.open('the_tar.gz', 'r:gz')
     except Exception as err:
-        err_msg = 'Failed to parse response from demisto into a zip file. ' \
-                  'response is {}.\nError:\n{}'.format(response_data, err)
+        err_msg = 'Failed to parse response from demisto into a tar file. ' \
+                  '\nError: {}'.format(err)
         prints_manager.add_print_job(err_msg, print_error, thread_index)
+        prints_manager.execute_thread_prints(thread_index)
         return None
 
     if status_code >= 300 or status_code < 200:
         err_msg = "Failed fetching server log data - with status code " + str(status_code)
         prints_manager.add_print_job(err_msg, print_error, thread_index)
+        prints_manager.execute_thread_prints(thread_index)
         return None
     return server_log_tarfile
 
