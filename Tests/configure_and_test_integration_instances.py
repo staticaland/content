@@ -1,12 +1,14 @@
 from __future__ import print_function
 
 import argparse
+import io
 import os
 import re
 import uuid
 import json
 import ast
 import sys
+import tarfile
 import demisto_client
 from time import sleep
 from threading import Thread
@@ -511,6 +513,85 @@ def get_integrations_for_test(test, skipped_integrations_conf):
     return integrations
 
 
+def download_server_logs(client, prints_manager, thread_index):
+    '''Downloads the server logs zip file using the configured client
+
+    Args:
+        client (demisto_client): The configured client to use.
+        prints_manager (ParallelPrintsManager): Print manager object
+        thread_index (int): The thread index
+
+    Returns:
+        TarFile: TarFile object or None
+    '''
+    host = client.api_client.configuration.host
+    installed_content_message = '\nMaking "GET" request to server - "{}" to download server logs.'.format(host)
+    prints_manager.add_print_job(installed_content_message, print_color, thread_index, LOG_COLORS.GREEN)
+
+    # make request to installed content details
+    response_data, status_code, _ = demisto_client.generic_request_func(self=client, path='/log/bundle',
+                                                                        method='GET')
+
+    try:
+        server_log_tarfile = tarfile.TarFile(io.BytesIO(response_data))
+    except Exception as err:
+        err_msg = 'Failed to parse response from demisto into a zip file. ' \
+                  'response is {}.\nError:\n{}'.format(response_data, err)
+        prints_manager.add_print_job(err_msg, print_error, thread_index)
+        return None
+
+    if status_code >= 300 or status_code < 200:
+        err_msg = "Failed fetching server log data - with status code " + str(status_code)
+        prints_manager.add_print_job(err_msg, print_error, thread_index)
+        return None
+    return server_log_tarfile
+
+
+def get_file_tarfile(the_tar, file_name):
+    '''Extract the specified file from a tar and return the path.
+
+    Args:
+        the_tar (TarFile): TarFile object to extract from.
+        file_name (str): The name of the file you want to extract from the TarFile.
+
+    Returns:
+        str: The path to the extracted file.
+    '''
+    file_fp = ''
+    for fp in the_tar.getnames():
+        if file_name in fp:
+            file_fp = fp
+    file_tar_info_obj = the_tar.getmember(file_fp)
+    the_tar.extractall(members=[file_tar_info_obj])
+    return file_fp
+
+
+def search_file_contents(file_to_search, search_msg, context_lines=0,
+                         before_lines=0, after_lines=0, case_sensitive=True):
+    '''Search a file for a given message and return the relevant lines.
+
+    Args:
+        file_to_search (str): Path to the file to search.
+        search_msg (str): The string to search for in the 'file_to_search' file.
+        context_lines (int, optional): The number of lines before and after a match to return. Defaults to 0.
+        before_lines (int, optional): The number of lines to return before a line in which a match is
+            found. Defaults to 0.
+        after_lines (int, optional): The number of lines to return after a line in which a match is
+            found. Defaults to 0.
+        case_sensitive (bool): Whether the search for 'search_msg' should be case sensitive or not.
+            Defaults to True.
+
+    Returns:
+        (str): Matching lines or if no match is found, an empty string
+    '''
+    cmd_str = 'grep '
+    if not case_sensitive:
+        cmd_str += '-i '
+    cmd_str += '-B{} -A{} -C{} "{}" {}'.format(before_lines, after_lines, context_lines, search_msg, file_to_search)
+    output = run_command(cmd_str, exit_on_error=False)
+    return output
+
+
 def update_content_on_demisto_instance(client, server, prints_manager, thread_index):
     """Try to update the content
 
@@ -552,6 +633,13 @@ def update_content_on_demisto_instance(client, server, prints_manager, thread_in
             prints_manager.add_print_job(
                 'Content Update to version: {} was Unsuccessful:\n{}'.format(release, err_details),
                 print_error, thread_index)
+            server_search_msg = 'Could not install content'
+            server_log_zip_file = download_server_logs(client, prints_manager, thread_index)
+            server_log_file_path = get_file_tarfile(server_log_zip_file, 'server.log')
+            server_logs_error = search_file_contents(server_log_file_path, server_search_msg,
+                                                     context_lines=3, case_sensitive=False)
+            if server_logs_error:
+                prints_manager.add_print_job(server_logs_error, print, thread_index)
             prints_manager.execute_thread_prints(thread_index)
             os._exit(1)
 
