@@ -3,8 +3,8 @@ id: DBot Create Phishing Classifier V2 From File
 version: -1
 name: DBot Create Phishing Classifier V2 From File
 fromversion: 4.5.0
-description: Create a phishing classifier using machine learning technique from extracted
-  incidents files, based on email content.
+description: Create a phishing classifier using machine learning. The classifier is based on
+  incidents files extracted from email content.
 starttaskid: "0"
 tasks:
   "0":
@@ -198,7 +198,7 @@ inputs:
   value:
     simple: csv
   required: true
-  description: The input file format, choose between json \ pickle \ csv.
+  description: The input file format. Valid values include json \ pickle \ csv.
   playbookInputQuery: null
 - key: modelName
   value:
@@ -210,7 +210,7 @@ inputs:
   value:
     simple: Email Body|Email Body HTML|details
   required: false
-  description: A comma-separated list of incident fields names with the email body
+  description: A comma-separated list of incident field names with the email body
     or html body. You can also use "|" if you want to choose the first non empty value
     from a list of fields.
   playbookInputQuery: null
@@ -218,7 +218,7 @@ inputs:
   value:
     simple: Email Subject|name
   required: false
-  description: A comma-separated list of incident fields names with the email subject.
+  description: A comma-separated list of incident field names with the email subject.
     You can also use "|" if you want to choose the first non-empty value from a list
     of fields.
   playbookInputQuery: null
@@ -227,17 +227,17 @@ inputs:
     simple: closeReason
   required: false
   description: The field name with the email tag. Supports a comma-separated list,
-    the first non-empty value will be taken.
+    in which the first non-empty value will be taken.
   playbookInputQuery: null
 - key: phishingLabels
   value:
     simple: '*'
   required: false
-  description: 'A comma-separated list of email tags values and mapping. The script
-    considers only the tags specified in this field. You can map label to another
-    value by using this format: LABEL:MAPPED_LABEL. For example, for 4 values in email
+  description: 'A comma-separated list of email tag values and mappings. The script
+    considers only the tags specified in this field. You can map a label to another
+    value by using this format: LABEL:MAPPED_LABEL. For example, for 4 values in the email
     tag: malicious, credentials harvesting, inner communitcation, external legit email,
-    unclassified. While training, we want to ignore "unclassified" tag, and refer
+    unclassified. While training, we want to ignore the "unclassified" tag, and refer
     to "credentials harvesting" as "malicious" too. Also, we want to merge "inner
     communication" and "external legit email" to one tag called "non-malicious". The
     input will be: malicious, credentials harvesting:malicious, inner communitcation:non-malicious,  external
@@ -246,13 +246,13 @@ inputs:
 - key: incidentsQuery
   value: {}
   required: false
-  description: The incidents query to fetch the training data for the model.
+  description: The incidents query used to fetch the training data for the model.
   playbookInputQuery: null
 - key: maxIncidentsToFetchOnTraining
   value:
     simple: "6000"
   required: false
-  description: The maximum number of incidents to fetch
+  description: The maximum number of incidents to fetch.
   playbookInputQuery: null
 - key: hashSeed
   value: {}
@@ -264,7 +264,7 @@ inputs:
     simple: "false"
   required: false
   description: Whether to override the existing model if a model with the same name
-    exists. Default is "false".
+    already exists. Default is "false".
   playbookInputQuery: null
 - key: incidentTypes
   value:
@@ -276,14 +276,14 @@ inputs:
   value:
     simple: "0.99"
   required: false
-  description: Remove emails with similarity greater then this threshold, range 0-1,
+  description: Remove emails with similarity greater than this threshold. A valid range is 0-1,
     where 1 is completely identical.
   playbookInputQuery: null
 - key: removeShortTextThreshold
   value:
     simple: "15"
   required: false
-  description: ' Sample text of which the total number words are less than or equal
+  description: ' Sample text of which the total number of words less than or equal
     to this number will be ignored.'
   playbookInputQuery: null
 - key: modelTargetAccuracy
@@ -296,7 +296,7 @@ inputs:
   value:
     simple: pickle
   required: false
-  description: The files output format, choose between json \ pickle.
+  description: The file output format. Valid values can be json \ pickle.
   playbookInputQuery: null
 outputs:
 - contextPath: DBotPhishingClassifier.EvaluationScores.micro_avg.f1-score
