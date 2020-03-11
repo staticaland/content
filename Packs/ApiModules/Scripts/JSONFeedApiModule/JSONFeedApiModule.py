@@ -154,7 +154,7 @@ def fetch_indicators_command(client: Client, indicator_type: str, **kwargs) -> U
     return indicators
 
 
-def feed_main(params, feed_name, prefix=''):
+def feed_main(params, feed_name, prefix):
     # handle proxy settings
     handle_proxy()
 
