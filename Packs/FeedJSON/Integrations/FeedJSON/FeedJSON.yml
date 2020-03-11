@@ -1,6 +1,6 @@
 category: Data Enrichment & Threat Intelligence
 commonfields:
-  id: JSONFeed
+  id: JSON Feed
   version: -1
 configuration:
 - display: Fetch indicators
@@ -34,7 +34,7 @@ configuration:
   additionalinfo: Reliability of the source providing the intelligence data
 - display: ""
   name: feedExpirationPolicy
-  defaultvalue: suddenDeath
+  defaultvalue: indicatorType
   type: 17
   required: false
   options:
@@ -82,24 +82,24 @@ configuration:
   name: credentials
   required: false
   type: 9
-- additionalinfo: JMESPath expression for extracting the indicators from.
+- additionalinfo: JMESPath expression for extracting the indicators. You may use http://jmespath.org/ to identify the proper expression.
   display: JMESPath Extractor
   name: extractor
-  required: false
+  required: true
   type: 0
 - additionalinfo: JSON attribute to use as indicator. Default is 'indicator'.
-  display: JSON Attribute Indicator
+  display: JSON Indicator Attribute
   name: indicator
   required: false
   type: 0
-- additionalinfo: The names to apply the fields in the JSON feed.
+- additionalinfo: The names to apply to the fields in the JSON feed.
   display: Field Names
   name: fields
   required: false
   type: 0
 description: Fetch indicators from a JSON feed.
 display: JSON Feed
-name: JSONFeed
+name: JSON Feed
 script:
   commands:
   - arguments:

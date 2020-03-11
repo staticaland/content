@@ -16,7 +16,7 @@ def main():
         }
     }
 
-    feed_main(params, 'JSONFeed', 'json')
+    feed_main(params, 'JSON Feed', 'json')
 
 
 if __name__ in ('__main__', '__builtin__', 'builtins'):
