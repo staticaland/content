@@ -535,9 +535,9 @@ def download_server_logs(client, prints_manager, thread_index):
     response_data = http_response.read(decode_content=True)
 
     try:
-        with open('the_tar.gz', 'wb') as tgz:
+        with open('the_tar.tar.gz', 'wb') as tgz:
             tgz.write(response_data)
-        server_log_tarfile = tarfile.open('the_tar.gz', 'r:gz')
+        server_log_tarfile = tarfile.open('the_tar.tar.gz', 'r:*')
     except Exception as err:
         err_msg = 'Failed to parse response from demisto into a tar file. ' \
                   '\nError: {}'.format(err)
@@ -561,15 +561,14 @@ def get_file_tarfile(the_tar, file_name):
         file_name (str): The name of the file you want to extract from the TarFile.
 
     Returns:
-        str: The path to the extracted file.
+        _io.TextIOWrapper: The extracted file object.
     '''
     file_fp = ''
     for fp in the_tar.getnames():
         if file_name in fp:
             file_fp = fp
-    file_tar_info_obj = the_tar.getmember(file_fp)
-    the_tar.extractall(members=[file_tar_info_obj])
-    return file_fp
+    the_file = the_tar.extractfile(file_fp)
+    return the_file
 
 
 def search_file_contents(file_to_search, search_msg, context_lines=0,
@@ -590,10 +589,14 @@ def search_file_contents(file_to_search, search_msg, context_lines=0,
     Returns:
         (str): Matching lines or if no match is found, an empty string
     '''
+    temp_log_file_name = 'log_file_to_search.log'
+    temp_log_fp = os.path.abspath(temp_log_file_name)
+    with open(temp_log_file_name, 'w') as log_file:
+        log_file.write(file_to_search.read().decode('utf-8'))
     cmd_str = 'grep '
     if not case_sensitive:
         cmd_str += '-i '
-    cmd_str += '-B{} -A{} -C{} "{}" {}'.format(before_lines, after_lines, context_lines, search_msg, file_to_search)
+    cmd_str += '-B{} -A{} -C{} "{}" {}'.format(before_lines, after_lines, context_lines, search_msg, temp_log_fp)
     output = run_command(cmd_str, exit_on_error=False)
     return output
 
@@ -641,8 +644,8 @@ def update_content_on_demisto_instance(client, server, prints_manager, thread_in
                 print_error, thread_index)
             server_search_msg = 'Could not install content'
             server_log_zip_file = download_server_logs(client, prints_manager, thread_index)
-            server_log_file_path = get_file_tarfile(server_log_zip_file, 'server.log')
-            server_logs_error = search_file_contents(server_log_file_path, server_search_msg,
+            log_file = get_file_tarfile(server_log_zip_file, 'server.log')
+            server_logs_error = search_file_contents(log_file, server_search_msg,
                                                      context_lines=3, case_sensitive=False)
             if server_logs_error:
                 prints_manager.add_print_job(server_logs_error, print, thread_index)
