@@ -288,7 +288,7 @@ tasks:
       '#none#':
       - '9'
     scriptarguments:
-      alerts:
+      cef_alerts:
         simple: ${cef_alerts}
     separatecontext: false
     view: |-
