@@ -2,6 +2,7 @@ from __future__ import print_function
 
 import argparse
 import os
+import io
 import re
 import uuid
 import json
@@ -590,7 +591,7 @@ def search_file_contents(file_to_search, search_msg, context_lines=0,
     '''
     temp_log_file_name = 'log_file_to_search.log'
     temp_log_fp = os.path.abspath(temp_log_file_name)
-    with open(temp_log_file_name, 'w', encoding='utf-8') as log_file:
+    with io.open(temp_log_file_name, mode='w', encoding='utf-8') as log_file:
         log_file_contents = file_to_search.read().decode('utf-8')
         log_file.write(log_file_contents)
     cmd_str = 'grep '
