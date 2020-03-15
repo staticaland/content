@@ -10,7 +10,7 @@ from datetime import date
 requests.packages.urllib3.disable_warnings()
 
 ''' GLOBAL VARS '''
-BASE_URL = demisto.params().get('url', {})
+BASE_URL = demisto.params().get('url')
 if BASE_URL:
     if BASE_URL[-1] != '/':
         BASE_URL += '/'
