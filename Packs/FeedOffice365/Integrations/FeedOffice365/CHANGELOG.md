@@ -1,6 +1,6 @@
 ## [Unreleased]
 - Added the **DomainGlob** indicator type to the feed's output, which might be applied when domains are returned.
-- Renamed **sub-feed** to **service**.
+- Renamed the **Sub-Feeds** parameter to **Services** in the instance configuration.
 
 ## [20.3.1] - 2020-03-04
 
