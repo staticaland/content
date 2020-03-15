@@ -4,12 +4,12 @@ from typing import Union, List, Any, Tuple, Dict, Optional
 from urllib.parse import urlparse
 
 import requests
-from pymisp import ExpandedPyMISP, PyMISPError, MISPObject  # type: ignore
-from pymisp.tools import EMailObject, GenericObjectGenerator  # type: ignore
+from pymisp import PyMISPError, MISPObject, ExpandedPyMISP
+from pymisp.tools import EMailObject, GenericObjectGenerator
 
 from CommonServerPython import *
 
-logging.getLogger("pymisp").setLevel(logging.CRITICAL)
+logging.getLogger(__name__)
 
 
 def warn(*args):
@@ -29,9 +29,13 @@ warnings.warn = warn
 MISP_KEY = demisto.params().get('api_key')
 MISP_URL = demisto.params().get('url')
 USE_SSL = not demisto.params().get('insecure')
-proxies = handle_proxy()  # type: ignore
+proxies: dict = handle_proxy()
 MISP_PATH = 'MISP.Event(obj.ID === val.ID)'
-MISP = ExpandedPyMISP(url=MISP_URL, key=MISP_KEY, ssl=USE_SSL, proxies=proxies)  # type: ExpandedPyMISP
+MISP = ExpandedPyMISP(url=MISP_URL,
+                      key=MISP_KEY,
+                      ssl=USE_SSL,
+                      proxies=proxies,
+                      debug=True)
 DATA_KEYS_TO_SAVE = demisto.params().get('context_select', [])
 
 """
@@ -1324,11 +1328,23 @@ def main():
     except PyMISPError as e:
         return_error(e.message)
     except Exception as e:
-        return_error(str(e))
+        print(str(e))
+
+    return {'type': 'other',
+            'category': 'External analysis',
+            'to_ids': False,
+            'distribution': 0,
+            'published': False,
+            'threat_level_id': 'high',
+            'analysis': 'initial'}
+
+
+
 
 
 if __name__ in ('__builtin__', 'builtins'):
     main()
 
+main()
 # TODO: in 5.0
 #   * Add !file (need docker change).

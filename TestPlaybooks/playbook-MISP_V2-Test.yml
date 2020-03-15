@@ -1,9 +1,9 @@
-id: MISP V2 Test
+id: MISP V2 new Test
 version: -1
 contentitemfields:
   propagationLabels: []
-name: MISP V2 Test
-description: Testbook for MISP V2 integration
+name: MISP V2 new Test
+description: Testbook for MISP V2 new integration
 starttaskid: "0"
 tasks:
   "0":
@@ -176,10 +176,10 @@ tasks:
       id: 10bdedb6-559b-4fb2-8799-285f467e662a
       version: -1
       name: Create event
-      script: MISP V2|||misp-create-event
+      script: MISP V2 new|||misp-create-event
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "3"
@@ -214,10 +214,10 @@ tasks:
       id: 5ae06e08-ca39-4f19-83a1-cb64167a54fe
       version: -1
       name: Upload sample
-      script: MISP V2|||misp-upload-sample
+      script: MISP V2 new|||misp-upload-sample
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "32"
@@ -252,10 +252,10 @@ tasks:
       id: 7b0d46bc-f5e4-4009-86ad-8e3433c4279f
       version: -1
       name: Search for event
-      script: MISP V2|||misp-search
+      script: MISP V2 new|||misp-search
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "13"
@@ -292,10 +292,10 @@ tasks:
       id: d537693e-af3c-4af5-8348-b23f490daab8
       version: -1
       name: Download sample
-      script: MISP V2|||misp-download-sample
+      script: MISP V2 new|||misp-download-sample
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "12"
@@ -325,10 +325,10 @@ tasks:
       id: 4314e977-1d05-4795-8942-5120ca67f30e
       version: -1
       name: Delete event
-      script: MISP V2|||misp-delete-event
+      script: MISP V2 new|||misp-delete-event
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "50"
@@ -354,10 +354,10 @@ tasks:
       id: bf6a59b7-2e4a-48f5-8a1d-33bcd5561db3
       version: -1
       name: Check file hash
-      script: MISP V2|||file
+      script: MISP V2 new|||file
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "4"
@@ -383,10 +383,10 @@ tasks:
       id: 42708b80-123c-40ed-8757-d9e937c765ae
       version: -1
       name: Check URL
-      script: MISP V2|||url
+      script: MISP V2 new|||url
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "22"
@@ -414,10 +414,10 @@ tasks:
       id: 08ccc55a-5b95-4619-8c70-4d23f97787b0
       version: -1
       name: Check IP
-      script: MISP V2|||ip
+      script: MISP V2 new|||ip
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "18"
@@ -445,10 +445,10 @@ tasks:
       id: 369ef552-abb5-4460-859a-fd4d2442b500
       version: -1
       name: Add IP attribute
-      script: MISP V2|||misp-add-attribute
+      script: MISP V2 new|||misp-add-attribute
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "15"
@@ -484,10 +484,10 @@ tasks:
       id: 3ed624d9-71f2-4e81-8cfe-396c97c9727a
       version: -1
       name: Add URL attribute
-      script: MISP V2|||misp-add-attribute
+      script: MISP V2 new|||misp-add-attribute
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "14"
@@ -615,7 +615,7 @@ tasks:
       scriptName: misp_download_sample
       type: regular
       iscommand: false
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "12"
@@ -1061,10 +1061,10 @@ tasks:
       version: -1
       name: Add tag 'Test1' to both events
       description: Adds a tag to the given UUID event or attribute.
-      script: MISP V2|||misp-add-tag
+      script: MISP V2 new|||misp-add-tag
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "47"
@@ -1093,10 +1093,10 @@ tasks:
       version: -1
       name: 'Search by tags: Test1 AND Test2'
       description: Search for events in MISP.
-      script: MISP V2|||misp-search
+      script: MISP V2 new|||misp-search
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "40"
@@ -1189,10 +1189,10 @@ tasks:
       version: -1
       name: 'Search by tags: Test1 OR Test2'
       description: Search for events in MISP.
-      script: MISP V2|||misp-search
+      script: MISP V2 new|||misp-search
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "42"
@@ -1285,10 +1285,10 @@ tasks:
       version: -1
       name: 'Search by tags: NOT Test1,Test2'
       description: Search for events in MISP.
-      script: MISP V2|||misp-search
+      script: MISP V2 new|||misp-search
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "44"
@@ -1362,10 +1362,10 @@ tasks:
       id: d2d189ff-80d3-4cc3-8342-6a441cec4a43
       version: -1
       name: Create event
-      script: MISP V2|||misp-create-event
+      script: MISP V2 new|||misp-create-event
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "37"
@@ -1402,10 +1402,10 @@ tasks:
       version: -1
       name: Add tag 'Test2' to the second event
       description: Adds a tag to the given UUID event or attribute.
-      script: MISP V2|||misp-add-tag
+      script: MISP V2 new|||misp-add-tag
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "52"
@@ -1441,10 +1441,10 @@ tasks:
       id: 2d0242f6-de39-47ae-8d89-0ce4967bbc20
       version: -1
       name: Delete event
-      script: MISP V2|||misp-delete-event
+      script: MISP V2 new|||misp-delete-event
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "23"
@@ -1504,10 +1504,10 @@ tasks:
       id: 39105f41-24e6-41aa-8e95-16e1c9c12d64
       version: -1
       name: Create event
-      script: MISP V2|||misp-create-event
+      script: MISP V2 new|||misp-create-event
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "45"
@@ -1645,10 +1645,10 @@ tasks:
       id: 0c24c6f2-a42b-4097-8185-13d214270871
       version: -1
       name: Search for event with tag "Test1"
-      script: MISP V2|||misp-search
+      script: MISP V2 new|||misp-search
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "64"
@@ -1684,10 +1684,10 @@ tasks:
       id: d2b0700e-a6d7-4378-80fb-169e4129f3fd
       version: -1
       name: Delete event
-      script: MISP V2|||misp-delete-event
+      script: MISP V2 new|||misp-delete-event
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "60"
@@ -1747,10 +1747,10 @@ tasks:
       id: c9544754-9d47-4f5c-8992-9a5598b4b75d
       version: -1
       name: 'Search for event with tag "Test1" '
-      script: MISP V2|||misp-search
+      script: MISP V2 new|||misp-search
       type: regular
       iscommand: true
-      brand: MISP V2
+      brand: MISP V2 new
     nexttasks:
       '#none#':
       - "49"
@@ -1867,4 +1867,4 @@ view: |-
   }
 inputs: []
 outputs: []
-sourceplaybookid: MISP V2 Test
+sourceplaybookid: MISP V2 new Test
