@@ -1,6 +1,6 @@
 import logging
 import warnings
-from typing import Union, List, Any, Tuple, Dict
+from typing import Union, List, Any, Tuple, Dict, Optional
 from urllib.parse import urlparse
 
 import requests
@@ -128,6 +128,120 @@ DISTRIBUTION_NUMBERS = {
 ''' HELPER FUNCTIONS '''
 
 
+def filter_misp_response(misp_response: List[dict]) -> List[dict]:
+    """ Filter MISP response -
+        Remove from Attributes and Objects the following keys if exists:
+         1. MetaData keys - Galaxy, Tags (The keys both determine classification by publisher)
+         2. Selected keys - Removing all not selected keys in response.
+
+    Args:
+        misp_response(list): valid response of MISP client using PyMisp
+
+    Returns:
+        list: Filtered response
+
+    See Also:
+        1. Unit-test for usage example.
+    """
+    selected_keys: List[str] = [item.lower() for item in demisto.params().get('context_select')]
+    ignored_metadata: List[str] = ["Galaxy", "Tag"]
+    meadata_state = demisto.params().get('metadata')
+
+    for i in range(len(misp_response)):
+        event = misp_response[i]
+        if not meadata_state:
+            for ignore_key in ignored_metadata:
+                misp_response[i]['Event'].pop(ignore_key)
+
+        for j in range(len(event.get('Event').get('Attribute'))):
+            att = event['Event']['Attribute'][j]
+            for dict_key in list(att.keys()):
+                if selected_keys and dict_key not in selected_keys and dict_key not in ignored_metadata:
+                    att.pop(dict_key)
+                elif not meadata_state and dict_key in ignored_metadata:
+                    att.pop(dict_key)
+            misp_response[i]['Event']['Attribute'][j] = att
+
+        for j in range(len(event.get('Event').get('Object'))):
+            att_obj = event.get('Event').get('Object')[j].get('Attribute')
+            for k in range(len(att_obj)):
+                att = event['Event']['Object'][j]['Attribute'][k]
+                for dict_key in list(att.keys()):
+                    if selected_keys and dict_key not in selected_keys and dict_key not in ignored_metadata:
+                        att.pop(dict_key)
+                    elif not meadata_state and dict_key in ignored_metadata:
+                        att.pop(dict_key)
+                event['Event']['Object'][j]['Attribute'][k] = att
+
+    return misp_response
+
+
+def misp_search(value: Optional[str] = None, att_type: Optional[str] = None, event_id: Optional[str] = None,
+                uuid: str = Optional[str], category: Optional[str] = None, org: Optional[str] = None,
+                date_from: Union[int, str, float, None] = None, date_to: Union[int, str, float, None] = None,
+                tags: Optional[str] = None, last: Optional[str] = None, to_ids: Union[str, List[str], None] = None,
+                ) -> List[dict]:
+    """ MISP search query - sdk API detailes
+
+    Args:
+        value(str): Search for the given value in the attributes’ value field.
+        att_type(str): The attribute type, any valid MISP attribute type is accepted.
+        event_id(str): The events that should be included / excluded from the search.
+        uuid(str): Restrict the results by uuid.
+        category(str): The attribute category, any valid MISP attribute category is accepted.
+        org(str): Search by the creator organisation by supplying the organisation identifier.
+        date_from: Events with the date set to a date after the one specified. This filter will use the date of the event.
+        date_to: Events with the date set to a date before the one specified. This filter will use the date of the event.
+        tags(str):  Tags to search or to exclude.
+        last: deprecated - last event to get.
+        to_ids: By default all attributes are returned that match the other filter parameters, irregardless of their to_ids
+         setting. To restrict the returned data set to to_ids only attributes set this parameter to 1. 0 for the ones with
+          to_ids set to False.
+
+
+    Returns:
+        dict: Misp response.
+
+    Notes:
+        Other parameters configured in MISP query parameters:
+            1. searchall - Search for a full or a substring (delimited by % for substrings) in the event info, event tags,
+             attribute tags, attribute values or attribute comment fields.
+            2. include_correlations - Include the correlations of the matching attributes.
+            3. sg_reference_only - If this flag is set, sharing group objects will not be included, instead only the sharing
+             group ID is set.
+            4. include_context - Include the event data with each attribute.
+            5. include_event_tags - Include the event level tags in each of the attributes.
+            6. include_sightings - Include the sightings of the matching attributes.
+            7. with_attachments - If set, encodes the attachments / zipped malware samples as base64 in the data
+             field within each attribute.
+            8. metadata - Only the metadata (event, tags, relations) is returned, attributes and proposals are omitted.
+
+    See Also:
+        https://pymisp.readthedocs.io/en/latest/modules.html#mispattribute
+    """
+    res: List[dict] = MISP.search(value=value,
+                                  type_attribute=att_type,
+                                  event_id=event_id,
+                                  uuid=uuid,
+                                  category=category,
+                                  org=org,
+                                  tags=tags,
+                                  date_from=date_from,
+                                  date_to=date_to,
+                                  last=last,
+                                  to_ids=to_ids,
+                                  searchall=demisto.params().get('search_all', False),
+                                  include_correlations=demisto.params().get('correlations', False),
+                                  sg_reference_only=False,
+                                  include_context=False,
+                                  include_event_tags=False,
+                                  include_sightings=False,
+                                  with_attachments=False,
+                                  metadata=False)
+
+    return filter_misp_response(misp_response=res)
+
+
 def extract_error(error: list) -> List[dict]:
     """Extracting errors
 
@@ -232,25 +346,6 @@ def replace_keys(obj_to_build: Union[dict, list, str]) -> Union[dict, list, str]
     return obj_to_build
 
 
-def remove_unselected_context_keys(context_data):
-    for attribute in context_data['Attribute']:
-        for key in list(attribute.keys()):
-            if key not in DATA_KEYS_TO_SAVE:
-                del attribute[key]
-
-
-def arrange_context_according_to_user_selection(context_data):
-    if not DATA_KEYS_TO_SAVE:
-        return
-
-    # each event has it's own attributes
-    remove_unselected_context_keys(context_data[0])
-
-    # each related event has it's own attributes
-    for obj in context_data[0]['Object']:
-        remove_unselected_context_keys(obj)
-
-
 def build_context(response: Union[dict, requests.Response]) -> dict:  # type: ignore
     """
     Gets a MISP's response and building it to be in context. If missing key, will return the one written.
@@ -326,7 +421,7 @@ def build_context(response: Union[dict, requests.Response]) -> dict:  # type: ig
                 {'Name': tag.get('name')} for tag in events[i].get('Tag')
             ]
     events = replace_keys(events)  # type: ignore
-    arrange_context_according_to_user_selection(events)  # type: ignore
+
     return events  # type: ignore
 
 
@@ -391,7 +486,8 @@ def check_file(file_hash):
         return_error('Invalid hash length, enter file hash of format MD5, SHA-1 or SHA-256')
 
     # misp_response will remain the raw output of misp
-    misp_response = MISP.search(value=file_hash)
+    misp_response = misp_search(value=file_hash,
+                                att_type='filename')
     if misp_response:
         dbot_list = list()
         file_list = list()
@@ -467,7 +563,8 @@ def check_ip(ip):
     if not is_ip_valid(ip):
         return_error("IP isn't valid")
 
-    misp_response = MISP.search(value=ip)
+    misp_response = misp_search(value=ip,
+                                att_type='domain|ip')
 
     if misp_response:
         dbot_list = list()
@@ -610,7 +707,7 @@ def create_event(ret_only_event_id: bool = False) -> Union[int, None]:
     # add attribute
     add_attribute(event_id=event_id, internal=True)
 
-    event = MISP.search(eventid=event_id)
+    event = misp_search(event_id=event_id)
 
     md = f"## MISP create event\nNew event with ID: {event_id} has been successfully created.\n"
     ec = {
@@ -670,7 +767,7 @@ def add_attribute(event_id: int = None, internal: bool = None):
     MISP.update_event(event=event)
     if internal:
         return
-    event = MISP.search(eventid=args.get('id'))
+    event = misp_search(event_id=args.get('id'))
     md = f"## MISP add attribute\nNew attribute: {args.get('value')} was added to event id {args.get('id')}.\n"
     ec = {
         MISP_PATH: build_context(event)
@@ -728,7 +825,8 @@ def get_urls_events():
 
 
 def check_url(url):
-    response = MISP.search(value=url, type_attribute='url')
+    response = misp_search(value=url,
+                           att_type='url')
 
     if response:
         dbot_list = list()
@@ -867,7 +965,17 @@ def search(post_to_warroom: bool = True) -> Tuple[dict, Any]:
     if 'tags' in args:
         args['tags'] = build_misp_complex_filter(args['tags'])
 
-    response = MISP.search(**args)
+    response = misp_search(value=args.get('value'),
+                           att_type=args.get('type'),
+                           category=args.get('category'),
+                           org=args.get('org'),
+                           tags=args.get('tags'),
+                           date_from=args.get('from'),
+                           date_to=args.get('to'),
+                           last=args.get('last'),
+                           event_id=args.get('eventid'),
+                           uuid=args.get('uuid'),
+                           to_ids=args.get('to_ids'))
     if response:
         response_for_context = build_context(response)
 
@@ -933,7 +1041,7 @@ def add_tag():
     tag = demisto.args().get('tag')
 
     MISP.tag(uuid, tag)
-    event = MISP.search(uuid=uuid)
+    event = misp_search(uuid=uuid)
     ec = {
         MISP_PATH: build_context(event)
     }

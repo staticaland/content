@@ -1,6 +1,6 @@
 category: Data Enrichment & Threat Intelligence
 commonfields:
-  id: MISP V2
+  id: MISP V2 new
   version: -1
 configuration:
 - display: MISP server URL (e.g., https://192.168.0.1)
@@ -19,7 +19,7 @@ configuration:
   name: insecure
   required: false
   type: 8
-- display: Select which attribute data fields of the event will be saved to context. Leave empty to select all attributes.
+- display: Select which field of the attribute will be saved
   name: context_select
   options:
   - Category
@@ -41,9 +41,30 @@ configuration:
   - Value
   required: false
   type: 16
+- additionalinfo: earch for a full or a substring (delimited by % for substrings)
+    in the event info, event tags, attribute tags, attribute values or attribute comment
+    fields.
+  display: Search all metadata
+  hidden: false
+  name: search_all
+  required: false
+  type: 8
+- additionalinfo: Include the correlations of the matching attributes, if not selected
+    all will be saved.
+  display: Include correlations
+  hidden: false
+  name: correlations
+  required: false
+  type: 8
+- additionalinfo: Include the Galaxies and tags of the matching attributes.
+  display: Include metadata
+  hidden: false
+  name: metadata
+  required: false
+  type: 8
 description: Malware information sharing platform and threat sharing.
 display: MISP v2
-name: MISP V2
+name: MISP V2 new
 script:
   commands:
   - arguments:
@@ -1944,6 +1965,7 @@ script:
       description: Description of the object.
       type: String
   dockerimage: demisto/pymisp:1.0.0.52
+  feed: false
   isfetch: false
   longRunning: false
   longRunningPort: false
@@ -1952,4 +1974,4 @@ script:
   subtype: python3
   type: python
 tests:
-- MISP V2 Test
+- MISP V2 new Test
