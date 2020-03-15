@@ -87,12 +87,12 @@ configuration:
   name: extractor
   required: true
   type: 0
-- additionalinfo: JSON attribute to use as indicator. Default is 'indicator'.
+- additionalinfo: JSON attribute that represnts the indicator value. Default value is 'indicator'.
   display: JSON Indicator Attribute
   name: indicator
   required: false
   type: 0
-- additionalinfo: The names to apply to the fields in the JSON feed.
+- additionalinfo: A comma seperated liist of names to apply to the fields in the JSON feed.
   display: Field Names
   name: fields
   required: false

@@ -8,7 +8,7 @@ def main():
     params = {k: v for k, v in demisto.params().items() if v is not None}
 
     params['feed_name_to_config'] = {
-        'JSON': {
+        params.get('url'): {
             'url': params.get('url'),
             'extractor': params.get('extractor'),
             'indicator': params.get('indicator'),
