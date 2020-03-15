@@ -156,6 +156,7 @@ class Client:
                 for detection in detections:
                     incidents.append(create_incident_from_detection(detection))  # type: ignore
                     last_timestamp = max_timestamp(last_timestamp, detection.get('last_timestamp'))  # type: ignore
+                    demisto.info(f'±±±±±±±±±±±±±±±±\n\nlast timeStamp:\n\n{last_timestamp}\n\n±±±±±±±±±±±±±±±±±±±±±')
 
                 if incidents:
                     last_run = {'last_timestamp': last_timestamp}
