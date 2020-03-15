@@ -207,17 +207,11 @@ def misp_search(value: Optional[str] = None, att_type: Optional[str] = None, eve
             1. searchall - Search for a full or a substring (delimited by % for substrings) in the event info, event tags,
              attribute tags, attribute values or attribute comment fields.
             2. include_correlations - Include the correlations of the matching attributes.
-            3. sg_reference_only - If this flag is set, sharing group objects will not be included, instead only the sharing
-             group ID is set.
-            4. include_context - Include the event data with each attribute.
-            5. include_event_tags - Include the event level tags in each of the attributes.
-            6. include_sightings - Include the sightings of the matching attributes.
-            7. with_attachments - If set, encodes the attachments / zipped malware samples as base64 in the data
+            3. with_attachments - If set, encodes the attachments / zipped malware samples as base64 in the data
              field within each attribute.
-            8. metadata - Only the metadata (event, tags, relations) is returned, attributes and proposals are omitted.
 
     See Also:
-        https://pymisp.readthedocs.io/en/latest/modules.html#mispattribute
+        https://pymisp.readthedocs.io/en/latest/modules.html
     """
     res: List[dict] = MISP.search(value=value,
                                   type_attribute=att_type,
@@ -232,12 +226,7 @@ def misp_search(value: Optional[str] = None, att_type: Optional[str] = None, eve
                                   to_ids=to_ids,
                                   searchall=demisto.params().get('search_all', False),
                                   include_correlations=demisto.params().get('correlations', False),
-                                  sg_reference_only=False,
-                                  include_context=False,
-                                  include_event_tags=False,
-                                  include_sightings=False,
-                                  with_attachments=False,
-                                  metadata=False)
+                                  with_attachments=False)
 
     return filter_misp_response(misp_response=res)
 
