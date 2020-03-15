@@ -16,7 +16,7 @@ if BASE_URL:
         BASE_URL += '/'
 API_KEY = demisto.params().get('apikey')
 VERIFY_CERTIFICATE = False
-FETCH_TIME = demisto.params().get('fetch_time', "")
+FETCH_TIME = demisto.params().get('fetch_time', '')
 
 ''' COMMAND FUNCTIONS '''
 
