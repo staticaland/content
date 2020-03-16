@@ -38,10 +38,10 @@ tasks:
       version: -1
       name: Get Indicators
       description: Gets the feed indicators.
-      script: JSONFeed|||json-get-indicators
+      script: JSON Feed|||json-get-indicators
       type: regular
       iscommand: true
-      brand: JSONFeed
+      brand: JSON Feed
     nexttasks:
       '#none#':
       - "2"
