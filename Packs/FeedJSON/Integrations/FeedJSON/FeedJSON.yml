@@ -87,7 +87,7 @@ configuration:
   name: extractor
   required: true
   type: 0
-- additionalinfo: JSON attribute that represnts the indicator value. Default value is 'indicator'.
+- additionalinfo: The JSON attribute that holds the indicator value. Default value is 'indicator'.
   display: JSON Indicator Attribute
   name: indicator
   required: false
